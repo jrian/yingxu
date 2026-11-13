@@ -1,0 +1,697 @@
+{
+  "version": 1,
+  "source": {
+    "repository": "wuwangzhang1216/DirectorSKILL",
+    "url": "https://github.com/wuwangzhang1216/DirectorSKILL",
+    "license": "MIT",
+    "skillVersion": "2.1.0",
+    "extractedAt": "2026-11-06",
+    "moduleCount": 20,
+    "licenseText": "MIT License\n\nCopyright (c) 2026 wangzhang-wu\n\nPermission is hereby granted, free of charge, to any person obtaining a copy\nof this software and associated documentation files (the \"Software\"), to deal\nin the Software without restriction, including without limitation the rights\nto use, copy, modify, merge, publish, distribute, sublicense, and/or sell\ncopies of the Software, and to permit persons to whom the Software is\nfurnished to do so, subject to the following conditions:\n\nThe above copyright notice and this permission notice shall be included in all\ncopies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR\nIMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,\nFITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE\nAUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER\nLIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,\nOUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE\nSOFTWARE.",
+    "summaryMethod": "逐模块读取并提炼 Style parameters 与镜头语言、灯光与色彩、剪辑节奏；中文摘要及色块为本地整理，未生成或验证视频效果。",
+    "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+    "revisionVerification": "SKILL.md及全部20个模块已与固定revision原文逐字节比对一致。"
+  },
+  "styles": [
+    {
+      "id": "director-spielberg",
+      "name": "斯皮尔伯格 · 反应与纵深",
+      "director": "Steven Spielberg",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "琥珀与灰青 · 三层纵深",
+      "description": "先让观众读懂反应，再揭示所见，保持目标、危险与出口的位置清楚。",
+      "colors": [
+        "#C7954E",
+        "#617D7A",
+        "#F0E4CD"
+      ],
+      "parameters": {
+        "lighting": "柔和环境底光配有明确来源的硬光束；模块建议温暖段3:1、威胁段8:1，薄雾使光路可见。",
+        "palette": "琥珀、钨丝暖黄、灰蓝绿为主，只保留一个高饱和红或白色注意力点。",
+        "composition": "前景道具、中景主体、背景事件或出口组成三层纵深，可用门框与逆光轮廓组织空间。",
+        "camera": "35–50mm建立日常空间，135mm拍反应；缓推或步速跟移有明确目的，保持视线轴。",
+        "rhythm": "模块动作段平均3–7秒、情绪段5–9秒；反应先于揭示，段尾留消化停顿，硬切为主。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/01_spielberg.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/01_spielberg.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "c1d8db44ae145e3a5bc1791967afb2d02a9f838ae5691dbbe47d006b754d7783",
+        "gitBlobSha1": "7f463a1bd09b788e09481ab0969d9f87fb735127",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-hitchcock",
+      "name": "希区柯克 · 遮挡与悬念",
+      "director": "Alfred Hitchcock",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "硬侧光与冷灰 · 主观视线",
+      "description": "先交代观众知道的危险，再用视线、物件与等待控制信息释放。",
+      "colors": [
+        "#8D969C",
+        "#E7DFD0",
+        "#963D39"
+      ],
+      "parameters": {
+        "lighting": "有明确来源的单侧硬光，模块光比4:1；百叶、扶手、门缝形成几何阴影，日常照度仍可读。",
+        "palette": "冷灰、米白、家具木色打底；正红、深绿或金只在信息转折时作为重点色。",
+        "composition": "前景遮挡约占20%–35%，用门窗框、画外负空间和共享视线轴保留威胁进入的位置。",
+        "camera": "28mm一次交代房间地图；50mm客观观察、100–135mm选择性凝视；固定或缓推，避免无目的漂移。",
+        "rhythm": "模块基线平均4–9秒，反复切回危险源；突发瞬间才压到0.4–1.5秒，随后停留在余波。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/02_hitchcock.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/02_hitchcock.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "fcd7952d7c1970ed9b477d1d8ac3c03b3c3c956d4fc057dfb2a061a8a180b4a8",
+        "gitBlobSha1": "4be4fb12f1d8b276cc766226e7c41bcd75a46c8f",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-kubrick",
+      "name": "库布里克 · 中轴与匀速",
+      "director": "Stanley Kubrick",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "冷白黑灰 · 单点透视",
+      "description": "以建筑中轴、重复构图和匀速移动，让空间比主体更有支配力。",
+      "colors": [
+        "#E3E4E2",
+        "#242628",
+        "#9C3031"
+      ],
+      "parameters": {
+        "lighting": "可见且对称排布的硬光源阵列，使短硬阴影互相抵消；模块光比约2:1，压迫处可到1.5:1。",
+        "palette": "冷白、灰、纯黑为主；一个空间只用一个红、金或其他饱和色块，色段以硬切区分。",
+        "composition": "消失点居中、左右严格对称，主体沿中轴；走廊和房间形成向内收拢的几何。",
+        "camera": "18–25mm广角；完全锁定或沿消失点轴匀速推拉，不缓入缓出、不跟着主体重新构图。",
+        "rhythm": "模块平均12–40秒，少于6秒的镜头很少；一个构图撑住一拍，并以结构性重复及硬切组织段落。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/03_kubrick.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/03_kubrick.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "fb63f95a6e0467cac92c7a876bf5d371d844ac60bee160280cbf94f895f32117",
+        "gitBlobSha1": "2793588cb0d05767daa2127a23df23348dcf74ba",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-kurosawa",
+      "name": "黑泽明 · 天气与阵列",
+      "director": "Akira Kurosawa",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "逆光雨尘 · 长焦层带",
+      "description": "让天气真实作用于材质和身体，以阵型、方向和等待与爆发的落差组织空间。",
+      "colors": [
+        "#B49452",
+        "#544B3A",
+        "#D5D5CF"
+      ],
+      "parameters": {
+        "lighting": "逆光使雨丝、尘埃与白气可见，模块光比6:1或更高；去色后仍靠明暗分区成立。",
+        "palette": "土黄、泥褐、湿布墨黑、雨灰白；红、靛蓝、旗帜金附着于材料，而非悬浮色光。",
+        "composition": "长焦压出上下层带和三角楔形，天气位于前景；9:16把横排阵型转成纵深队列，必要时用俯角读地面。",
+        "camera": "50mm说明空间、100mm拍身体、250mm压队列；横移或锁定为主，竖幅将横向扫队列改成纵深运动。",
+        "rhythm": "模块等待段平均8–20秒、行动段2–5秒；切换焦段压缩度时保留屏幕方向，决定性动作后留静止余波。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/04_kurosawa.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/04_kurosawa.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "492e644362f4942616f28ae51c330a82c0116094a20a0bcf7c54378009a8e2ac",
+        "gitBlobSha1": "6a41b382a13332f4882da926ffb8b85a862b3f2a",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-scorsese",
+      "name": "斯科塞斯 · 都市与动势",
+      "director": "Martin Scorsese",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "红金实用光 · 入场跟拍",
+      "description": "以有终点的入场长镜与音乐碎切呈现上升，再用静止和无音乐段落呈现代价。",
+      "colors": [
+        "#912E34",
+        "#B98B3F",
+        "#365745"
+      ],
+      "parameters": {
+        "lighting": "硬质实用光源入画且允许过曝，多光源方向相互竞争；模块光比5:1，烟雾显出光锥。",
+        "palette": "酒吧红、后厨绿、街灯钠黄、包厢金；上升段饱和较高，坠落段降低饱和、转灰绿。",
+        "composition": "主体居中而背景流动；背景人物各自有事可做，以门、背影和社会空间的层次表现准入与排除。",
+        "camera": "18–27mm稳定器入场，40–75mm中近景；跟移要写明停点，急推变焦与机位推进分别处理。",
+        "rhythm": "模块音乐蒙太奇平均1.5–3秒，崩塌段8–15秒且无音乐；入场靠长镜，跃升靠碎切与跳切。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/05_scorsese.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/05_scorsese.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "cf1449787769cd918b6b8438a66a61979211005039ffba24c48ec4ab1969c942",
+        "gitBlobSha1": "0fac3120937acc6dd60b46ed8db14847a7126787",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-fellini",
+      "name": "费里尼 · 游行与奇观",
+      "director": "Federico Fellini",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "粉金舞台光 · 游动交接",
+      "description": "让不同的人物与姿态组成不对称的游行，摄影机在人群中不断交接注意力。",
+      "colors": [
+        "#D48EAC",
+        "#C4A04C",
+        "#8C384E"
+      ],
+      "parameters": {
+        "lighting": "硬边舞台光区由雾柔化，人物进出明暗区；模块光比4:1，阴影仍保留细节。",
+        "palette": "粉、金、酒红、天蓝倾向高饱和，以纯白与漆黑的材料对撞分区。",
+        "composition": "持续有人从边缘进出、前景遮挡10%–30%；9:16改纵深队列与上下出画，用垂直事件组织层次。",
+        "camera": "18–32mm广角游动、摇摄交接与正面近景；不以长焦隔离，竖幅沿纵深穿行而非横向游移。",
+        "rhythm": "模块平均6–14秒、结尾15–30秒；乐句结束才切，意象与音乐连接场景，不依赖标准正反打。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/06_fellini.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/06_fellini.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "6f6fe403c2da97e8bda4c6c2429f5f9418e9f04da74d91f201df6b5b3fd74211",
+        "gitBlobSha1": "c082fc16e9547f9009e511089bdc66f13e7e9e56",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-bergman",
+      "name": "伯格曼 · 面孔与凝视",
+      "director": "Ingmar Bergman",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "单侧硬光 · 正面长凝视",
+      "description": "把注意力锁在整张清晰的脸与心理变化之后的余波，减少解释性覆盖。",
+      "colors": [
+        "#6B7D89",
+        "#7B897D",
+        "#222526"
+      ],
+      "parameters": {
+        "lighting": "90度单侧硬光以鼻影分脸，模块光比6:1；暗面不补光但留轮廓，背景趋近单色。",
+        "palette": "灰蓝、灰绿、近黑与近白保持低饱和高反差，肤色成为画面唯一的暖色。",
+        "composition": "视线轴附近正面构图，脸可占画高60%–80%；或前景侧脸与后方正脸边缘重叠，保留回避方向的负空间。",
+        "camera": "75–150mm；锁定眼平或观众难以察觉的微推；单脸整脸清晰，双脸镜头可用焦点转换代替切换。",
+        "rhythm": "模块平均20–90秒；情绪高点后再留3–5秒，以画内走位与焦点变化代替标准正反打。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/07_bergman.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/07_bergman.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "e277116732258c3557eba5c040ade8b71646fa5c23b704355017f4688bb6fd00",
+        "gitBlobSha1": "1659b0de55a99564db6c636acf07b8fc5942b245",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-tarkovsky",
+      "name": "塔可夫斯基 · 材质与时间",
+      "director": "Andrei Tarkovsky",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "阴天柔光 · 湿面深焦",
+      "description": "让水、火、风与材质的持续变化承担时间感，主体动作压到最小。",
+      "colors": [
+        "#79634D",
+        "#89908B",
+        "#687851"
+      ],
+      "parameters": {
+        "lighting": "阴天窗光为柔主光，模块光比2:1–3:1；火只作为小亮点与运动源，不把整体照成硬光。",
+        "palette": "泥棕、湿石灰、苔绿、褐调，乳白高光配少量火橙与铁锈红；低饱和低对比但材质清楚。",
+        "composition": "三层以上纵深、反光前景与门槛框景；天花、墙面、水洼组成垂直层次，主体可偏心或背向。",
+        "camera": "28–35mm深焦为主；固定或恒速极慢横移，也可缓推物体，腰胸高度不漂浮，不以切镜建立层次。",
+        "rhythm": "模块平均30–90秒，单角度承载整场，不拍反打；由物象或声音连接，主体离开后仍可留空镜。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/08_tarkovsky.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/08_tarkovsky.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "fe7e26e409ae727a859f07374d8a5f910e6a8a737695b0a6605db8f24bd6d77d",
+        "gitBlobSha1": "614968aff8a248a93951c301c0b636a8729ccf20",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-wong-kar-wai",
+      "name": "王家卫 · 遮挡与霓虹",
+      "director": "Wong Kar-wai",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "红绿钨黄 · 近身微调",
+      "description": "用贴近、遮挡、反射与动作的省略，把关系表现为空间距离和记忆碎片。",
+      "colors": [
+        "#356E4E",
+        "#902D37",
+        "#C38A3E"
+      ],
+      "parameters": {
+        "lighting": "裸灯泡和招牌直射提供硬边，霓虹管染色勾边；模块光比6:1–10:1，烟与水汽使光路可见。",
+        "palette": "霓虹绿、深红、钨丝琥珀为主，洋红、玉绿与金点缀，高饱和高对比。",
+        "composition": "每镜保留明确前景遮挡，主体贴边或被门窗分割，借镜面、玻璃反射增加关系层次。",
+        "camera": "18–25mm近身或85mm隔街压缩；小幅手持重新构图而非整体抖动，步进印片需分别描述拖影与重复帧。",
+        "rhythm": "模块平均1.5–4秒，允许一处6–12秒慢动作长挂；跳接同一动作，关键进展常省略在两镜之间。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/09_wong_kar_wai.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/09_wong_kar_wai.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "c60e33b3d99cc1e52dc02d57e40f61fb008c5647ac2eab30a51c45544711c57b",
+        "gitBlobSha1": "9fd99535dcd649471868614b6879542a58f2a349",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-nolan",
+      "name": "诺兰 · 机制与倒计时",
+      "director": "Christopher Nolan",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "钢蓝混凝土 · 实体尺度",
+      "description": "用可读的机制、物理空间和收紧的交叉剪辑，让多条任务线朝同一时限汇合。",
+      "colors": [
+        "#7D858C",
+        "#4F6476",
+        "#B28C58"
+      ],
+      "parameters": {
+        "lighting": "真实天光加可见工作灯，模块光比3:1–4:1；夜景只用少量钠灯暖橙作为暖点。",
+        "palette": "混凝土灰、钢蓝、黑、帆布卡其为主；钠灯琥珀和警示红点缀，低饱和中对比。",
+        "composition": "主体对比大尺度实体结构，低地平线给天空重量；机制和前景硬件可读，以形状匹配两条线索。",
+        "camera": "14–35mm广角为主、50mm补中近景；受控跟拍、沿动作跟移或缓推机制，每次运动都为跟上事实。",
+        "rhythm": "模块平均2–5秒，交叉剪辑轮转周期由12秒收紧至3秒；各条线独立组织，剪接时再汇合。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/10_nolan.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/10_nolan.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "ef506940f2447567427c819725351f6bafc91e51c935c3bbdc6cacdf94f5a6dd",
+        "gitBlobSha1": "69868903294185df8429b0eb6f4aaf7dca811edc",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-villeneuve",
+      "name": "维伦纽瓦 · 巨构与留白",
+      "director": "Denis Villeneuve",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "单色柔逆光 · 恒速丈量",
+      "description": "以单一巨构、深度渐变的雾与小尺度主体，让空间与余波成为主要叙事信息。",
+      "colors": [
+        "#B49A68",
+        "#6D8C8C",
+        "#C3C9C5"
+      ],
+      "parameters": {
+        "lighting": "整面墙或天空作柔逆光，主体半剪影；模块5:1–8:1指逆光面相对正面补光，而非常规主补比。",
+        "palette": "每段选一个主色，如赭沙、青雾、铜、墨绿或冰灰；只留小暖点，低饱和中对比。",
+        "composition": "中心几何、极端高低地平线和大负空间；9:16靠塔、井或阶的垂直纵深建立尺度，重新核对主体画高比例。",
+        "camera": "21、40、75mm分配尺度与中近景；固定、恒速横移或沿消失点推进；竖幅优先中轴推进而非横向丈量。",
+        "rhythm": "模块平均8–18秒；主体入画前留空、出画后停留，事件后给余波，不用频繁切换解释空间。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/11_villeneuve.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/11_villeneuve.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "8f825927d68091767cd901e293484bfe50646b778c1cac8a8f77cccca198ca9c",
+        "gitBlobSha1": "4e9fd751dd0d0ad879c4b416a0f6787dd831cf01",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-fincher",
+      "name": "芬奇 · 压缩与精控",
+      "director": "David Fincher",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "青影琥珀 · 长焦微推",
+      "description": "以长焦压缩、可复现机位和几乎看不出的移动，组织精确的观察与信息节拍。",
+      "colors": [
+        "#455E5A",
+        "#333B3E",
+        "#BE914D"
+      ],
+      "parameters": {
+        "lighting": "明确实用光提供青绿阴影与琥珀暖点，模块光比4:1–6:1；黑位留可读纹理，不压成纯黑。",
+        "palette": "低饱和青绿、炭灰、冷灰为主，琥珀与钠黄点缀；色调克制、整体对比较低。",
+        "composition": "浅景深分离主体、长焦将背景压为色块；隔玻璃或门缝观察，水平垂直精确，威胁侧留死空间。",
+        "camera": "85–135mm主力、35mm只交代一次几何；锁定或幅度3%–6%的微推，避免可见漂移和广角变形。",
+        "rhythm": "模块平均4–9秒，信息蒙太奇可0.5–1.5秒；每个切点有信息理由，段尾用近静止长挂收束。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/12_fincher.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/12_fincher.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "4cf9cce055dd14088ba7cd01446b389ac62e327a7aea7dac2d345939526061b5",
+        "gitBlobSha1": "fa3ce23e4b8d4749f7eaded5918580bd9fe870aa",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-refn",
+      "name": "雷弗恩 · 色块与仪式",
+      "director": "Nicolas Winding Refn",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "洋红电蓝 · 正面对称",
+      "description": "将身体、机位与构图锁成仪式，让硬边色块和短暂微动承担变化。",
+      "colors": [
+        "#C12C92",
+        "#2344AE",
+        "#090B12"
+      ],
+      "parameters": {
+        "lighting": "舞台式硬光形成清晰色界，模块光比8:1–12:1；避免把颜色扩散为均匀柔光。",
+        "palette": "洋红、电蓝为大色块，配少量红、紫和纯黑，高饱和高对比。",
+        "composition": "正面平面化、绝对左右对称，主体死中；两种颜色分成硬边区域，大块纯黑也作为材料。",
+        "camera": "25、40、75mm；固定或极慢单次推进，不摇不俯仰，运动尽量交给缓慢变色而非主体或摄影机。",
+        "rhythm": "模块平均10–25秒；同机位同姿势重复，以硬切组织，不用切换频率替代仪式停顿。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/13_refn.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/13_refn.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "05dc74f79684cc9f1bb4ec760d69ba4498e1fcca904fa504f58acde96442de74",
+        "gitBlobSha1": "283bddcb1ce022dc3cf133196983f0d63e976078",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-bi-gan",
+      "name": "毕赣 · 路径与梦游",
+      "director": "Bi Gan",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "潮湿青紫 · 迟半拍跟随",
+      "description": "沿可画成地图的路线持续行走，以穿门过桥和重复物件将现实接向梦与记忆。",
+      "colors": [
+        "#496F69",
+        "#62506E",
+        "#B28650"
+      ],
+      "parameters": {
+        "lighting": "潮湿表面反射、霓虹、荧光管与白炽灯同框，色温不强行校正；模块光比2.5:1–3.5:1。",
+        "palette": "湿青绿、暗紫、钨丝琥珀为主，卡拉OK粉、电视青、锈红点缀；低饱和低对比。",
+        "composition": "湿反光前景、门洞与隧道作为过渡口，主体出入画，重复物件安置在经过的路径节点。",
+        "camera": "18–35mm广角，以步速持续跟随并滞后1–2秒；胸肩高度有微呼吸起伏，运动要写起点、途经点与终点。",
+        "rhythm": "模块平均45–600秒代表长镜方法，非单次模型能力；一场一镜，以穿越空间连接，实际短片须另行拆接与验收。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/14_bi_gan.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/14_bi_gan.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "47ca34530e8573fbe49818c0dcaf8553ce92be37279c03ae388e92e6faf6a82a",
+        "gitBlobSha1": "cadf034d98bc9d0574466c323509aab6ccdd28fb",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-zhang-yimou",
+      "name": "张艺谋 · 单色与破格",
+      "director": "Zhang Yimou",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "材料单色 · 网格与顶俯",
+      "description": "先建立大面积同色材料与重复秩序，再用唯一破格点承载戏剧变化。",
+      "colors": [
+        "#AF302D",
+        "#B69431",
+        "#417568"
+      ],
+      "parameters": {
+        "lighting": "颜色由材料承担而非滤色；硬光显织纹，模块外景3:1、灯笼阵夜内景6:1–8:1，暗部保色。",
+        "palette": "每段选红、赭黄、玉绿或墨蓝之一占主导；肤色、黑发及一处纯黑或纯白作为破格。",
+        "composition": "单色占画幅60%–80%，网格重复与中轴透视，顶俯把单元变图形；9:16把横排重复转成纵深层列。",
+        "camera": "35–135mm分配对称全景与平面压缩；固定、恒速横移、缓推或一次升至顶俯，竖幅横移改中轴推进。",
+        "rhythm": "模块仪式段平均4–10秒、冲突段3–6秒；按动作节拍切，全景顶俯与破格近景直接形成尺寸落差。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/15_zhang_yimou.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/15_zhang_yimou.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "9bc951babbf3e51f8c2f0e129216578378536d17fac42663596a8397b28505c3",
+        "gitBlobSha1": "3ccd8a47dce3bf94e18b2e2e781b6f588ada50ef",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-hou-hsiao-hsien",
+      "name": "侯孝贤 · 门外与日常",
+      "director": "Hou Hsiao-hsien",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "窗门柔光 · 远距静观",
+      "description": "摄影机提前在门外坐定，让多层日常活动自行流过，切点承担时间省略。",
+      "colors": [
+        "#79634C",
+        "#B9BAB0",
+        "#697B53"
+      ],
+      "parameters": {
+        "lighting": "门窗天光作柔主光，模块光比2:1–4:1；室内低1–2档，不额外补亮进入暗处的主体。",
+        "palette": "旧木褐、灰泥白、门外植物绿与洗旧靛蓝，保实景色；仅一个高饱和点供注意力定位。",
+        "composition": "从一间房看另一间房，三层活动同时发生；9:16用门楣门槛上下框景，近低中居中远高地错位安排。",
+        "camera": "50–100mm远距全景、坐姿眼高，三脚架锁定；只在必要时极慢补构图，不推近也不追人。",
+        "rhythm": "模块平均40–120秒，一场1–3镜；不做反打特写，每次切点省略时间，人离开后仍可保留房间。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/16_hou_hsiao_hsien.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/16_hou_hsiao_hsien.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "c336fab4d549603beaf47a01ec0dbdcb52be99837d774425e50ec0350691f8b1",
+        "gitBlobSha1": "6d1d7b57b44b7aa877dce3600322cdf0e83b78b7",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-park-chan-wook",
+      "name": "朴赞郁 · 纹样与几何",
+      "director": "Park Chan-wook",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "暖光纹样 · 对称与路径",
+      "description": "以精确纹样、正面对称和一次有规划的夸张运镜，形成形式与事件的反差。",
+      "colors": [
+        "#773849",
+        "#6E7550",
+        "#B29648"
+      ],
+      "parameters": {
+        "lighting": "暖实用光掠射纹样使其浮起，冷光只从窗外少量进入；模块常规3:1，强冲突镜头撤补光至8:1。",
+        "palette": "酒红、橄榄绿、芥末金、胡桃木褐为主；玉绿与象牙白点缀，浓色但暗部保留色相。",
+        "composition": "多种大尺度纹样同时可读，正面对称保留一个刻意偏轴元素；门洞和蕾丝等前景提供框景。",
+        "camera": "40–50mm正面对称为主，85mm拍装饰细节；只给一次有起点路径终点的夸张运动，其余锁定或单轴慢移。",
+        "rhythm": "模块平均3–8秒，另含一次40–90秒形式长镜的方案；偏好形状匹配与短装饰插入，不平均分配镜长。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/17_park_chan_wook.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/17_park_chan_wook.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "8ada598768c187ea8b057a1b5e1107045b567811487eee73f64199507c1efb7b",
+        "gitBlobSha1": "8fdb0ea3354bbc496f41be7d91d0cc90890ea0ec",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-malick",
+      "name": "马力克 · 天光与漂移",
+      "director": "Terrence Malick",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "低日逆光 · 贴近广角",
+      "description": "贴近手势和自然元素持续漂移，以光、运动方向和联想连接片段。",
+      "colors": [
+        "#7E945A",
+        "#C3A55A",
+        "#B6CED5"
+      ],
+      "parameters": {
+        "lighting": "低角度太阳在主体后方，脸靠天光和地面反射；模块光比2:1–3:1，不以橙色滤镜替代真实逆光。",
+        "palette": "草绿、麦金、天空蓝白及肤色为主，低日琥珀与深蓝阴影点缀，中饱和低对比。",
+        "composition": "广角贴近造成大前景与远地平线，天空占上半部，主体可持续进出画面，避免正面对称。",
+        "camera": "14–28mm贴近，35mm跟肩；步速低频漂移、高度持续变化，允许把注意力从主体移到手、草、水面。",
+        "rhythm": "模块平均2–5秒，以手势、光向和运动联想剪接，可在动作中途切走，不以音乐重拍强行卡点。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/18_malick.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/18_malick.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "ee5c6786c58385772e99eb003430bd24eafea83db19023619d63e47954af1f95",
+        "gitBlobSha1": "d50795ba17efe8c38fc80c28d2a0836d4a260c76",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-michael-mann",
+      "name": "迈克尔·曼 · 城市与专业",
+      "director": "Michael Mann",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "钠橙汞青 · 夜城留白",
+      "description": "让可命名的城市光源、准确的操作和人与环境的距离，构成冷光中的孤独。",
+      "colors": [
+        "#C18742",
+        "#4D898C",
+        "#11171D"
+      ],
+      "parameters": {
+        "lighting": "路灯、便利店、LED等实用光各有名字且保留混合色温；模块夜景6:1–10:1，脸可暗于光源1.5–2档。",
+        "palette": "钠灯琥珀、汞灯蓝绿、LED青白与真黑为主，尾灯红和警示橙点缀，不统一成单一暖冷调。",
+        "composition": "水平光轴、明亮城市背景与侧向大留白，玻璃反射叠层；9:16以坡道、井或柱列的纵深造小，重核画高比例。",
+        "camera": "18–25mm建立室内外地平线，35mm双人、50mm流程插入；固定、沿玻璃恒速移动或车上松弛手持。",
+        "rhythm": "模块平均3–8秒，操作按物理顺序每步一镜，完成一步才切；段尾可留6–12秒城市空镜，硬切为主。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/19_michael_mann.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/19_michael_mann.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "b34fd4c8b0ca4833818f4d3f6471777341c6b23481b6efc6f69b4cfb0554cf79",
+        "gitBlobSha1": "c53833cc0d57a899810ffb960761c239fb411805",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    },
+    {
+      "id": "director-coen-brothers",
+      "name": "科恩兄弟 · 冷面与停顿",
+      "director": "Coen Brothers",
+      "group": "director",
+      "tag": "导演风格",
+      "tone": "机构顶光 · 广角正面",
+      "description": "将几何构图摆得严整，动作保持认真，再多停留半拍，让物件与时长产生荒诞。",
+      "colors": [
+        "#C7BDA6",
+        "#80624C",
+        "#DDE6D3"
+      ],
+      "parameters": {
+        "lighting": "荧光管、裸灯泡等可解释的顶光保留眼窝阴影；模块室内3:1、夜外8:1，不做浪漫柔光美化。",
+        "palette": "机构米色、旅馆棕、雪白、荧光绿白为主，芥末黄和警灯蓝点缀，中饱和中对比。",
+        "composition": "正面死中，门窗或牌子置于头后，平墙与社交距离保持尴尬；广角可让天花与地面同时可见。",
+        "camera": "14–27mm低机位广角或正面锁定，40mm留单人；运动为恒速直线机械推轨，不持续漂移或微调构图。",
+        "rhythm": "模块平均4–9秒，对话结束后多留0.5–1.5秒；反应镜头克制，全景直切极特写形成标点。"
+      },
+      "source": {
+        "repository": "wuwangzhang1216/DirectorSKILL",
+        "path": "references/director_styles/20_coen_brothers.md",
+        "url": "https://github.com/wuwangzhang1216/DirectorSKILL/blob/c65ae0d14457053efb1e354c7e7f7e120d97fad1/references/director_styles/20_coen_brothers.md",
+        "license": "MIT",
+        "skillVersion": "2.1.0",
+        "extractedAt": "2026-11-06",
+        "revision": "c65ae0d14457053efb1e354c7e7f7e120d97fad1",
+        "fileSha256": "4809d2861e696a54df4b28f3abe442311dc722b0a67f2f6e99db19dd385d5a68",
+        "gitBlobSha1": "a6ab491fca7061ff79f6563d73350a89706509ee",
+        "revisionVerified": true
+      },
+      "notes": "仅创作方法参考，不改变产品外观；色块为本地示意配色，非原文色值。参数中的数值为来源模块的方法建议，不是平台限制，不自动改写项目画幅、总时长、R02分镜或历史提示词。"
+    }
+  ]
+}

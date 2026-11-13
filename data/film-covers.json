@@ -1,0 +1,3807 @@
+{
+  "version": 1,
+  "scope": "UI browsing covers only; never product/scene/generation references",
+  "covers": {
+    "film-tarkovsky-stalker": {
+      "title": "潜行者",
+      "titleEn": "Stalker",
+      "year": 1979,
+      "src": "assets/film-covers/tarkovsky-stalker.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/1%20(22).jpg",
+      "sourceUrl": "https://film-grab.com/2012/07/31/stalker/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 764,
+      "height": 576,
+      "sha256": "228117a2a72e0e1b5469352ce1b5f6aa285288512af6f46b94c09b1a76837fa1",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/tarkovsky-stalker.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/1%20(22).jpg",
+          "width": 764,
+          "height": 576,
+          "sha256": "228117a2a72e0e1b5469352ce1b5f6aa285288512af6f46b94c09b1a76837fa1"
+        },
+        {
+          "src": "assets/film-covers/tarkovsky-stalker-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/28%20(967).jpg",
+          "width": 764,
+          "height": 576,
+          "sha256": "a700091f9ad62c1dea6d3f86503bc84a7ffcbe6f33e2948e0c021bb0306f237d"
+        },
+        {
+          "src": "assets/film-covers/tarkovsky-stalker-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/46%20(946).jpg",
+          "width": 764,
+          "height": 576,
+          "sha256": "70bc3a878c57bf1cac7fc660ea52af6d1a290b44c8eec4003294c2072d0be8d5"
+        }
+      ]
+    },
+    "film-tarkovsky-mirror": {
+      "title": "镜子",
+      "titleEn": "The Mirror",
+      "year": 1975,
+      "src": "assets/film-covers/tarkovsky-mirror.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(693).jpg",
+      "sourceUrl": "https://film-grab.com/2010/09/27/mirror-%d0%b7%d0%b5%d1%80%d0%ba%d0%b0%d0%bb%d0%be-zerkalo/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 768,
+      "height": 576,
+      "sha256": "59a6a156e22e341351306193d8874d33976477328305d931b794f6b67e573618",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/tarkovsky-mirror.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(693).jpg",
+          "width": 768,
+          "height": 576,
+          "sha256": "59a6a156e22e341351306193d8874d33976477328305d931b794f6b67e573618"
+        },
+        {
+          "src": "assets/film-covers/tarkovsky-mirror-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/20%20(706).jpg",
+          "width": 768,
+          "height": 576,
+          "sha256": "2f5e3b3743a5cb5a4169319a8f5a1993ff9987e8c0f866824ba540f8036f48ef"
+        },
+        {
+          "src": "assets/film-covers/tarkovsky-mirror-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/40%20(701).jpg",
+          "width": 768,
+          "height": 576,
+          "sha256": "5047430c06a522e1cfe8edaf873947034620ab7e34fde48592b5e853f785a59e"
+        }
+      ]
+    },
+    "film-wong-kar-wai-in-the-mood-for-love": {
+      "title": "花样年华",
+      "titleEn": "In The Mood For Love",
+      "year": 2000,
+      "src": "assets/film-covers/wong-kar-wai-in-the-mood-for-love.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(494).jpg",
+      "sourceUrl": "https://film-grab.com/2013/03/09/in-the-mood-for-love/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1200,
+      "height": 720,
+      "sha256": "8d7425a486807e51f691102934a8942a8e6dfdf600eae933b67cab9d6a478470",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/wong-kar-wai-in-the-mood-for-love.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(494).jpg",
+          "width": 1200,
+          "height": 720,
+          "sha256": "8d7425a486807e51f691102934a8942a8e6dfdf600eae933b67cab9d6a478470"
+        },
+        {
+          "src": "assets/film-covers/wong-kar-wai-in-the-mood-for-love-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(504).jpg",
+          "width": 1200,
+          "height": 720,
+          "sha256": "37e5f933fdcf54742628f3f688503b0e75c61aeaed2e3159fe85ded295234cee"
+        },
+        {
+          "src": "assets/film-covers/wong-kar-wai-in-the-mood-for-love-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(494).jpg",
+          "width": 1200,
+          "height": 720,
+          "sha256": "f84d473cb91a9b536bd2bfa458e7d4594af65abb6002e7d29cc697fd7e420514"
+        }
+      ]
+    },
+    "film-wong-kar-wai-chungking-express": {
+      "title": "重庆森林",
+      "titleEn": "Chungking Express",
+      "year": 1994,
+      "src": "assets/film-covers/wong-kar-wai-chungking-express.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(240).jpg",
+      "sourceUrl": "https://film-grab.com/2014/10/20/chungking-express/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1200,
+      "height": 720,
+      "sha256": "b9ad918d62ab7598c4fccfd18c08f3432632066b811f66b171b4f1845bfa79b9",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/wong-kar-wai-chungking-express.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(240).jpg",
+          "width": 1200,
+          "height": 720,
+          "sha256": "b9ad918d62ab7598c4fccfd18c08f3432632066b811f66b171b4f1845bfa79b9"
+        },
+        {
+          "src": "assets/film-covers/wong-kar-wai-chungking-express-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(244).jpg",
+          "width": 1200,
+          "height": 720,
+          "sha256": "c7dfec811a3a71983fa549499a7353af330a54df7f92dcbe249eba9cf79e5ec4"
+        },
+        {
+          "src": "assets/film-covers/wong-kar-wai-chungking-express-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(241).jpg",
+          "width": 1200,
+          "height": 720,
+          "sha256": "2d5ff2b739a0b4f394c59d9047f8081b7cc9cb76a1903b07b57f47d26f222add"
+        }
+      ]
+    },
+    "film-kubrick-the-shining": {
+      "title": "闪灵",
+      "titleEn": "The Shining",
+      "year": 1980,
+      "src": "assets/film-covers/kubrick-the-shining.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1165).jpg",
+      "sourceUrl": "https://film-grab.com/2010/07/09/the-shining/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 768,
+      "height": 576,
+      "sha256": "3544a443fe1bee1a814c73daa2207bbe12100b55d62df21baf39f73ee3358ba8",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kubrick-the-shining.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1165).jpg",
+          "width": 768,
+          "height": 576,
+          "sha256": "3544a443fe1bee1a814c73daa2207bbe12100b55d62df21baf39f73ee3358ba8"
+        },
+        {
+          "src": "assets/film-covers/kubrick-the-shining-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(1188).jpg",
+          "width": 768,
+          "height": 576,
+          "sha256": "2e27d8df75151fa37279ec7b5f65aa83ed8d1b1d6aee83336c0496ae5d19e1af"
+        },
+        {
+          "src": "assets/film-covers/kubrick-the-shining-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/43%20(1170).jpg",
+          "width": 768,
+          "height": 576,
+          "sha256": "70acd2340513323670074b4cc5b6704df13020f983c914d85c8f198da96da284"
+        }
+      ]
+    },
+    "film-kubrick-barry-lyndon": {
+      "title": "巴里·林登",
+      "titleEn": "Barry Lyndon",
+      "year": 1975,
+      "src": "assets/film-covers/kubrick-barry-lyndon.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(115).jpg",
+      "sourceUrl": "https://film-grab.com/2010/07/08/barry-lyndon/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 768,
+      "height": 478,
+      "sha256": "a3d07c3429e24f1f883cc81aa26bb7c94b38849435e46095695fbdb636ec78cf",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kubrick-barry-lyndon.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(115).jpg",
+          "width": 768,
+          "height": 478,
+          "sha256": "a3d07c3429e24f1f883cc81aa26bb7c94b38849435e46095695fbdb636ec78cf"
+        },
+        {
+          "src": "assets/film-covers/kubrick-barry-lyndon-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(117).jpg",
+          "width": 768,
+          "height": 479,
+          "sha256": "949e77cf714c3c3d0a5599435838af41adae216f689d62f8e9ea144e6040159a"
+        },
+        {
+          "src": "assets/film-covers/kubrick-barry-lyndon-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/43%20(116).jpg",
+          "width": 768,
+          "height": 479,
+          "sha256": "c75587094c7e2354a4ff75e692d9fdc556f2073609726a0ec46445d5c549c18a"
+        }
+      ]
+    },
+    "film-kurosawa-ran": {
+      "title": "乱",
+      "titleEn": "Ran",
+      "year": 1985,
+      "src": "assets/film-covers/kurosawa-ran.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/ran001.jpg",
+      "sourceUrl": "https://film-grab.com/2017/03/04/ran/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1251,
+      "height": 703,
+      "sha256": "5d75947e6a99182d3fa301c63bbf21e83dc2c620a43d60d26862b47f2cddffa5",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kurosawa-ran.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/ran001.jpg",
+          "width": 1251,
+          "height": 703,
+          "sha256": "5d75947e6a99182d3fa301c63bbf21e83dc2c620a43d60d26862b47f2cddffa5"
+        },
+        {
+          "src": "assets/film-covers/kurosawa-ran-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/ran022.jpg",
+          "width": 1251,
+          "height": 703,
+          "sha256": "5a1330b2c5c285f407c35b53f2a036bad6690ccdabbe5c0eefe0d3b5fedcd467"
+        },
+        {
+          "src": "assets/film-covers/kurosawa-ran-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/ran044.jpg",
+          "width": 1251,
+          "height": 703,
+          "sha256": "fce6786eb9024e2cf663f2f12979d8156cda9ca8cb598841b745712f3f430463"
+        }
+      ]
+    },
+    "film-bong-parasite": {
+      "title": "寄生虫",
+      "titleEn": "Parasite",
+      "year": 2019,
+      "src": "assets/film-covers/bong-parasite.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Parasite_01.jpg",
+      "sourceUrl": "https://film-grab.com/2024/02/05/parasite/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 804,
+      "sha256": "5b43cdb9305b291636386c84bce22333a5c325892fbe67ffdeb3424ed18032a9",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/bong-parasite.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Parasite_01.jpg",
+          "width": 1920,
+          "height": 804,
+          "sha256": "5b43cdb9305b291636386c84bce22333a5c325892fbe67ffdeb3424ed18032a9"
+        },
+        {
+          "src": "assets/film-covers/bong-parasite-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Parasite_22.jpg",
+          "width": 1920,
+          "height": 804,
+          "sha256": "96485ba6f8ac6640d90365151a055051b04006fc9c44732686cf47ea5990dcdc"
+        },
+        {
+          "src": "assets/film-covers/bong-parasite-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Parasite_44.jpg",
+          "width": 1920,
+          "height": 804,
+          "sha256": "d67c4c2768da95c4575b006286e01b64f4b1dd3b1515979e893b7c872d981b57"
+        }
+      ]
+    },
+    "film-villeneuve-blade-runner-2049": {
+      "title": "银翼杀手 2049",
+      "titleEn": "Blade Runner 2049",
+      "year": 2017,
+      "src": "assets/film-covers/villeneuve-blade-runner-2049.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/bladerunner001.jpg",
+      "sourceUrl": "https://film-grab.com/2019/05/24/blade-runner-2049/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 546,
+      "sha256": "dce133d1bd571b609cea02092ba8f32eb162f6c9d824fcbf31cc0a4326cf7f6d",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/villeneuve-blade-runner-2049.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/bladerunner001.jpg",
+          "width": 1280,
+          "height": 546,
+          "sha256": "dce133d1bd571b609cea02092ba8f32eb162f6c9d824fcbf31cc0a4326cf7f6d"
+        },
+        {
+          "src": "assets/film-covers/villeneuve-blade-runner-2049-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/bladerunner022.jpg",
+          "width": 1280,
+          "height": 546,
+          "sha256": "83b2609908a9cd01dc4f5f4c5eaf865a1b6a777269e49d33723ee1ba1a12285b"
+        },
+        {
+          "src": "assets/film-covers/villeneuve-blade-runner-2049-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/bladerunner044.jpg",
+          "width": 1280,
+          "height": 546,
+          "sha256": "e820488983be2746fffe3c7b2013cbf15137ddfb9ebe2018123115c666feb759"
+        }
+      ]
+    },
+    "film-villeneuve-dune": {
+      "title": "沙丘",
+      "titleEn": "Dune",
+      "year": 2021,
+      "src": "assets/film-covers/villeneuve-dune.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Dune_2021_001.jpg",
+      "sourceUrl": "https://film-grab.com/2022/06/24/dune-2021/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 800,
+      "sha256": "1826faaf94599a4559de18b229e7fa0640a66e763b004b61ab2b372f4f3ab19b",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/villeneuve-dune.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Dune_2021_001.jpg",
+          "width": 1920,
+          "height": 800,
+          "sha256": "1826faaf94599a4559de18b229e7fa0640a66e763b004b61ab2b372f4f3ab19b"
+        },
+        {
+          "src": "assets/film-covers/villeneuve-dune-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Dune_2021_022.jpg",
+          "width": 1920,
+          "height": 800,
+          "sha256": "3c77caf4cef8b8790b1635b5dd88d590941ff72b6627a12f6516f430dcce0638"
+        },
+        {
+          "src": "assets/film-covers/villeneuve-dune-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Dune_2021_044.jpg",
+          "width": 1920,
+          "height": 800,
+          "sha256": "44c28ba8e9d7384c86e8656447dcd56cd399ae43817ba52d1abcf17cc2d59695"
+        }
+      ]
+    },
+    "film-fincher-se7en": {
+      "title": "七宗罪",
+      "titleEn": "Se7en",
+      "year": 1995,
+      "src": "assets/film-covers/fincher-se7en.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(890).jpg",
+      "sourceUrl": "https://film-grab.com/2013/09/09/seven/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1014,
+      "height": 431,
+      "sha256": "a97b905cce6be4e7392ba9266f1e37cb9ab92e787406eb1a0b29c36ff87478b8",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/fincher-se7en.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(890).jpg",
+          "width": 1014,
+          "height": 431,
+          "sha256": "a97b905cce6be4e7392ba9266f1e37cb9ab92e787406eb1a0b29c36ff87478b8"
+        },
+        {
+          "src": "assets/film-covers/fincher-se7en-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(909).jpg",
+          "width": 1014,
+          "height": 431,
+          "sha256": "91d7f1a20f699b850ccc2a0658b2d3d1ebef48422c2162222b762760479149aa"
+        },
+        {
+          "src": "assets/film-covers/fincher-se7en-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(894).jpg",
+          "width": 1014,
+          "height": 431,
+          "sha256": "76bbea1b21887fce6a66e6f6f00fd1c66a3573a10e91b4de50dcdc138a7e8dd1"
+        }
+      ]
+    },
+    "film-hou-hsiao-hsien-the-assassin": {
+      "title": "刺客聂隐娘",
+      "titleEn": "The Assassin",
+      "year": 2015,
+      "src": "assets/film-covers/hou-hsiao-hsien-the-assassin.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/theassassin001.jpg",
+      "sourceUrl": "https://film-grab.com/2017/02/24/the-assassin/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 979,
+      "height": 720,
+      "sha256": "41d79bb4b53108ede1067e3986aa07e9e5606c83ec1f1d0a04146b40b620ea6e",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/hou-hsiao-hsien-the-assassin.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/theassassin001.jpg",
+          "width": 979,
+          "height": 720,
+          "sha256": "41d79bb4b53108ede1067e3986aa07e9e5606c83ec1f1d0a04146b40b620ea6e"
+        },
+        {
+          "src": "assets/film-covers/hou-hsiao-hsien-the-assassin-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/theassassin019.jpg",
+          "width": 983,
+          "height": 720,
+          "sha256": "612e874a3153cf462107850c5f11acf3868127656a2a52d4c91a0718d829fb9c"
+        },
+        {
+          "src": "assets/film-covers/hou-hsiao-hsien-the-assassin-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/theassassin037.jpg",
+          "width": 983,
+          "height": 720,
+          "sha256": "af12787f8b00041d2864c18105307aa0e13bdde93831d5b15076a891142074b8"
+        }
+      ]
+    },
+    "film-goddard-breathless": {
+      "title": "精疲力尽",
+      "titleEn": "Breathless",
+      "year": 1960,
+      "src": "assets/film-covers/goddard-breathless.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(15).jpg",
+      "sourceUrl": "https://film-grab.com/2011/01/20/a-bout-de-souffle-breathless/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 743,
+      "height": 575,
+      "sha256": "a1c4473c6dac90990c65d399f3abe18425d07c9a37d7b2cf243cb805d9edf07a",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/goddard-breathless.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(15).jpg",
+          "width": 743,
+          "height": 575,
+          "sha256": "a1c4473c6dac90990c65d399f3abe18425d07c9a37d7b2cf243cb805d9edf07a"
+        },
+        {
+          "src": "assets/film-covers/goddard-breathless-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/21%20(15).jpg",
+          "width": 743,
+          "height": 575,
+          "sha256": "6cb67638b9dd468ff33733e73e79cd13b6b1cf8d82bbd656f3c627cdb436c361"
+        },
+        {
+          "src": "assets/film-covers/goddard-breathless-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/41%20(15).jpg",
+          "width": 743,
+          "height": 575,
+          "sha256": "00c7cfdcb9ba5908ea7e954bc36a42beeade3ad7a3bf5a0ae582bc1b1f92b06a"
+        }
+      ]
+    },
+    "film-kon-satoshi-perfect-blue": {
+      "title": "未麻的部屋",
+      "titleEn": "Perfect Blue",
+      "year": 1997,
+      "src": "assets/film-covers/kon-satoshi-perfect-blue.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Perfect_Blue_001.jpg",
+      "sourceUrl": "https://film-grab.com/2020/01/23/perfect-blue/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 688,
+      "sha256": "e9e6e656718b3446d0c5889894a4b96279a9dbd9c1176aef028ce0669e077ec4",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kon-satoshi-perfect-blue.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Perfect_Blue_001.jpg",
+          "width": 1280,
+          "height": 688,
+          "sha256": "e9e6e656718b3446d0c5889894a4b96279a9dbd9c1176aef028ce0669e077ec4"
+        },
+        {
+          "src": "assets/film-covers/kon-satoshi-perfect-blue-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Perfect_Blue_022.jpg",
+          "width": 1280,
+          "height": 688,
+          "sha256": "1ba2b824ea7f225e10bdb11e8647ed1951687992c42b22d008fc0df12d1231c6"
+        },
+        {
+          "src": "assets/film-covers/kon-satoshi-perfect-blue-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Perfect_Blue_044.jpg",
+          "width": 1280,
+          "height": 688,
+          "sha256": "8ec43a1d8481cec6671af88029ffd04d47222a0139f5bdff069aceb00715778c"
+        }
+      ]
+    },
+    "film-kon-paprika": {
+      "title": "红辣椒",
+      "titleEn": "Paprika",
+      "year": 2006,
+      "src": "assets/film-covers/kon-paprika.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Paprika_001.jpg",
+      "sourceUrl": "https://film-grab.com/2021/01/11/paprika/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 690,
+      "sha256": "e2e992db4a447186c7b4b63a2bffcfda1c4c42b735402bb8398c5a28d3cb8a71",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kon-paprika.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Paprika_001.jpg",
+          "width": 1280,
+          "height": 690,
+          "sha256": "e2e992db4a447186c7b4b63a2bffcfda1c4c42b735402bb8398c5a28d3cb8a71"
+        },
+        {
+          "src": "assets/film-covers/kon-paprika-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Paprika_022.jpg",
+          "width": 1280,
+          "height": 690,
+          "sha256": "262aaa9e27036e12cec0aded22c4b02c077f041c64e3e255454df6ad86c4f3f0"
+        },
+        {
+          "src": "assets/film-covers/kon-paprika-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Paprika_044.jpg",
+          "width": 1280,
+          "height": 690,
+          "sha256": "4f46c54b41f73374dffc9a510efff144345a6a197593d8bbd2f80e2699555c56"
+        }
+      ]
+    },
+    "film-kon-millennium-actress": {
+      "title": "千年女优",
+      "titleEn": "Millennium Actress",
+      "year": 2001,
+      "src": "assets/film-covers/kon-millennium-actress.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Millenium_Actress_001.jpg",
+      "sourceUrl": "https://film-grab.com/2021/01/25/millenium-actress/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 696,
+      "sha256": "fbcc3c631a54f98bc6275a3b12a3e0d6ef4045651744ef93ddf63064dbcdf36f",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kon-millennium-actress.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Millenium_Actress_001.jpg",
+          "width": 1280,
+          "height": 696,
+          "sha256": "fbcc3c631a54f98bc6275a3b12a3e0d6ef4045651744ef93ddf63064dbcdf36f"
+        },
+        {
+          "src": "assets/film-covers/kon-millennium-actress-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Millenium_Actress_022.jpg",
+          "width": 1280,
+          "height": 696,
+          "sha256": "0350a4f341cb1a171e5e4fe061c8f58be64d22ee65dac0b68cdb913ebb83e087"
+        },
+        {
+          "src": "assets/film-covers/kon-millennium-actress-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Millenium_Actress_044.jpg",
+          "width": 1280,
+          "height": 696,
+          "sha256": "cfe0234f2c30b237c532553a623cb7e1f8ff65470a668df69560621c616f0068"
+        }
+      ]
+    },
+    "film-anime-akira": {
+      "title": "阿基拉",
+      "titleEn": "Akira",
+      "year": 1988,
+      "src": "assets/film-covers/anime-akira.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Akira_001.jpg",
+      "sourceUrl": "https://film-grab.com/2020/03/03/akira/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 718,
+      "sha256": "b558ee43962856cec5b24ce62b599b39711b1ab58859361de07e4ab9c82765d1",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/anime-akira.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Akira_001.jpg",
+          "width": 1280,
+          "height": 718,
+          "sha256": "b558ee43962856cec5b24ce62b599b39711b1ab58859361de07e4ab9c82765d1"
+        },
+        {
+          "src": "assets/film-covers/anime-akira-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Akira_022.jpg",
+          "width": 1280,
+          "height": 718,
+          "sha256": "08e4897fbce088179a1be700c90f1b4f97716769a322fdf1b4cd71dd42f435e5"
+        },
+        {
+          "src": "assets/film-covers/anime-akira-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Akira_044.jpg",
+          "width": 1280,
+          "height": 718,
+          "sha256": "458977a9a3d3bc1a0416b83abf830aaaa252bdcb9c203b7705b8b96e5a9bafb5"
+        }
+      ]
+    },
+    "film-anime-ghost-in-the-shell": {
+      "title": "攻壳机动队",
+      "titleEn": "Ghost in the Shell",
+      "year": 1995,
+      "src": "assets/film-covers/anime-ghost-in-the-shell.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Ghost_in_the_Shell_1995_001.jpg",
+      "sourceUrl": "https://film-grab.com/2022/02/10/ghost-in-the-shell-1995/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 692,
+      "sha256": "5fbb5a73abe1e95716d8e5e9c8ac6608969aa19d055dabf13be932fd95ef3594",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/anime-ghost-in-the-shell.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Ghost_in_the_Shell_1995_001.jpg",
+          "width": 1280,
+          "height": 692,
+          "sha256": "5fbb5a73abe1e95716d8e5e9c8ac6608969aa19d055dabf13be932fd95ef3594"
+        },
+        {
+          "src": "assets/film-covers/anime-ghost-in-the-shell-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Ghost_in_the_Shell_1995_018.jpg",
+          "width": 1280,
+          "height": 692,
+          "sha256": "16f2b19765038ad437c6263c1ef62ae453a5fed8452cbfcf198ffd9752d2682b"
+        },
+        {
+          "src": "assets/film-covers/anime-ghost-in-the-shell-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Ghost_in_the_Shell_1995_035.jpg",
+          "width": 1280,
+          "height": 692,
+          "sha256": "da00849aabefebf5e6bd3ac7ee2f47a3afaba53b47a8b3ce3516360e038c810e"
+        }
+      ]
+    },
+    "film-miyazaki-spirited-away": {
+      "title": "千与千寻",
+      "titleEn": "Spirited Away",
+      "year": 2001,
+      "src": "assets/film-covers/miyazaki-spirited-away.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Spirited_Away_001.jpg",
+      "sourceUrl": "https://film-grab.com/2020/04/27/spirited-away/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 690,
+      "sha256": "076e9c9d74969b1b09b42d85162667ea398fdb06687a05407a7ed4b1285e062a",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/miyazaki-spirited-away.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Spirited_Away_001.jpg",
+          "width": 1280,
+          "height": 690,
+          "sha256": "076e9c9d74969b1b09b42d85162667ea398fdb06687a05407a7ed4b1285e062a"
+        },
+        {
+          "src": "assets/film-covers/miyazaki-spirited-away-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Spirited_Away_022.jpg",
+          "width": 1280,
+          "height": 690,
+          "sha256": "dd733c2ceccb1365e9e119c0522e9ad14671bb93f7b06b2b86c024506a9d0c18"
+        },
+        {
+          "src": "assets/film-covers/miyazaki-spirited-away-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Spirited_Away_044.jpg",
+          "width": 1280,
+          "height": 690,
+          "sha256": "cae5c38446f703754efdb87c0fcbd0ef4520544c4a03092da0cc96ce646c164e"
+        }
+      ]
+    },
+    "film-takahata-kaguya": {
+      "title": "辉夜姬物语",
+      "titleEn": "The Tale of Princess Kaguya",
+      "year": 2013,
+      "src": "assets/film-covers/takahata-kaguya.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Princess_Kaguya_01.jpg",
+      "sourceUrl": "https://film-grab.com/2026/08/13/the-tale-of-princess-kaguya/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 1040,
+      "sha256": "624e78370ee29200fdf1506cfc59534f64c68b472ab454a2fabd587cc97d3ddd",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/takahata-kaguya.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Princess_Kaguya_01.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "624e78370ee29200fdf1506cfc59534f64c68b472ab454a2fabd587cc97d3ddd"
+        },
+        {
+          "src": "assets/film-covers/takahata-kaguya-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Princess_Kaguya_22.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "cfb5ede8618c921080fd37ab12ca98faf3e2eee363c86c86da35493af30ea56d"
+        },
+        {
+          "src": "assets/film-covers/takahata-kaguya-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Princess_Kaguya_44.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "76d20ca41edbc3fd9dc3cd647fa7ee09c8bd7d98f75f5e8390ceb7f52cf814ee"
+        }
+      ]
+    },
+    "film-tarkovsky-solaris": {
+      "title": "飞向太空",
+      "titleEn": "Solaris",
+      "year": 1972,
+      "src": "assets/film-covers/tarkovsky-solaris.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(928).jpg",
+      "sourceUrl": "https://film-grab.com/2012/12/14/solaris-2/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 970,
+      "height": 439,
+      "sha256": "195106f2d50d4f4db174f90628480aa847283dc532e25187e39057562dea1fc6",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/tarkovsky-solaris.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(928).jpg",
+          "width": 970,
+          "height": 439,
+          "sha256": "195106f2d50d4f4db174f90628480aa847283dc532e25187e39057562dea1fc6"
+        },
+        {
+          "src": "assets/film-covers/tarkovsky-solaris-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(948).jpg",
+          "width": 970,
+          "height": 439,
+          "sha256": "0ac9d72d1e88d4abcfade64dfda1813ae14de79c2d2c7be3769ea0d71f3db84e"
+        },
+        {
+          "src": "assets/film-covers/tarkovsky-solaris-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(933).jpg",
+          "width": 970,
+          "height": 439,
+          "sha256": "01e5baeff8a72443d96018ddb5a6643f13ed8572154cfc9adf9f0ebaeacea848"
+        }
+      ]
+    },
+    "film-tarkovsky-nostalghia": {
+      "title": "乡愁",
+      "titleEn": "Nostalghia",
+      "year": 1983,
+      "src": "assets/film-covers/tarkovsky-nostalghia.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Nostalgia_01.jpg",
+      "sourceUrl": "https://film-grab.com/2025/04/21/nostalghia/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1798,
+      "height": 1080,
+      "sha256": "46ae05956678be8c8099e814cef29eca52a5e81d79aa46fdcf494727bdc3eb5c",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/tarkovsky-nostalghia.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Nostalgia_01.jpg",
+          "width": 1798,
+          "height": 1080,
+          "sha256": "46ae05956678be8c8099e814cef29eca52a5e81d79aa46fdcf494727bdc3eb5c"
+        },
+        {
+          "src": "assets/film-covers/tarkovsky-nostalghia-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Nostalgia_22.jpg",
+          "width": 1798,
+          "height": 1080,
+          "sha256": "897f472eb6620fe9e34ffb7e1ba98832f80fd2b695dee3a074da840a0f81da81"
+        },
+        {
+          "src": "assets/film-covers/tarkovsky-nostalghia-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Nostalgia_44.jpg",
+          "width": 1798,
+          "height": 1080,
+          "sha256": "667497cbd1d978c16b61c71624afa1012994e2f43def67e372856a84bfbca18c"
+        }
+      ]
+    },
+    "film-tarkovsky-ivan": {
+      "title": "伊万的童年",
+      "titleEn": "Ivan's Childhood",
+      "year": 1962,
+      "src": "assets/film-covers/tarkovsky-ivan.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/0124%20(1).jpg",
+      "sourceUrl": "https://film-grab.com/2016/03/30/ivans-childhood/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 960,
+      "height": 720,
+      "sha256": "16b3fe89f521877a9ab35b47014dfa4e0099fe0fc382568b04f0d656a14ed3e9",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/tarkovsky-ivan.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/0124%20(1).jpg",
+          "width": 960,
+          "height": 720,
+          "sha256": "16b3fe89f521877a9ab35b47014dfa4e0099fe0fc382568b04f0d656a14ed3e9"
+        },
+        {
+          "src": "assets/film-covers/tarkovsky-ivan-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/2124%20(1).jpg",
+          "width": 960,
+          "height": 720,
+          "sha256": "423915a3bd8d946a5bc294ecbdc13e208d864a9b06ebea9a85177f54ca28951a"
+        },
+        {
+          "src": "assets/film-covers/tarkovsky-ivan-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/4125%20(2).jpg",
+          "width": 960,
+          "height": 720,
+          "sha256": "7ec0a22aad8abba6572cf1fd4e7624ecb2090cd3e89b30aa7c26b6f33971ae19"
+        }
+      ]
+    },
+    "film-tarkovsky-andrei-rublev": {
+      "title": "安德烈·卢布廖夫",
+      "titleEn": "Andrei Rublev",
+      "year": 1966,
+      "src": "assets/film-covers/tarkovsky-andrei-rublev.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Andrei_Rublev_01.jpg",
+      "sourceUrl": "https://film-grab.com/2025/06/04/andrei-rublev/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 816,
+      "sha256": "c0925e6fcc207a3381a8859a6a38dd8ccb058d59483c0165b071f96449626725",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/tarkovsky-andrei-rublev.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Andrei_Rublev_01.jpg",
+          "width": 1920,
+          "height": 816,
+          "sha256": "c0925e6fcc207a3381a8859a6a38dd8ccb058d59483c0165b071f96449626725"
+        },
+        {
+          "src": "assets/film-covers/tarkovsky-andrei-rublev-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Andrei_Rublev_22.jpg",
+          "width": 1920,
+          "height": 816,
+          "sha256": "309d5492ca46bac3e0a7777e8435ac3c8b360aff878b67c3c4581f4a7c98f47f"
+        },
+        {
+          "src": "assets/film-covers/tarkovsky-andrei-rublev-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Andrei_Rublev_44.jpg",
+          "width": 1920,
+          "height": 816,
+          "sha256": "c56b2911e1d30f4b8d0f4e1ecaa96b46397276a692c0f0cc4ca7334dd96b2159"
+        }
+      ]
+    },
+    "film-kubrick-2001": {
+      "title": "2001 太空漫游",
+      "titleEn": "2001: A Space Odyssey",
+      "year": 1968,
+      "src": "assets/film-covers/kubrick-2001.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(13).jpg",
+      "sourceUrl": "https://film-grab.com/2010/07/06/2001-a-space-odyssey/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1024,
+      "height": 477,
+      "sha256": "adde6611f6dd536e89d9feb9a57d99198938276d69b1e704d542c2fa0ae62ce9",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kubrick-2001.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(13).jpg",
+          "width": 1024,
+          "height": 477,
+          "sha256": "adde6611f6dd536e89d9feb9a57d99198938276d69b1e704d542c2fa0ae62ce9"
+        },
+        {
+          "src": "assets/film-covers/kubrick-2001-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(13).jpg",
+          "width": 1024,
+          "height": 475,
+          "sha256": "aa38cd0a5e22a041d67357728c5499d776d1a4f73baf7e73b8515207c1f30368"
+        },
+        {
+          "src": "assets/film-covers/kubrick-2001-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/43%20(13).jpg",
+          "width": 1024,
+          "height": 479,
+          "sha256": "b7033ed8a89914fda2030a28442a692c077db3ed2cf0fb77b636f89960ae344b"
+        }
+      ]
+    },
+    "film-kubrick-clockwork-orange": {
+      "title": "发条橙",
+      "titleEn": "A Clockwork Orange",
+      "year": 1971,
+      "src": "assets/film-covers/kubrick-clockwork-orange.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(16).jpg",
+      "sourceUrl": "https://film-grab.com/2010/07/07/a-clockwork-orange/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 768,
+      "height": 456,
+      "sha256": "a93e31dde75ca96907c92554c77f85391d3d2a78205081ffb8e71069d41a890a",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kubrick-clockwork-orange.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(16).jpg",
+          "width": 768,
+          "height": 456,
+          "sha256": "a93e31dde75ca96907c92554c77f85391d3d2a78205081ffb8e71069d41a890a"
+        },
+        {
+          "src": "assets/film-covers/kubrick-clockwork-orange-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(16).jpg",
+          "width": 768,
+          "height": 452,
+          "sha256": "6c1a7fa20e798da38531355dbf9191bd552a6f2e9bd56ac7a214e14f9883359e"
+        },
+        {
+          "src": "assets/film-covers/kubrick-clockwork-orange-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/43%20(16).jpg",
+          "width": 768,
+          "height": 450,
+          "sha256": "094ee29a844b2d2290ac5b5dd23c64e6d34e9f8e33cf804b5dba4533836e4f44"
+        }
+      ]
+    },
+    "film-kubrick-paths-of-glory": {
+      "title": "光荣之路",
+      "titleEn": "Paths of Glory",
+      "year": 1957,
+      "src": "assets/film-covers/kubrick-paths-of-glory.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(793).jpg",
+      "sourceUrl": "https://film-grab.com/2015/02/06/paths-of-glory/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 767,
+      "height": 574,
+      "sha256": "c356716422fc8bfe7b8b69ee2a3ef8f9738a9ac739fc807f5161fa904ee10316",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kubrick-paths-of-glory.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(793).jpg",
+          "width": 767,
+          "height": 574,
+          "sha256": "c356716422fc8bfe7b8b69ee2a3ef8f9738a9ac739fc807f5161fa904ee10316"
+        },
+        {
+          "src": "assets/film-covers/kubrick-paths-of-glory-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(810).jpg",
+          "width": 767,
+          "height": 574,
+          "sha256": "df6ad041f3652566ae2695a0b7ad48f0ed37e8e42eae21f7a0606e6999137f04"
+        },
+        {
+          "src": "assets/film-covers/kubrick-paths-of-glory-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(796).jpg",
+          "width": 767,
+          "height": 574,
+          "sha256": "a8758e6f60f24c88839fa95b5bbef73f13977629ee167e80c8fbc987972df46d"
+        }
+      ]
+    },
+    "film-kubrick-dr-strangelove": {
+      "title": "奇爱博士",
+      "titleEn": "Dr. Strangelove",
+      "year": 1964,
+      "src": "assets/film-covers/kubrick-dr-strangelove.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(328).jpg",
+      "sourceUrl": "https://film-grab.com/2014/08/01/dr-strangelove-or-how-i-learned-to-stop-worrying-and-love-the-bomb/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1200,
+      "height": 720,
+      "sha256": "0dd1369ab53cca6b014b31f5fc4049c4925db2ad429d3e5c4dd03574161851ed",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kubrick-dr-strangelove.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(328).jpg",
+          "width": 1200,
+          "height": 720,
+          "sha256": "0dd1369ab53cca6b014b31f5fc4049c4925db2ad429d3e5c4dd03574161851ed"
+        },
+        {
+          "src": "assets/film-covers/kubrick-dr-strangelove-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/19%20(334).jpg",
+          "width": 1200,
+          "height": 720,
+          "sha256": "c0a67bbc4629a8cc4895ebea5b5b3b95199b5777d9462151a6e67f5e1494f014"
+        },
+        {
+          "src": "assets/film-covers/kubrick-dr-strangelove-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/37%20(332).jpg",
+          "width": 1200,
+          "height": 720,
+          "sha256": "446a638a3098f5c9f2068021596edd692d47a03ff28cee4f4463fc1d09d0a039"
+        }
+      ]
+    },
+    "film-kubrick-killers-kiss": {
+      "title": "杀手之吻",
+      "titleEn": "Killer's Kiss",
+      "year": 1955,
+      "src": "assets/film-covers/kubrick-killers-kiss.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(552).jpg",
+      "sourceUrl": "https://film-grab.com/2014/08/13/killers-kiss/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 766,
+      "height": 574,
+      "sha256": "b8b08b2c25ab1e27092888e4b0ba5f9d36d0e62d3c660b71efdc0964f4e65514",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kubrick-killers-kiss.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(552).jpg",
+          "width": 766,
+          "height": 574,
+          "sha256": "b8b08b2c25ab1e27092888e4b0ba5f9d36d0e62d3c660b71efdc0964f4e65514"
+        },
+        {
+          "src": "assets/film-covers/kubrick-killers-kiss-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(563).jpg",
+          "width": 766,
+          "height": 574,
+          "sha256": "7885e1b2164a965ef9c0dffe2299e38d1b5681752f57fb4ec0a2d0aab27971da"
+        },
+        {
+          "src": "assets/film-covers/kubrick-killers-kiss-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(553).jpg",
+          "width": 766,
+          "height": 574,
+          "sha256": "39141b97fdc79d165b4c5ea40c5e47d46b37e3ee7af64220580b0d24a5d05da9"
+        }
+      ]
+    },
+    "film-kurosawa-rashomon": {
+      "title": "罗生门",
+      "titleEn": "Rashomon",
+      "year": 1950,
+      "src": "assets/film-covers/kurosawa-rashomon.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/016.jpg",
+      "sourceUrl": "https://film-grab.com/2016/07/09/rashomon/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 986,
+      "height": 720,
+      "sha256": "906faefc2543b50baa2c7e815cd5579732f825cdd0cbcd509746782bafa94c9a",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kurosawa-rashomon.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/016.jpg",
+          "width": 986,
+          "height": 720,
+          "sha256": "906faefc2543b50baa2c7e815cd5579732f825cdd0cbcd509746782bafa94c9a"
+        },
+        {
+          "src": "assets/film-covers/kurosawa-rashomon-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/226.jpg",
+          "width": 986,
+          "height": 720,
+          "sha256": "b00c1d268d5c48e8aabc1fe16bc0a333c07ed0808905780923112f16338f4cb1"
+        },
+        {
+          "src": "assets/film-covers/kurosawa-rashomon-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/436.jpg",
+          "width": 986,
+          "height": 720,
+          "sha256": "aabf79c0130621c3e3a941feee3ac1c6e107335b2616698df8ef9a8d577e9587"
+        }
+      ]
+    },
+    "film-kurosawa-seven-samurai": {
+      "title": "七武士",
+      "titleEn": "Seven Samurai",
+      "year": 1954,
+      "src": "assets/film-covers/kurosawa-seven-samurai.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/0110%20(1).jpg",
+      "sourceUrl": "https://film-grab.com/2016/09/03/seven-samurai/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 964,
+      "height": 716,
+      "sha256": "cf69a7a7ff949dc5e233e10fc767c7b82ab1722fbb7874faaa0acc887c869b1e",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kurosawa-seven-samurai.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/0110%20(1).jpg",
+          "width": 964,
+          "height": 716,
+          "sha256": "cf69a7a7ff949dc5e233e10fc767c7b82ab1722fbb7874faaa0acc887c869b1e"
+        },
+        {
+          "src": "assets/film-covers/kurosawa-seven-samurai-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/2210%20(1).jpg",
+          "width": 964,
+          "height": 716,
+          "sha256": "60a99fe4f286c9389b04632353d0a2dd48e42ced7d30a40d02c2aebc96c1df2a"
+        },
+        {
+          "src": "assets/film-covers/kurosawa-seven-samurai-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/4410%20(1).jpg",
+          "width": 964,
+          "height": 716,
+          "sha256": "baeb7c82a583fe25d068fcd0cf21b1d005b15c65f09cafa9622b3a9e986535bb"
+        }
+      ]
+    },
+    "film-kurosawa-throne-of-blood": {
+      "title": "蜘蛛巢城",
+      "titleEn": "Throne of Blood",
+      "year": 1957,
+      "src": "assets/film-covers/kurosawa-throne-of-blood.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/throneofblood01.jpg",
+      "sourceUrl": "https://film-grab.com/2016/09/24/throne-of-blood/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 707,
+      "height": 539,
+      "sha256": "0a96c55bc832a01b652f643a5b9e48af49382a55339d9c1e5a500cf4f55dc6ab",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kurosawa-throne-of-blood.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/throneofblood01.jpg",
+          "width": 707,
+          "height": 539,
+          "sha256": "0a96c55bc832a01b652f643a5b9e48af49382a55339d9c1e5a500cf4f55dc6ab"
+        },
+        {
+          "src": "assets/film-covers/kurosawa-throne-of-blood-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/throneofblood22.jpg",
+          "width": 707,
+          "height": 539,
+          "sha256": "8d49b6f58d7dcf02f55038150e6f900072316bcc57e9e50ffa3ba14fef9a61be"
+        },
+        {
+          "src": "assets/film-covers/kurosawa-throne-of-blood-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/throneofblood44.jpg",
+          "width": 707,
+          "height": 539,
+          "sha256": "9ac6c99bdc1def050b6d6704e20819035aeb76a4c4b42324b56e31f177e849b6"
+        }
+      ]
+    },
+    "film-kobayashi-harakiri": {
+      "title": "切腹",
+      "titleEn": "Harakiri",
+      "year": 1962,
+      "src": "assets/film-covers/kobayashi-harakiri.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Harakiri_01.jpg",
+      "sourceUrl": "https://film-grab.com/2025/09/23/harakiri/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 794,
+      "sha256": "09b7928d104e277321bb0c8ab908766fc3e941b3f3c21db04fe611a8f284e354",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kobayashi-harakiri.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Harakiri_01.jpg",
+          "width": 1920,
+          "height": 794,
+          "sha256": "09b7928d104e277321bb0c8ab908766fc3e941b3f3c21db04fe611a8f284e354"
+        },
+        {
+          "src": "assets/film-covers/kobayashi-harakiri-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Harakiri_22.jpg",
+          "width": 1920,
+          "height": 794,
+          "sha256": "6f7151bd912bfb1d6ea952bc1aa1152900e889d0b3ee5cd04c780368cdbcb6d3"
+        },
+        {
+          "src": "assets/film-covers/kobayashi-harakiri-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Harakiri_44.jpg",
+          "width": 1920,
+          "height": 794,
+          "sha256": "fa690ac2f8ba9e6b852f75dda42e092307a6f5665e6da6e9b3394e7ef4fbca2a"
+        }
+      ]
+    },
+    "film-mizoguchi-ugetsu": {
+      "title": "雨月物语",
+      "titleEn": "Ugetsu",
+      "year": 1953,
+      "src": "assets/film-covers/mizoguchi-ugetsu.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Ugetsu_001.jpg",
+      "sourceUrl": "https://film-grab.com/2022/11/02/ugetsu/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1472,
+      "height": 1079,
+      "sha256": "4ea413e9ecac30bee1529c5feccf1a4aa0b6391e5095aa4a0aaae8277a554127",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/mizoguchi-ugetsu.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Ugetsu_001.jpg",
+          "width": 1472,
+          "height": 1079,
+          "sha256": "4ea413e9ecac30bee1529c5feccf1a4aa0b6391e5095aa4a0aaae8277a554127"
+        },
+        {
+          "src": "assets/film-covers/mizoguchi-ugetsu-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Ugetsu_009.jpg",
+          "width": 1472,
+          "height": 1079,
+          "sha256": "2e5909918af3bd4fc0b10d77b917018b45deb3ba928df8c78a1c7cef5b341107"
+        },
+        {
+          "src": "assets/film-covers/mizoguchi-ugetsu-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Ugetsu_017.jpg",
+          "width": 1472,
+          "height": 1079,
+          "sha256": "1516857d81870847198629feba22c5d3cdb7ef83194c2dd04d214d580e65c7ad"
+        }
+      ]
+    },
+    "film-fincher-fight-club": {
+      "title": "搏击俱乐部",
+      "titleEn": "Fight Club",
+      "year": 1999,
+      "src": "assets/film-covers/fincher-fight-club.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/02%20(379).jpg",
+      "sourceUrl": "https://film-grab.com/2010/11/14/fight-club/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1024,
+      "height": 426,
+      "sha256": "8fa945c3bb8b8feba9bd2fc3fea155f982ced96dbbf6909c4a9087e20bd56129",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/fincher-fight-club.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/02%20(379).jpg",
+          "width": 1024,
+          "height": 426,
+          "sha256": "8fa945c3bb8b8feba9bd2fc3fea155f982ced96dbbf6909c4a9087e20bd56129"
+        },
+        {
+          "src": "assets/film-covers/fincher-fight-club-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/21%20(387).jpg",
+          "width": 1024,
+          "height": 426,
+          "sha256": "3eadb954e2b85f35fce9b6d4d0605cb751557db9e01ae1e5715d58026c1a922c"
+        },
+        {
+          "src": "assets/film-covers/fincher-fight-club-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/43%20(378).jpg",
+          "width": 1024,
+          "height": 425,
+          "sha256": "fa954e23fc157e6abdd63cfd879e2ad44f55198bc28daaaea89a286a2ee4af75"
+        }
+      ]
+    },
+    "film-fincher-zodiac": {
+      "title": "十二宫",
+      "titleEn": "Zodiac",
+      "year": 2007,
+      "src": "assets/film-covers/fincher-zodiac.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1323).jpg",
+      "sourceUrl": "https://film-grab.com/2010/06/23/zodiac/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1024,
+      "height": 424,
+      "sha256": "7231cfd882964bbe94deba2fe4652aff08303a8a9706b9df8187e231a5e1942b",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/fincher-zodiac.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1323).jpg",
+          "width": 1024,
+          "height": 424,
+          "sha256": "7231cfd882964bbe94deba2fe4652aff08303a8a9706b9df8187e231a5e1942b"
+        },
+        {
+          "src": "assets/film-covers/fincher-zodiac-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(1349).jpg",
+          "width": 1024,
+          "height": 425,
+          "sha256": "1bee512030e657c85c9f24e48e42d37878f4ff93385fa6eb781bab63e0d3d448"
+        },
+        {
+          "src": "assets/film-covers/fincher-zodiac-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/43%20(1329).jpg",
+          "width": 1024,
+          "height": 423,
+          "sha256": "8142767f66caee50987a2682f9347ee0a28ca025400498f8555c1afa76601440"
+        }
+      ]
+    },
+    "film-fincher-the-social-network": {
+      "title": "社交网络",
+      "titleEn": "The Social Network",
+      "year": 2010,
+      "src": "assets/film-covers/fincher-the-social-network.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1170).jpg",
+      "sourceUrl": "https://film-grab.com/2013/10/28/the-social-network/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1024,
+      "height": 427,
+      "sha256": "d31984639f73a448de29c6437f1ce96ea7ea6333ba5cdec6ae1488749ee2cdaa",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/fincher-the-social-network.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1170).jpg",
+          "width": 1024,
+          "height": 427,
+          "sha256": "d31984639f73a448de29c6437f1ce96ea7ea6333ba5cdec6ae1488749ee2cdaa"
+        },
+        {
+          "src": "assets/film-covers/fincher-the-social-network-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(1193).jpg",
+          "width": 1024,
+          "height": 427,
+          "sha256": "2a70ef2532ad3d344cb9ee269ea763927c89a54c7a0eeb13304fdd667cf34255"
+        },
+        {
+          "src": "assets/film-covers/fincher-the-social-network-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/43%20(1175).jpg",
+          "width": 1024,
+          "height": 427,
+          "sha256": "1203745615bc568b1cee0691c9bff6ee1c66bb28b3274d663b4a77ed2b860c2a"
+        }
+      ]
+    },
+    "film-villeneuve-arrival": {
+      "title": "降临",
+      "titleEn": "Arrival",
+      "year": 2016,
+      "src": "assets/film-covers/villeneuve-arrival.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/arrival001.jpg",
+      "sourceUrl": "https://film-grab.com/2019/06/28/arrival/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 546,
+      "sha256": "9eaf66fe52d40ca81e7a1e44e77f24a720cbe041a04d4be4428c13182561973d",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/villeneuve-arrival.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/arrival001.jpg",
+          "width": 1280,
+          "height": 546,
+          "sha256": "9eaf66fe52d40ca81e7a1e44e77f24a720cbe041a04d4be4428c13182561973d"
+        },
+        {
+          "src": "assets/film-covers/villeneuve-arrival-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/arrival022.jpg",
+          "width": 1280,
+          "height": 546,
+          "sha256": "ac2d8d7b53c4fbc3e07ff8f0e24d6f16dbd5867c32439a7d68af08e52091a19b"
+        },
+        {
+          "src": "assets/film-covers/villeneuve-arrival-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/arrival044.jpg",
+          "width": 1280,
+          "height": 546,
+          "sha256": "47ea93fe8d1511cbc4b95da0fa7b40619f0e584cdf0add270db9e8dab5178bec"
+        }
+      ]
+    },
+    "film-villeneuve-sicario": {
+      "title": "边境杀手",
+      "titleEn": "Sicario",
+      "year": 2015,
+      "src": "assets/film-covers/villeneuve-sicario.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/sicario02.jpg",
+      "sourceUrl": "https://film-grab.com/2016/04/22/sicario/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 536,
+      "sha256": "296563e322471166b535db966681de73adbcc04133738b52e4fcb9c6aefbd381",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/villeneuve-sicario.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/sicario02.jpg",
+          "width": 1280,
+          "height": 536,
+          "sha256": "296563e322471166b535db966681de73adbcc04133738b52e4fcb9c6aefbd381"
+        },
+        {
+          "src": "assets/film-covers/villeneuve-sicario-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/sicario22.jpg",
+          "width": 1280,
+          "height": 536,
+          "sha256": "9ddee293ade200d99dbb3ee792fdc01b9a6f8623b09b1210b7e4850d6a2d9dff"
+        },
+        {
+          "src": "assets/film-covers/villeneuve-sicario-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/sicario44.jpg",
+          "width": 1280,
+          "height": 536,
+          "sha256": "c1e19af047d1f7548d3e515c1b330c73e93d4e998801e840481a46df3345d523"
+        }
+      ]
+    },
+    "film-villeneuve-prisoners": {
+      "title": "囚徒",
+      "titleEn": "Prisoners",
+      "year": 2013,
+      "src": "assets/film-covers/villeneuve-prisoners.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/02%20(824).jpg",
+      "sourceUrl": "https://film-grab.com/2014/04/14/prisoners/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 720,
+      "sha256": "307d4c9e6021922709094feb29d916dc2c4a7321dbe9df1c7c7752b1465666d3",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/villeneuve-prisoners.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/02%20(824).jpg",
+          "width": 1280,
+          "height": 720,
+          "sha256": "307d4c9e6021922709094feb29d916dc2c4a7321dbe9df1c7c7752b1465666d3"
+        },
+        {
+          "src": "assets/film-covers/villeneuve-prisoners-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(842).jpg",
+          "width": 1280,
+          "height": 720,
+          "sha256": "6887687dc4c5ab82f25a3903438e364a122559e7f76012ac4f74067a16f66a42"
+        },
+        {
+          "src": "assets/film-covers/villeneuve-prisoners-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(828).jpg",
+          "width": 1280,
+          "height": 720,
+          "sha256": "dd81997b9a5dfd677e585f105e3dbeaafa61fac87b8f88e9cc93babab26da339"
+        }
+      ]
+    },
+    "film-bong-memories-of-murder": {
+      "title": "杀人回忆",
+      "titleEn": "Memories of Murder",
+      "year": 2003,
+      "src": "assets/film-covers/bong-memories-of-murder.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Memories_of_Murder_01.jpg",
+      "sourceUrl": "https://film-grab.com/2025/06/05/memories-of-murder/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 1032,
+      "sha256": "d5b6c2ec8fc36cda049bfde29efbb2371c99d304cba7c839bbe3008cb6206997",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/bong-memories-of-murder.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Memories_of_Murder_01.jpg",
+          "width": 1920,
+          "height": 1032,
+          "sha256": "d5b6c2ec8fc36cda049bfde29efbb2371c99d304cba7c839bbe3008cb6206997"
+        },
+        {
+          "src": "assets/film-covers/bong-memories-of-murder-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Memories_of_Murder_22.jpg",
+          "width": 1920,
+          "height": 1032,
+          "sha256": "6d4eef9d2e6e75cadd85f8ff3d06feff528312240b04878616a9b6ec0aa97639"
+        },
+        {
+          "src": "assets/film-covers/bong-memories-of-murder-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Memories_of_Murder_44.jpg",
+          "width": 1920,
+          "height": 1032,
+          "sha256": "12b0e7ffd7b03ef8a67ace43d4ab9610a439eb7748202f953f32afbcef7f6102"
+        }
+      ]
+    },
+    "film-bong-snowpiercer": {
+      "title": "雪国列车",
+      "titleEn": "Snowpiercer",
+      "year": 2013,
+      "src": "assets/film-covers/bong-snowpiercer.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Snowpiercer_002.jpg",
+      "sourceUrl": "https://film-grab.com/2020/01/08/snowpiercer/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 693,
+      "sha256": "366bae2e921d6d386a688b0b0901695a39d41ad6008456376cd388f239bfcfce",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/bong-snowpiercer.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Snowpiercer_002.jpg",
+          "width": 1280,
+          "height": 693,
+          "sha256": "366bae2e921d6d386a688b0b0901695a39d41ad6008456376cd388f239bfcfce"
+        },
+        {
+          "src": "assets/film-covers/bong-snowpiercer-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Snowpiercer_022.jpg",
+          "width": 1280,
+          "height": 693,
+          "sha256": "705a0a0bc36595142e43623ec0db67dc077a6a4b6c225ba12823e5db92fe0b2d"
+        },
+        {
+          "src": "assets/film-covers/bong-snowpiercer-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Snowpiercer_044.jpg",
+          "width": 1280,
+          "height": 693,
+          "sha256": "df2acfb2db1873b5d374c7a548084b65904eedcac8ba56703c8fa04d3fa36914"
+        }
+      ]
+    },
+    "film-park-chan-wook-oldboy": {
+      "title": "老男孩",
+      "titleEn": "Oldboy",
+      "year": 2003,
+      "src": "assets/film-covers/park-chan-wook-oldboy.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(769).jpg",
+      "sourceUrl": "https://film-grab.com/2014/02/28/oldboy/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1955,
+      "height": 832,
+      "sha256": "e7cf40d1f85947d4c75c78a29f4256e06a6d0e3b45215d1fb3a03b909e49e1cd",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/park-chan-wook-oldboy.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(769).jpg",
+          "width": 1955,
+          "height": 832,
+          "sha256": "e7cf40d1f85947d4c75c78a29f4256e06a6d0e3b45215d1fb3a03b909e49e1cd"
+        },
+        {
+          "src": "assets/film-covers/park-chan-wook-oldboy-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(785).jpg",
+          "width": 1955,
+          "height": 832,
+          "sha256": "9237ad06b3d8d4a8db4947787db97dc186c89e13f4219d2f049042ce9bf3d964"
+        },
+        {
+          "src": "assets/film-covers/park-chan-wook-oldboy-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(771).jpg",
+          "width": 1955,
+          "height": 832,
+          "sha256": "f24b676c8a8382c6490d5d8757ae6b1b3a19138fb3e598ebfc6f7b95ee9c8e41"
+        }
+      ]
+    },
+    "film-park-chan-wook-the-handmaiden": {
+      "title": "小姐",
+      "titleEn": "The Handmaiden",
+      "year": 2016,
+      "src": "assets/film-covers/park-chan-wook-the-handmaiden.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/The_Handmaiden_002.jpg",
+      "sourceUrl": "https://film-grab.com/2020/01/28/the-handmaiden/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 536,
+      "sha256": "eff65dd76c20aa177c66e1ba8fc0a149e743ddc4d7e1d58f56f8da760648b6a9",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/park-chan-wook-the-handmaiden.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/The_Handmaiden_002.jpg",
+          "width": 1280,
+          "height": 536,
+          "sha256": "eff65dd76c20aa177c66e1ba8fc0a149e743ddc4d7e1d58f56f8da760648b6a9"
+        },
+        {
+          "src": "assets/film-covers/park-chan-wook-the-handmaiden-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/The_Handmaiden_022.jpg",
+          "width": 1280,
+          "height": 536,
+          "sha256": "efa93c6063f3be3b790333a9aaa73093c701a4790189a60eff7e24b2fc6ad19a"
+        },
+        {
+          "src": "assets/film-covers/park-chan-wook-the-handmaiden-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/The_Handmaiden_044.jpg",
+          "width": 1280,
+          "height": 536,
+          "sha256": "70ed756f3e66e22ad874f639dddda4d001a35bea4af93fd7bdf6e7ebe54b2b95"
+        }
+      ]
+    },
+    "film-lee-chang-dong-burning": {
+      "title": "燃烧",
+      "titleEn": "Burning",
+      "year": 2018,
+      "src": "assets/film-covers/lee-chang-dong-burning.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Burning_002.jpg",
+      "sourceUrl": "https://film-grab.com/2019/12/10/burning/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 536,
+      "sha256": "f685a62538a971586325ba75521c880522e64c7ef91ffe016e5f836de17e0729",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/lee-chang-dong-burning.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Burning_002.jpg",
+          "width": 1280,
+          "height": 536,
+          "sha256": "f685a62538a971586325ba75521c880522e64c7ef91ffe016e5f836de17e0729"
+        },
+        {
+          "src": "assets/film-covers/lee-chang-dong-burning-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Burning_020.jpg",
+          "width": 1280,
+          "height": 536,
+          "sha256": "77f53f7699f6eb95f8b193afab9eb5ebceda334570a27fe75cce16613a694f86"
+        },
+        {
+          "src": "assets/film-covers/lee-chang-dong-burning-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Burning_039.jpg",
+          "width": 1280,
+          "height": 536,
+          "sha256": "2ff2b4ed1ccb41709c50e2bbc9f8fa910c3c90aebbf7d3f845c1224cde3319ca"
+        }
+      ]
+    },
+    "film-yang-edward-yi-yi": {
+      "title": "一一",
+      "titleEn": "Yi Yi",
+      "year": 2000,
+      "src": "assets/film-covers/yang-edward-yi-yi.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/aoneandatwo001.jpg",
+      "sourceUrl": "https://film-grab.com/2018/05/29/yi-yi-a-one-and-a-two/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 851,
+      "height": 465,
+      "sha256": "3891d62a518c3e90e35d4de459ccbcec69c669e87bc4a80f74fa007df6450034",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/yang-edward-yi-yi.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/aoneandatwo001.jpg",
+          "width": 851,
+          "height": 465,
+          "sha256": "3891d62a518c3e90e35d4de459ccbcec69c669e87bc4a80f74fa007df6450034"
+        },
+        {
+          "src": "assets/film-covers/yang-edward-yi-yi-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/aoneandatwo022.jpg",
+          "width": 851,
+          "height": 465,
+          "sha256": "da0a0bdfb726502e0c159bbdb672631437c8e3da82f8a79cbb2d8a1d16446f1c"
+        },
+        {
+          "src": "assets/film-covers/yang-edward-yi-yi-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/aoneandatwo044.jpg",
+          "width": 851,
+          "height": 465,
+          "sha256": "b1c373817481b01e9460acb399faccb0ce16ca441901e525478f252cbbd26c28"
+        }
+      ]
+    },
+    "film-zhang-yimou-hero": {
+      "title": "英雄",
+      "titleEn": "Hero",
+      "year": 2002,
+      "src": "assets/film-covers/zhang-yimou-hero.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(456).jpg",
+      "sourceUrl": "https://film-grab.com/2013/12/19/hero/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 544,
+      "sha256": "788d515a122df33a657befbe2942968f4811e5b0dd8f7f88426ea14f2b8ee354",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/zhang-yimou-hero.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(456).jpg",
+          "width": 1280,
+          "height": 544,
+          "sha256": "788d515a122df33a657befbe2942968f4811e5b0dd8f7f88426ea14f2b8ee354"
+        },
+        {
+          "src": "assets/film-covers/zhang-yimou-hero-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(465).jpg",
+          "width": 1280,
+          "height": 544,
+          "sha256": "858cbf8a3659c013aad4ec5d4ff2a79f159665f10255b0e284c99fbf01c66675"
+        },
+        {
+          "src": "assets/film-covers/zhang-yimou-hero-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(455).jpg",
+          "width": 1280,
+          "height": 544,
+          "sha256": "0c186e7c7dbbb8d717ec4090c2ad6ef3a774d586928d7595ab4835e0cd5cb9f7"
+        }
+      ]
+    },
+    "film-zhang-yimou-raise-the-red-lantern": {
+      "title": "大红灯笼高高挂",
+      "titleEn": "Raise the Red Lantern",
+      "year": 1991,
+      "src": "assets/film-covers/zhang-yimou-raise-the-red-lantern.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(838).jpg",
+      "sourceUrl": "https://film-grab.com/2013/08/05/raise-the-red-lantern/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 690,
+      "sha256": "a43bf243300d955c4c27d29229118564507b85d873a2538558efbe76c65bdb8a",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/zhang-yimou-raise-the-red-lantern.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(838).jpg",
+          "width": 1280,
+          "height": 690,
+          "sha256": "a43bf243300d955c4c27d29229118564507b85d873a2538558efbe76c65bdb8a"
+        },
+        {
+          "src": "assets/film-covers/zhang-yimou-raise-the-red-lantern-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(856).jpg",
+          "width": 1280,
+          "height": 690,
+          "sha256": "dd2969064192cac548739410f318cfc1a4caa4c7dded7d79d3733d1ac5c91493"
+        },
+        {
+          "src": "assets/film-covers/zhang-yimou-raise-the-red-lantern-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(842).jpg",
+          "width": 1280,
+          "height": 690,
+          "sha256": "de1e6ce0c81ebbbc179df185f40e72e8ec78f58ed182a8b17d2ade274c7595bc"
+        }
+      ]
+    },
+    "film-miike-audition": {
+      "title": "切肤之爱",
+      "titleEn": "Audition",
+      "year": 1999,
+      "src": "assets/film-covers/miike-audition.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/audition001.jpg",
+      "sourceUrl": "https://film-grab.com/2019/07/09/audition/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 720,
+      "sha256": "c20eb8aef3f8d3db9818b3e63ae20cb7212763e463b0852251f4aca6d815ae5c",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/miike-audition.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/audition001.jpg",
+          "width": 1280,
+          "height": 720,
+          "sha256": "c20eb8aef3f8d3db9818b3e63ae20cb7212763e463b0852251f4aca6d815ae5c"
+        },
+        {
+          "src": "assets/film-covers/miike-audition-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/audition022.jpg",
+          "width": 1280,
+          "height": 720,
+          "sha256": "2a41b580f3f6970a75aae4c006e75b5eaf8fefd776dab4bbd3574c172e17c3b7"
+        },
+        {
+          "src": "assets/film-covers/miike-audition-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/audition044.jpg",
+          "width": 1280,
+          "height": 720,
+          "sha256": "13ce885516f551eff46513f38e07f302aead63b900a18b111572898a84c2bd3e"
+        }
+      ]
+    },
+    "film-shinkai-your-name": {
+      "title": "你的名字",
+      "titleEn": "Your Name",
+      "year": 2016,
+      "src": "assets/film-covers/shinkai-your-name.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Your_Name_01.jpg",
+      "sourceUrl": "https://film-grab.com/2026/07/13/your-name/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "9c83494b3cb2c4d2b7750a70743cc7bb76ce0cc8a1848e74cf9999a98c0f19ec",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/shinkai-your-name.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Your_Name_01.jpg",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "9c83494b3cb2c4d2b7750a70743cc7bb76ce0cc8a1848e74cf9999a98c0f19ec"
+        },
+        {
+          "src": "assets/film-covers/shinkai-your-name-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Your_Name_23.jpg",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "501818eae5afbdbbd6de151b031e1426bd82a6be847dc585953ff5f49e172421"
+        },
+        {
+          "src": "assets/film-covers/shinkai-your-name-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Your_Name_44.jpg",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "57f39e0ed8faaf9501e82ff9b71e7b2ca68127be5c160f50bd803a27e321eba1"
+        }
+      ]
+    },
+    "film-bergman-the-seventh-seal": {
+      "title": "第七封印",
+      "titleEn": "The Seventh Seal",
+      "year": 1957,
+      "src": "assets/film-covers/bergman-the-seventh-seal.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(985).jpg",
+      "sourceUrl": "https://film-grab.com/2013/02/26/the-seventh-seal/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 960,
+      "height": 720,
+      "sha256": "0f547fed4dc6fb90c65eeb64043c58ab747a181d3bde83424addf7ef5946576d",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/bergman-the-seventh-seal.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(985).jpg",
+          "width": 960,
+          "height": 720,
+          "sha256": "0f547fed4dc6fb90c65eeb64043c58ab747a181d3bde83424addf7ef5946576d"
+        },
+        {
+          "src": "assets/film-covers/bergman-the-seventh-seal-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(1007).jpg",
+          "width": 960,
+          "height": 720,
+          "sha256": "1e67dc0e9f9693eb7a01281f20e8cb4e8be90cfd4f507538457f98e2e7a3efd8"
+        },
+        {
+          "src": "assets/film-covers/bergman-the-seventh-seal-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/43%20(992).jpg",
+          "width": 960,
+          "height": 720,
+          "sha256": "6339a3a9796965cf6fdc1932b6979452e28b0d9bb0fc6b3d0108ecaccbb48e6c"
+        }
+      ]
+    },
+    "film-bergman-persona": {
+      "title": "假面",
+      "titleEn": "Persona",
+      "year": 1966,
+      "src": "assets/film-covers/bergman-persona.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(799).jpg",
+      "sourceUrl": "https://film-grab.com/2014/04/22/persona/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 717,
+      "height": 540,
+      "sha256": "d69a54ee97b8e5b7073aaf18b1a0fbb36cb43bf9234b428f051043ec1f09d6cf",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/bergman-persona.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(799).jpg",
+          "width": 717,
+          "height": 540,
+          "sha256": "d69a54ee97b8e5b7073aaf18b1a0fbb36cb43bf9234b428f051043ec1f09d6cf"
+        },
+        {
+          "src": "assets/film-covers/bergman-persona-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(816).jpg",
+          "width": 717,
+          "height": 540,
+          "sha256": "069c2f2410d7fe0f8fe56205011ac280e9cb3d1cc16fcac6b286c8d3356387ab"
+        },
+        {
+          "src": "assets/film-covers/bergman-persona-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(802).jpg",
+          "width": 717,
+          "height": 540,
+          "sha256": "872b31d3fdb6299c68093996ad6249bc7eccf50b6c3346f291c6b663019e2f8a"
+        }
+      ]
+    },
+    "film-bergman-wild-strawberries": {
+      "title": "野草莓",
+      "titleEn": "Wild Strawberries",
+      "year": 1957,
+      "src": "assets/film-covers/bergman-wild-strawberries.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1302).jpg",
+      "sourceUrl": "https://film-grab.com/2013/09/23/wild-strawberries/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 946,
+      "height": 720,
+      "sha256": "387c935c7cb065b401faee4bf2b29a20d68c688952fd4f4bc1efc38e750c3bb8",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/bergman-wild-strawberries.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1302).jpg",
+          "width": 946,
+          "height": 720,
+          "sha256": "387c935c7cb065b401faee4bf2b29a20d68c688952fd4f4bc1efc38e750c3bb8"
+        },
+        {
+          "src": "assets/film-covers/bergman-wild-strawberries-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(1328).jpg",
+          "width": 946,
+          "height": 720,
+          "sha256": "63ff699e42316f5b85eaf8cde931a8f128a90b9c8c4dadcf933c25ebcfbc886a"
+        },
+        {
+          "src": "assets/film-covers/bergman-wild-strawberries-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(1308).jpg",
+          "width": 946,
+          "height": 720,
+          "sha256": "5fb85922408968b2e775b6ba50e1f927852b4359428b51240fc56fa12eea521a"
+        }
+      ]
+    },
+    "film-fellini-8-half": {
+      "title": "八部半",
+      "titleEn": "8½",
+      "year": 1963,
+      "src": "assets/film-covers/fellini-8-half.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(2).jpg",
+      "sourceUrl": "https://film-grab.com/2014/10/10/8-12/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 688,
+      "sha256": "e9777216686aa9d63403383701c00425de8c6f38bc57d483c201764c37563a09",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/fellini-8-half.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(2).jpg",
+          "width": 1280,
+          "height": 688,
+          "sha256": "e9777216686aa9d63403383701c00425de8c6f38bc57d483c201764c37563a09"
+        },
+        {
+          "src": "assets/film-covers/fellini-8-half-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(2).jpg",
+          "width": 1280,
+          "height": 688,
+          "sha256": "8c2b92a51353072206e9a25fd7ea8e92b896fb8c691a7640c0787c41431ea06f"
+        },
+        {
+          "src": "assets/film-covers/fellini-8-half-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(2).jpg",
+          "width": 1280,
+          "height": 688,
+          "sha256": "8c3606b06d869e3f3d782148014759d84252e7bbd02bcbf65348ebc6a484dee2"
+        }
+      ]
+    },
+    "film-fellini-la-dolce-vita": {
+      "title": "甜蜜的生活",
+      "titleEn": "La Dolce Vita",
+      "year": 1960,
+      "src": "assets/film-covers/fellini-la-dolce-vita.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(570).jpg",
+      "sourceUrl": "https://film-grab.com/2014/10/03/la-dolce-vita/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 544,
+      "sha256": "2ce738d456f3e5a0262d349ac9abbc523841b1494d7fe6896c834dcd14ad2fca",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/fellini-la-dolce-vita.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(570).jpg",
+          "width": 1280,
+          "height": 544,
+          "sha256": "2ce738d456f3e5a0262d349ac9abbc523841b1494d7fe6896c834dcd14ad2fca"
+        },
+        {
+          "src": "assets/film-covers/fellini-la-dolce-vita-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(582).jpg",
+          "width": 1280,
+          "height": 544,
+          "sha256": "69741638cbef18c7a4cea35ed14c11ced2808ba79e7b7c050c274cde984c42d3"
+        },
+        {
+          "src": "assets/film-covers/fellini-la-dolce-vita-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(571).jpg",
+          "width": 1280,
+          "height": 544,
+          "sha256": "9d866ac20db76dc481e449625593f4d66afad06b300432318fef888da043c989"
+        }
+      ]
+    },
+    "film-antonioni-blow-up": {
+      "title": "放大",
+      "titleEn": "Blow-Up",
+      "year": 1966,
+      "src": "assets/film-covers/antonioni-blow-up.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(161).jpg",
+      "sourceUrl": "https://film-grab.com/2014/02/07/blow-up/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1017,
+      "height": 576,
+      "sha256": "8a46d11a6c6565b9a1e102274a5a74b09adfa1ef877c78239071d39bdb814fc3",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/antonioni-blow-up.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(161).jpg",
+          "width": 1017,
+          "height": 576,
+          "sha256": "8a46d11a6c6565b9a1e102274a5a74b09adfa1ef877c78239071d39bdb814fc3"
+        },
+        {
+          "src": "assets/film-covers/antonioni-blow-up-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(164).jpg",
+          "width": 1017,
+          "height": 576,
+          "sha256": "b32887ae25356d6c1e6a0f06862d9c0ff6c62408193e764c52ee52bb2acca009"
+        },
+        {
+          "src": "assets/film-covers/antonioni-blow-up-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(163).jpg",
+          "width": 1017,
+          "height": 576,
+          "sha256": "73b8e6280cbef4f80aa8886de19d4465d5c44857029deb7832c60032bc6e9b14"
+        }
+      ]
+    },
+    "film-antonioni-l-avventura": {
+      "title": "奇遇",
+      "titleEn": "L'Avventura",
+      "year": 1960,
+      "src": "assets/film-covers/antonioni-l-avventura.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(587).jpg",
+      "sourceUrl": "https://film-grab.com/2014/03/25/lavventura/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 838,
+      "height": 480,
+      "sha256": "38798485ab3d036c5f2ef8c1d42d496defcb05d0e981693e018fbf345e43ab36",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/antonioni-l-avventura.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(587).jpg",
+          "width": 838,
+          "height": 480,
+          "sha256": "38798485ab3d036c5f2ef8c1d42d496defcb05d0e981693e018fbf345e43ab36"
+        },
+        {
+          "src": "assets/film-covers/antonioni-l-avventura-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(599).jpg",
+          "width": 838,
+          "height": 480,
+          "sha256": "e9a07f5f31cd95dc02c3250de06bb7543639683c7082849f906a13e13f0cfac5"
+        },
+        {
+          "src": "assets/film-covers/antonioni-l-avventura-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(588).jpg",
+          "width": 838,
+          "height": 480,
+          "sha256": "e4824b4088b5927dacb180aab4928f584e541f5b44830761553c98dce57ced26"
+        }
+      ]
+    },
+    "film-godard-contempt": {
+      "title": "蔑视",
+      "titleEn": "Contempt",
+      "year": 1963,
+      "src": "assets/film-covers/godard-contempt.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/1%20(12).jpg",
+      "sourceUrl": "https://film-grab.com/2012/09/16/contempt-le-mepris/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 993,
+      "height": 438,
+      "sha256": "780a1a70ca4d1bc33b57b03fc7ec9ef3924ee081afc48eefbcef10e284630670",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/godard-contempt.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/1%20(12).jpg",
+          "width": 993,
+          "height": 438,
+          "sha256": "780a1a70ca4d1bc33b57b03fc7ec9ef3924ee081afc48eefbcef10e284630670"
+        },
+        {
+          "src": "assets/film-covers/godard-contempt-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/28%20(608).jpg",
+          "width": 993,
+          "height": 438,
+          "sha256": "6601b778f5fb33c393a2bbb32740e13e02d1d8aae22e8df9ef95652c4b12f3cc"
+        },
+        {
+          "src": "assets/film-covers/godard-contempt-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/47%20(588).jpg",
+          "width": 993,
+          "height": 438,
+          "sha256": "b84adb42edd5249fd7669d2c540261d072a70f915f8584c435383ac3c7cf6135"
+        }
+      ]
+    },
+    "film-godard-pierrot-le-fou": {
+      "title": "狂人皮埃罗",
+      "titleEn": "Pierrot le Fou",
+      "year": 1965,
+      "src": "assets/film-covers/godard-pierrot-le-fou.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/image001%20(6).jpg",
+      "sourceUrl": "https://film-grab.com/2011/02/08/pierrot-le-fou-crazy-pete/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1016,
+      "height": 435,
+      "sha256": "80af5983b481252e7a9634349f96c3c57017ac95332a282e4fbaf6e83403e006",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/godard-pierrot-le-fou.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/image001%20(6).jpg",
+          "width": 1016,
+          "height": 435,
+          "sha256": "80af5983b481252e7a9634349f96c3c57017ac95332a282e4fbaf6e83403e006"
+        },
+        {
+          "src": "assets/film-covers/godard-pierrot-le-fou-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/image022%20(6).jpg",
+          "width": 1016,
+          "height": 435,
+          "sha256": "eecf07c89c8e90b3bf89bea99adf1a0d0ee7d2155435b911f53b7ccece890ff1"
+        },
+        {
+          "src": "assets/film-covers/godard-pierrot-le-fou-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/image044%20(6).jpg",
+          "width": 1016,
+          "height": 435,
+          "sha256": "ceca2f0296b0ece41014d4a805e74e9405e787a7b93d043bfb639e44cfc00680"
+        }
+      ]
+    },
+    "film-melville-le-samourai": {
+      "title": "独行杀手",
+      "titleEn": "Le Samouraï",
+      "year": 1967,
+      "src": "assets/film-covers/melville-le-samourai.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Le_Samourai_01.jpg",
+      "sourceUrl": "https://film-grab.com/2024/05/14/le-samourai/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 1040,
+      "sha256": "7ba60ee464365f935bac13f38cc0977f47528c3a378e38b6f0bd003b4c3549ee",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/melville-le-samourai.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Le_Samourai_01.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "7ba60ee464365f935bac13f38cc0977f47528c3a378e38b6f0bd003b4c3549ee"
+        },
+        {
+          "src": "assets/film-covers/melville-le-samourai-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Le_Samourai_22.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "7410e2d2fbe426a5d5e7979295316b2762f6bc94779399ab46aa9f8f251a00d1"
+        },
+        {
+          "src": "assets/film-covers/melville-le-samourai-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Le_Samourai_43.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "587c0110b67ae5c7e264dc8a07bbe4bce93bfa8d035cbff7ad142ccc8af95a59"
+        }
+      ]
+    },
+    "film-melville-army-of-shadows": {
+      "title": "影子部队",
+      "titleEn": "Army of Shadows",
+      "year": 1969,
+      "src": "assets/film-covers/melville-army-of-shadows.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(93).jpg",
+      "sourceUrl": "https://film-grab.com/2017/11/25/the-army-of-shadows/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1276,
+      "height": 688,
+      "sha256": "de3cfc48b79e5e1990ce15f387bd7fade52e3c3993358571b053e25939987390",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/melville-army-of-shadows.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(93).jpg",
+          "width": 1276,
+          "height": 688,
+          "sha256": "de3cfc48b79e5e1990ce15f387bd7fade52e3c3993358571b053e25939987390"
+        },
+        {
+          "src": "assets/film-covers/melville-army-of-shadows-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(95).jpg",
+          "width": 1276,
+          "height": 688,
+          "sha256": "43122c1b2792ea4757cd5796521ce23136f6ae1297dcc5fd84d255ff6c686456"
+        },
+        {
+          "src": "assets/film-covers/melville-army-of-shadows-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(94).jpg",
+          "width": 1276,
+          "height": 688,
+          "sha256": "70fc1078bef4a4a9293bdf7f8607f366cb942a5ef4a47ec3007d2cf573d982d6"
+        }
+      ]
+    },
+    "film-wenders-paris-texas": {
+      "title": "德州巴黎",
+      "titleEn": "Paris, Texas",
+      "year": 1984,
+      "src": "assets/film-covers/wenders-paris-texas.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Paris,_Texas_01.jpg",
+      "sourceUrl": "https://film-grab.com/2010/06/19/paris-texas/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "70bff51c73a73a148cef00dd8d48000c622503fddf4be554337f9e5fe9d83fce",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/wenders-paris-texas.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Paris,_Texas_01.jpg",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "70bff51c73a73a148cef00dd8d48000c622503fddf4be554337f9e5fe9d83fce"
+        },
+        {
+          "src": "assets/film-covers/wenders-paris-texas-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Paris,_Texas_22.jpg",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "07444c3af36af9d64df4513f43eadaf989baaf95a38a4a2e6e8ee65d6cd6752e"
+        },
+        {
+          "src": "assets/film-covers/wenders-paris-texas-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Paris,_Texas_44.jpg",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "40210c8bfae7c412fbed00a4547236c28633ec4d97055fe232dd9d43671232e0"
+        }
+      ]
+    },
+    "film-welles-citizen-kane": {
+      "title": "公民凯恩",
+      "titleEn": "Citizen Kane",
+      "year": 1941,
+      "src": "assets/film-covers/welles-citizen-kane.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(243).jpg",
+      "sourceUrl": "https://film-grab.com/2013/02/07/citizen-kane/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 992,
+      "height": 720,
+      "sha256": "38b7974ab3a6c2ca96a90a4dddace7d70e4ad7a17411d5aae77d8ede7b1ed53b",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/welles-citizen-kane.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(243).jpg",
+          "width": 992,
+          "height": 720,
+          "sha256": "38b7974ab3a6c2ca96a90a4dddace7d70e4ad7a17411d5aae77d8ede7b1ed53b"
+        },
+        {
+          "src": "assets/film-covers/welles-citizen-kane-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(247).jpg",
+          "width": 992,
+          "height": 720,
+          "sha256": "df1069892b8122b32cf35daa5531bd6da0ee82b3918f5a17cdd66254c507ac6d"
+        },
+        {
+          "src": "assets/film-covers/welles-citizen-kane-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(243).jpg",
+          "width": 992,
+          "height": 720,
+          "sha256": "96a499f1b2da8169a0b86114571d085bd78440c4d4399feb4052af2db2e41b06"
+        }
+      ]
+    },
+    "film-welles-touch-of-evil": {
+      "title": "历劫佳人",
+      "titleEn": "Touch of Evil",
+      "year": 1958,
+      "src": "assets/film-covers/welles-touch-of-evil.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1236).jpg",
+      "sourceUrl": "https://film-grab.com/2015/05/06/touch-of-evil/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 696,
+      "sha256": "d1cd22fa0a83566eab911c1791534a8daca3d03a813bcafa2440132502d614c5",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/welles-touch-of-evil.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1236).jpg",
+          "width": 1280,
+          "height": 696,
+          "sha256": "d1cd22fa0a83566eab911c1791534a8daca3d03a813bcafa2440132502d614c5"
+        },
+        {
+          "src": "assets/film-covers/welles-touch-of-evil-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(1260).jpg",
+          "width": 1280,
+          "height": 696,
+          "sha256": "ef8bbc7ab763df6e9bcc50145ec51edba6255dd3360742a50463dd70f22e364b"
+        },
+        {
+          "src": "assets/film-covers/welles-touch-of-evil-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(1241).jpg",
+          "width": 1280,
+          "height": 696,
+          "sha256": "5dc530c67dc5a40536722d8e42e32a1d50a8b48fd4de96cf971b5f293aa8b5cf"
+        }
+      ]
+    },
+    "film-welles-the-trial": {
+      "title": "审判",
+      "titleEn": "The Trial",
+      "year": 1962,
+      "src": "assets/film-covers/welles-the-trial.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1184).jpg",
+      "sourceUrl": "https://film-grab.com/2015/05/13/the-trial/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1184,
+      "height": 720,
+      "sha256": "911907a6aec96893182af3e7805b14a96d3e16793b8c39feae3dac2a3ca83852",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/welles-the-trial.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1184).jpg",
+          "width": 1184,
+          "height": 720,
+          "sha256": "911907a6aec96893182af3e7805b14a96d3e16793b8c39feae3dac2a3ca83852"
+        },
+        {
+          "src": "assets/film-covers/welles-the-trial-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(1208).jpg",
+          "width": 1184,
+          "height": 720,
+          "sha256": "66b6010734d4f8caa46b963abb5f0057ac0948d68e2ae8d51a54bffab673c435"
+        },
+        {
+          "src": "assets/film-covers/welles-the-trial-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(1189).jpg",
+          "width": 1184,
+          "height": 720,
+          "sha256": "54e55e69d1e9b49f07bc9d31f5fd5645146c5edf2f27fad0730728b531f3db50"
+        }
+      ]
+    },
+    "film-hitchcock-vertigo": {
+      "title": "迷魂记",
+      "titleEn": "Vertigo",
+      "year": 1958,
+      "src": "assets/film-covers/hitchcock-vertigo.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1275).jpg",
+      "sourceUrl": "https://film-grab.com/2013/02/28/vertigo/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1006,
+      "height": 551,
+      "sha256": "599b8e722069247af0ecdfbe30cb935a297b64238b12671687b2571c984b229b",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/hitchcock-vertigo.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1275).jpg",
+          "width": 1006,
+          "height": 551,
+          "sha256": "599b8e722069247af0ecdfbe30cb935a297b64238b12671687b2571c984b229b"
+        },
+        {
+          "src": "assets/film-covers/hitchcock-vertigo-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(1299).jpg",
+          "width": 1006,
+          "height": 551,
+          "sha256": "8624065cda03cd4256e213737de636ca0da9f5fd44369d88fbb39fcbecea3a0d"
+        },
+        {
+          "src": "assets/film-covers/hitchcock-vertigo-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(1279).jpg",
+          "width": 1006,
+          "height": 551,
+          "sha256": "558a1b1290c847533cc7300a394d5029b491fe734c9c8f92632130cac13cca57"
+        }
+      ]
+    },
+    "film-hitchcock-rear-window": {
+      "title": "后窗",
+      "titleEn": "Rear Window",
+      "year": 1954,
+      "src": "assets/film-covers/hitchcock-rear-window.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(843).jpg",
+      "sourceUrl": "https://film-grab.com/2012/12/08/rear-window/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 937,
+      "height": 573,
+      "sha256": "9d608e2628cf04444e7b9da538881fdc727eabe9cefe26eebb1c63535871f2cb",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/hitchcock-rear-window.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(843).jpg",
+          "width": 937,
+          "height": 573,
+          "sha256": "9d608e2628cf04444e7b9da538881fdc727eabe9cefe26eebb1c63535871f2cb"
+        },
+        {
+          "src": "assets/film-covers/hitchcock-rear-window-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(861).jpg",
+          "width": 937,
+          "height": 573,
+          "sha256": "a26b4d1f71c284466108423f957e0f24e7b9742022109da18f4bf14679d76edb"
+        },
+        {
+          "src": "assets/film-covers/hitchcock-rear-window-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(847).jpg",
+          "width": 937,
+          "height": 573,
+          "sha256": "304c0d00b5686ff19290b54d2dbef4671d027d43d55c1ec6cc93dca1725d2f57"
+        }
+      ]
+    },
+    "film-lynch-blue-velvet": {
+      "title": "蓝丝绒",
+      "titleEn": "Blue Velvet",
+      "year": 1986,
+      "src": "assets/film-covers/lynch-blue-velvet.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(165).jpg",
+      "sourceUrl": "https://film-grab.com/2010/06/17/blue-velvet/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 853,
+      "height": 368,
+      "sha256": "b920451b6b5c7459c67543634faf3ce056d1d39f5c6c6a02382361c55b36cf35",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/lynch-blue-velvet.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(165).jpg",
+          "width": 853,
+          "height": 368,
+          "sha256": "b920451b6b5c7459c67543634faf3ce056d1d39f5c6c6a02382361c55b36cf35"
+        },
+        {
+          "src": "assets/film-covers/lynch-blue-velvet-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/21%20(168).jpg",
+          "width": 853,
+          "height": 369,
+          "sha256": "2fa7819dc2b01b111907696a2e343b647ab25a4ec4434541fff401ee53980585"
+        },
+        {
+          "src": "assets/film-covers/lynch-blue-velvet-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/41%20(167).jpg",
+          "width": 853,
+          "height": 369,
+          "sha256": "09b4c4fcec381ec4846f545196f362a3f7fa74e972dcf1ae9767f3beb707bd2c"
+        }
+      ]
+    },
+    "film-lynch-mulholland-drive": {
+      "title": "穆赫兰道",
+      "titleEn": "Mulholland Drive",
+      "year": 2001,
+      "src": "assets/film-covers/lynch-mulholland-drive.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(715).jpg",
+      "sourceUrl": "https://film-grab.com/2014/09/23/mulholland-drive/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 688,
+      "sha256": "038836b79aad61c85f305c2a9d43e40d9a671b939d4ef8993e7d95bac3639636",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/lynch-mulholland-drive.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(715).jpg",
+          "width": 1280,
+          "height": 688,
+          "sha256": "038836b79aad61c85f305c2a9d43e40d9a671b939d4ef8993e7d95bac3639636"
+        },
+        {
+          "src": "assets/film-covers/lynch-mulholland-drive-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(728).jpg",
+          "width": 1280,
+          "height": 688,
+          "sha256": "9eb715f20be8426b68eb224ff43529e98cf34def6fb816b8d8f9ed54b110a902"
+        },
+        {
+          "src": "assets/film-covers/lynch-mulholland-drive-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(715).jpg",
+          "width": 1280,
+          "height": 688,
+          "sha256": "1409859aaea4575a21632935e0975465138992845558a0fb5428e583bc2432b5"
+        }
+      ]
+    },
+    "film-michael-mann-heat": {
+      "title": "盗火线",
+      "titleEn": "Heat",
+      "year": 1995,
+      "src": "assets/film-covers/michael-mann-heat.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(446).jpg",
+      "sourceUrl": "https://film-grab.com/2013/03/27/heat/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1003,
+      "height": 425,
+      "sha256": "16ffc13e530a4db0c33f5cd042be819244dec9ef8c56cd396bfaf20e04d3901a",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/michael-mann-heat.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(446).jpg",
+          "width": 1003,
+          "height": 425,
+          "sha256": "16ffc13e530a4db0c33f5cd042be819244dec9ef8c56cd396bfaf20e04d3901a"
+        },
+        {
+          "src": "assets/film-covers/michael-mann-heat-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(455).jpg",
+          "width": 1003,
+          "height": 425,
+          "sha256": "f5ffda7747cea3011715c54aa51933ab525ae27c3f9f3a647abbce3bc2849aee"
+        },
+        {
+          "src": "assets/film-covers/michael-mann-heat-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(445).jpg",
+          "width": 1003,
+          "height": 425,
+          "sha256": "cb236861a6f3d3268eb28a0ad3a59b3a92fb38f2611d569c5344cae66bffa513"
+        }
+      ]
+    },
+    "film-coppola-apocalypse-now": {
+      "title": "现代启示录",
+      "titleEn": "Apocalypse Now",
+      "year": 1979,
+      "src": "assets/film-covers/coppola-apocalypse-now.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(90).jpg",
+      "sourceUrl": "https://film-grab.com/2012/11/10/apocalypse-now/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 816,
+      "sha256": "3015166dceb530726b7ecaef52c4e1c9dd66b545819fef49fb975dc8a9120e3e",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/coppola-apocalypse-now.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(90).jpg",
+          "width": 1920,
+          "height": 816,
+          "sha256": "3015166dceb530726b7ecaef52c4e1c9dd66b545819fef49fb975dc8a9120e3e"
+        },
+        {
+          "src": "assets/film-covers/coppola-apocalypse-now-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(92).jpg",
+          "width": 1920,
+          "height": 816,
+          "sha256": "0886749943080e2bbb75638968788a8c2db5a771dc36eb9c74255da1ff6bfbda"
+        },
+        {
+          "src": "assets/film-covers/coppola-apocalypse-now-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/43%20(91).jpg",
+          "width": 1920,
+          "height": 816,
+          "sha256": "1792e49ea6c998aa8228ee24193dd49a0667d8e9f43468a907691401944a57be"
+        }
+      ]
+    },
+    "film-coppola-godfather": {
+      "title": "教父",
+      "titleEn": "The Godfather",
+      "year": 1972,
+      "src": "assets/film-covers/coppola-godfather.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1065).jpg",
+      "sourceUrl": "https://film-grab.com/2010/07/27/the-godfather/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 998,
+      "height": 574,
+      "sha256": "051e9ed0b3392b3964277cb883ff0e21e4dbafee30d17777bacbd0a86fc98ec1",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/coppola-godfather.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1065).jpg",
+          "width": 998,
+          "height": 574,
+          "sha256": "051e9ed0b3392b3964277cb883ff0e21e4dbafee30d17777bacbd0a86fc98ec1"
+        },
+        {
+          "src": "assets/film-covers/coppola-godfather-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/21%20(1087).jpg",
+          "width": 998,
+          "height": 574,
+          "sha256": "a156695e6fd840d3a2e243315c0ffcaf517a533037b4868350e3abe19cdbe52b"
+        },
+        {
+          "src": "assets/film-covers/coppola-godfather-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/41%20(1074).jpg",
+          "width": 998,
+          "height": 574,
+          "sha256": "15057ed00933bdba10284dc5823746fa51447c71143316a296c8408e0601e57e"
+        }
+      ]
+    },
+    "film-scorsese-taxi-driver": {
+      "title": "出租车司机",
+      "titleEn": "Taxi Driver",
+      "year": 1976,
+      "src": "assets/film-covers/scorsese-taxi-driver.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(978).jpg",
+      "sourceUrl": "https://film-grab.com/2010/07/29/taxi-driver/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1000,
+      "height": 552,
+      "sha256": "389000c7afe344f3012a3018dd04702bd7c047b39959780167e60177cd07d095",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/scorsese-taxi-driver.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(978).jpg",
+          "width": 1000,
+          "height": 552,
+          "sha256": "389000c7afe344f3012a3018dd04702bd7c047b39959780167e60177cd07d095"
+        },
+        {
+          "src": "assets/film-covers/scorsese-taxi-driver-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(1000).jpg",
+          "width": 1000,
+          "height": 552,
+          "sha256": "8d3466689631023e341105652deefee8a15b45acb268f162e7b38a96490b568a"
+        },
+        {
+          "src": "assets/film-covers/scorsese-taxi-driver-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/43%20(985).jpg",
+          "width": 1000,
+          "height": 552,
+          "sha256": "ce7fac3fe68378ddc033c1d9ca192a79caae4aa20e391fd71e857afbaf97401a"
+        }
+      ]
+    },
+    "film-carpenter-halloween": {
+      "title": "月光光心慌慌",
+      "titleEn": "Halloween",
+      "year": 1978,
+      "src": "assets/film-covers/carpenter-halloween.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(433).jpg",
+      "sourceUrl": "https://film-grab.com/2010/09/01/halloween/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1024,
+      "height": 426,
+      "sha256": "b1803ae99fa718a68ecfb0344630ab5aa58dff8ebbb1fd7294dcdc0be9bf160b",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/carpenter-halloween.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(433).jpg",
+          "width": 1024,
+          "height": 426,
+          "sha256": "b1803ae99fa718a68ecfb0344630ab5aa58dff8ebbb1fd7294dcdc0be9bf160b"
+        },
+        {
+          "src": "assets/film-covers/carpenter-halloween-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/21%20(442).jpg",
+          "width": 1024,
+          "height": 426,
+          "sha256": "8e01ec1d2bbc3127cf8dbb2652910a3243ddcfc1819cb6fff09ce20624e327b4"
+        },
+        {
+          "src": "assets/film-covers/carpenter-halloween-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/41%20(435).jpg",
+          "width": 1024,
+          "height": 425,
+          "sha256": "fb0f9c08adc2de2a7f827d9f5270d7c574790f3e382e6b6114983a0a76169979"
+        }
+      ]
+    },
+    "film-friedkin-the-exorcist": {
+      "title": "驱魔人",
+      "titleEn": "The Exorcist",
+      "year": 1973,
+      "src": "assets/film-covers/friedkin-the-exorcist.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1046).jpg",
+      "sourceUrl": "https://film-grab.com/2013/08/19/the-exorcist/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1024,
+      "height": 576,
+      "sha256": "f3c62aa8c0fd6606d9dffb3ee7cfe2be6a2fbe03ec040bf6d9f0ff01e3f0265d",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/friedkin-the-exorcist.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1046).jpg",
+          "width": 1024,
+          "height": 576,
+          "sha256": "f3c62aa8c0fd6606d9dffb3ee7cfe2be6a2fbe03ec040bf6d9f0ff01e3f0265d"
+        },
+        {
+          "src": "assets/film-covers/friedkin-the-exorcist-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(1068).jpg",
+          "width": 1024,
+          "height": 576,
+          "sha256": "5bbc56918a09484c669cb385d52454efc96456259209c71677fda8dc0ba4bd34"
+        },
+        {
+          "src": "assets/film-covers/friedkin-the-exorcist-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(1050).jpg",
+          "width": 1024,
+          "height": 576,
+          "sha256": "2890a0207340a6fc9b67f731889c7c1bb1d433e40c9ec9d2eaf72e6cef7a5b5f"
+        }
+      ]
+    },
+    "film-ridley-scott-alien": {
+      "title": "异形",
+      "titleEn": "Alien",
+      "year": 1979,
+      "src": "assets/film-covers/ridley-scott-alien.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/image001%20(1).jpg",
+      "sourceUrl": "https://film-grab.com/2013/07/24/alien/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1024,
+      "height": 437,
+      "sha256": "9e297a9631625a84a84b4a86228207a2faa67027c3da669e67d7c1172fe3df84",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/ridley-scott-alien.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/image001%20(1).jpg",
+          "width": 1024,
+          "height": 437,
+          "sha256": "9e297a9631625a84a84b4a86228207a2faa67027c3da669e67d7c1172fe3df84"
+        },
+        {
+          "src": "assets/film-covers/ridley-scott-alien-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/image022%20(1).jpg",
+          "width": 1024,
+          "height": 437,
+          "sha256": "60dd731db8acfd8ce50be8824a30bc9d47bbc274e388b70c8f9b8aa70b67ff52"
+        },
+        {
+          "src": "assets/film-covers/ridley-scott-alien-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/image044%20(1).jpg",
+          "width": 1024,
+          "height": 437,
+          "sha256": "13bbb886a3fc93220fd97e882db000b4ec62e8be273905993fabcdea59860cbd"
+        }
+      ]
+    },
+    "film-ridley-scott-blade-runner": {
+      "title": "银翼杀手",
+      "titleEn": "Blade Runner",
+      "year": 1982,
+      "src": "assets/film-covers/ridley-scott-blade-runner.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(155).jpg",
+      "sourceUrl": "https://film-grab.com/2010/06/23/blade-runner/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1024,
+      "height": 426,
+      "sha256": "921026fbdc266ed488fa3492c810bdfa1de90a0c8943e33d68fc41d979b1001c",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/ridley-scott-blade-runner.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(155).jpg",
+          "width": 1024,
+          "height": 426,
+          "sha256": "921026fbdc266ed488fa3492c810bdfa1de90a0c8943e33d68fc41d979b1001c"
+        },
+        {
+          "src": "assets/film-covers/ridley-scott-blade-runner-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/21%20(158).jpg",
+          "width": 1024,
+          "height": 427,
+          "sha256": "d0b77f58f3ee7c727ef8163a2f389fcc1f83049f325ad4e3f355a909383ec598"
+        },
+        {
+          "src": "assets/film-covers/ridley-scott-blade-runner-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/41%20(157).jpg",
+          "width": 1024,
+          "height": 442,
+          "sha256": "53aa3a4659ce822b14e55900c9d2ea43005b95a86393918a582f33ab11324d27"
+        }
+      ]
+    },
+    "film-ridley-scott-legend": {
+      "title": "诡秘怪谈",
+      "titleEn": "Legend",
+      "year": 1985,
+      "src": "assets/film-covers/ridley-scott-legend.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Legend_02.jpg",
+      "sourceUrl": "https://film-grab.com/2023/11/21/legend/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 820,
+      "sha256": "96af9aa203f3222486c2ec5b4adefc49fa84b309b1fad1b16526170a5b8efd74",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/ridley-scott-legend.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Legend_02.jpg",
+          "width": 1920,
+          "height": 820,
+          "sha256": "96af9aa203f3222486c2ec5b4adefc49fa84b309b1fad1b16526170a5b8efd74"
+        },
+        {
+          "src": "assets/film-covers/ridley-scott-legend-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Legend_22.jpg",
+          "width": 1920,
+          "height": 820,
+          "sha256": "58b8f9c73e76686b35fecdb20ecaa45aafacbc3932e97e1ba187cd06f2049da3"
+        },
+        {
+          "src": "assets/film-covers/ridley-scott-legend-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Legend_44.jpg",
+          "width": 1920,
+          "height": 820,
+          "sha256": "e8c4ad953321cf9bdcd3a4df5c131f30c362f1512d66627d1bdc42b6322c0cf0"
+        }
+      ]
+    },
+    "film-ridley-scott-thelma-and-louise": {
+      "title": "末路狂花",
+      "titleEn": "Thelma & Louise",
+      "year": 1991,
+      "src": "assets/film-covers/ridley-scott-thelma-and-louise.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Thelma__Louise_01.jpg",
+      "sourceUrl": "https://film-grab.com/2023/11/22/thelma-louise/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 816,
+      "sha256": "b12dcb25346dd7d9df8b99962669fe799b64d664ceb41d3ebee4cdb17f68df82",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/ridley-scott-thelma-and-louise.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Thelma__Louise_01.jpg",
+          "width": 1920,
+          "height": 816,
+          "sha256": "b12dcb25346dd7d9df8b99962669fe799b64d664ceb41d3ebee4cdb17f68df82"
+        },
+        {
+          "src": "assets/film-covers/ridley-scott-thelma-and-louise-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Thelma__Louise_22.jpg",
+          "width": 1920,
+          "height": 816,
+          "sha256": "62f8832e8d043705a58b131e0853ea1aa777a245164c780c0706462412fa4393"
+        },
+        {
+          "src": "assets/film-covers/ridley-scott-thelma-and-louise-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Thelma__Louise_44.jpg",
+          "width": 1920,
+          "height": 816,
+          "sha256": "5981706599dc881197525c9c37d28d2b5c9688a7630b31476219b44ca2b08803"
+        }
+      ]
+    },
+    "film-villeneuve-enemy": {
+      "title": "宿敌",
+      "titleEn": "Enemy",
+      "year": 2013,
+      "src": "assets/film-covers/villeneuve-enemy.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(346).jpg",
+      "sourceUrl": "https://film-grab.com/2015/06/24/enemy/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 536,
+      "sha256": "29a8ba6d64c07a2b74793c9914dc2ad42f8b860525b6776f144e979f885a266b",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/villeneuve-enemy.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(346).jpg",
+          "width": 1280,
+          "height": 536,
+          "sha256": "29a8ba6d64c07a2b74793c9914dc2ad42f8b860525b6776f144e979f885a266b"
+        },
+        {
+          "src": "assets/film-covers/villeneuve-enemy-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(353).jpg",
+          "width": 1280,
+          "height": 536,
+          "sha256": "8461646c34f1a5963155fb1d547a0ea1943d78c3bf7a8a712d68173cd3c50585"
+        },
+        {
+          "src": "assets/film-covers/villeneuve-enemy-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(345).jpg",
+          "width": 1280,
+          "height": 536,
+          "sha256": "2b1475d8ad952c0f5bfaf8b2e05147be1ec8834c0bc1cb55a91f276317f9725e"
+        }
+      ]
+    },
+    "film-satoshi-kon-tokyo-godfathers": {
+      "title": "东京教父",
+      "titleEn": "Tokyo Godfathers",
+      "year": 2003,
+      "src": "assets/film-covers/satoshi-kon-tokyo-godfathers.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Tokyo_Godfathers_01.jpg",
+      "sourceUrl": "https://film-grab.com/2024/05/19/tokyo-godfathers/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 1036,
+      "sha256": "eb67a247b376d1dd5318188717cf524744fba251661eb86edf7d6dcdb2321b60",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/satoshi-kon-tokyo-godfathers.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Tokyo_Godfathers_01.jpg",
+          "width": 1920,
+          "height": 1036,
+          "sha256": "eb67a247b376d1dd5318188717cf524744fba251661eb86edf7d6dcdb2321b60"
+        },
+        {
+          "src": "assets/film-covers/satoshi-kon-tokyo-godfathers-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Tokyo_Godfathers_22.jpg",
+          "width": 1920,
+          "height": 1036,
+          "sha256": "bb82fa7e2f9593cdf0c82b49a8a1dec68216bc3c9a09cf7e8162aa96c1598edb"
+        },
+        {
+          "src": "assets/film-covers/satoshi-kon-tokyo-godfathers-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Tokyo_Godfathers_44.jpg",
+          "width": 1920,
+          "height": 1036,
+          "sha256": "9ba7d24081bc57c25caba17afaad05719881e593c449cd0ec70a7364a1be785a"
+        }
+      ]
+    },
+    "film-kurosawa-ikiru": {
+      "title": "生之欲",
+      "titleEn": "Ikiru",
+      "year": 1952,
+      "src": "assets/film-covers/kurosawa-ikiru.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/011.jpg",
+      "sourceUrl": "https://film-grab.com/2016/07/30/ikiru/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 720,
+      "height": 540,
+      "sha256": "71e5969f72fc20ae54ef900785072dd6e4f1196390122913f0a23e5e69c575c9",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kurosawa-ikiru.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/011.jpg",
+          "width": 720,
+          "height": 540,
+          "sha256": "71e5969f72fc20ae54ef900785072dd6e4f1196390122913f0a23e5e69c575c9"
+        },
+        {
+          "src": "assets/film-covers/kurosawa-ikiru-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/221.jpg",
+          "width": 720,
+          "height": 540,
+          "sha256": "4137039742ee7bc92adef61006a5754ea5bf3de70202efe4f283034efb26128b"
+        },
+        {
+          "src": "assets/film-covers/kurosawa-ikiru-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/441.jpg",
+          "width": 720,
+          "height": 540,
+          "sha256": "46d666a6dad334d200f50976c99301085e553b6389418da28a1deb692b122a09"
+        }
+      ]
+    },
+    "film-kurosawa-high-and-low": {
+      "title": "天国与地狱",
+      "titleEn": "High and Low",
+      "year": 1963,
+      "src": "assets/film-covers/kurosawa-high-and-low.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/highandlow001.jpg",
+      "sourceUrl": "https://film-grab.com/2017/02/04/high-and-low/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 544,
+      "sha256": "168c76a37aee22c5aa83a7c54290ef5b7a4b9c49dc5a427f181883c73ce1461e",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kurosawa-high-and-low.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/highandlow001.jpg",
+          "width": 1280,
+          "height": 544,
+          "sha256": "168c76a37aee22c5aa83a7c54290ef5b7a4b9c49dc5a427f181883c73ce1461e"
+        },
+        {
+          "src": "assets/film-covers/kurosawa-high-and-low-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/highandlow016.jpg",
+          "width": 1280,
+          "height": 544,
+          "sha256": "7ed528dc346118223891be94517948d820ca65027f391dd28dd36a82a38e40dd"
+        },
+        {
+          "src": "assets/film-covers/kurosawa-high-and-low-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/highandlow031.jpg",
+          "width": 1280,
+          "height": 544,
+          "sha256": "4e88482905aa2a9e72bc185afa52cee94710f677ea17250a5f1e4f7992c421ba"
+        }
+      ]
+    },
+    "film-kobayashi-kwaidan": {
+      "title": "怪谈",
+      "titleEn": "Kwaidan",
+      "year": 1964,
+      "src": "assets/film-covers/kobayashi-kwaidan.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(566).jpg",
+      "sourceUrl": "https://film-grab.com/2016/10/05/kwaidan/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 821,
+      "height": 308,
+      "sha256": "f1b0106f3ea6cc6dac4a0bad29f67e61370b593350517f69f3b7daae011fd89d",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kobayashi-kwaidan.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(566).jpg",
+          "width": 821,
+          "height": 308,
+          "sha256": "f1b0106f3ea6cc6dac4a0bad29f67e61370b593350517f69f3b7daae011fd89d"
+        },
+        {
+          "src": "assets/film-covers/kobayashi-kwaidan-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(578).jpg",
+          "width": 851,
+          "height": 341,
+          "sha256": "4a4448d204920954c5c4165ef987fb22d1d7864b2e7f51466ce8d681de2ae688"
+        },
+        {
+          "src": "assets/film-covers/kobayashi-kwaidan-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(567).jpg",
+          "width": 851,
+          "height": 341,
+          "sha256": "45eb3ddf0cc23a208c9e644a059750f2568d62e9de19aa5b1dca27e96a7839a7"
+        }
+      ]
+    },
+    "film-bong-the-host": {
+      "title": "汉江怪物",
+      "titleEn": "The Host",
+      "year": 2006,
+      "src": "assets/film-covers/bong-the-host.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/The_Host_01.jpg",
+      "sourceUrl": "https://film-grab.com/2026/07/10/the-host/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 1040,
+      "sha256": "2da50ad7973f708769e611c4f5c826531108c1798e2f4f7aebbcbc4316342a26",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/bong-the-host.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/The_Host_01.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "2da50ad7973f708769e611c4f5c826531108c1798e2f4f7aebbcbc4316342a26"
+        },
+        {
+          "src": "assets/film-covers/bong-the-host-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/The_Host_22.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "85cd4976fd699efb5666e25df1428ccbd999dc6ae3d701207e12510b710b12dd"
+        },
+        {
+          "src": "assets/film-covers/bong-the-host-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/The_Host_44.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "5384337f1fbd6bac91074dc12a6484b594c7ef328e510524908a7ec3a8d4b732"
+        }
+      ]
+    },
+    "film-bong-mother": {
+      "title": "母亲",
+      "titleEn": "Mother",
+      "year": 2009,
+      "src": "assets/film-covers/bong-mother.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Mother(_001.jpg",
+      "sourceUrl": "https://film-grab.com/2020/08/06/mother-2/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 768,
+      "height": 326,
+      "sha256": "3a4fe5bbeec3c4183ca7427c135baa86907ee9b2913caa0e3296b8a0e3c8d3ce",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/bong-mother.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Mother(_001.jpg",
+          "width": 768,
+          "height": 326,
+          "sha256": "3a4fe5bbeec3c4183ca7427c135baa86907ee9b2913caa0e3296b8a0e3c8d3ce"
+        },
+        {
+          "src": "assets/film-covers/bong-mother-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Mother(_018.jpg",
+          "width": 768,
+          "height": 326,
+          "sha256": "fdfa314f7a2e0139a5e9ffa22e98e9c41dd44975b8234361944d3df680bf2dcb"
+        },
+        {
+          "src": "assets/film-covers/bong-mother-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Mother(_036.jpg",
+          "width": 768,
+          "height": 326,
+          "sha256": "665bcd97d1a0d0ee87d65a6aef4f0dc0cc9925367fce066722656ddee157739b"
+        }
+      ]
+    },
+    "film-hou-hsiao-hsien-flowers-of-shanghai": {
+      "title": "海上花",
+      "titleEn": "Flowers of Shanghai",
+      "year": 1998,
+      "src": "assets/film-covers/hou-hsiao-hsien-flowers-of-shanghai.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Flowers_of_Shanghai_01.jpg",
+      "sourceUrl": "https://film-grab.com/2025/08/31/flowers-of-shanghai/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 1040,
+      "sha256": "bb64347eaa67747b4485e01a17ba071e72cd63a4544f38614900d2b4db2abcdf",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/hou-hsiao-hsien-flowers-of-shanghai.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Flowers_of_Shanghai_01.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "bb64347eaa67747b4485e01a17ba071e72cd63a4544f38614900d2b4db2abcdf"
+        },
+        {
+          "src": "assets/film-covers/hou-hsiao-hsien-flowers-of-shanghai-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Flowers_of_Shanghai_09.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "27cac80b9f8530320420b76a7a2318af0b948dd47f41e668d697b716b9356fca"
+        },
+        {
+          "src": "assets/film-covers/hou-hsiao-hsien-flowers-of-shanghai-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Flowers_of_Shanghai_17.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "cc3f6508fea484aae720a5843747f257fcac252621543b79fb659d10202ab019"
+        }
+      ]
+    },
+    "film-hou-hsiao-hsien-millennium-mambo": {
+      "title": "千禧曼波",
+      "titleEn": "Millennium Mambo",
+      "year": 2001,
+      "src": "assets/film-covers/hou-hsiao-hsien-millennium-mambo.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Millenium_Mambo_01.jpg",
+      "sourceUrl": "https://film-grab.com/2023/04/05/millennium-mambo/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "528fd2a583f02bc139c2382924a95d8dff2494759f309e02c50399a1e03f619b",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/hou-hsiao-hsien-millennium-mambo.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Millenium_Mambo_01.jpg",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "528fd2a583f02bc139c2382924a95d8dff2494759f309e02c50399a1e03f619b"
+        },
+        {
+          "src": "assets/film-covers/hou-hsiao-hsien-millennium-mambo-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Millenium_Mambo_07.jpg",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "24290f10faf25ffdac7423989765948fbabc0ca595028cf5fc9ff02560a359e7"
+        },
+        {
+          "src": "assets/film-covers/hou-hsiao-hsien-millennium-mambo-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Millenium_Mambo_14.jpg",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "d6253016ee28a83b49d5f97a5a91be95fba19dc0aabfb4b19374c0ffabe1e203"
+        }
+      ]
+    },
+    "film-yang-edward-the-terrorizers": {
+      "title": "恐怖分子",
+      "titleEn": "The Terrorizers",
+      "year": 1986,
+      "src": "assets/film-covers/yang-edward-the-terrorizers.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/terrorizers001.jpg",
+      "sourceUrl": "https://film-grab.com/2018/09/02/the-terrorizers/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 852,
+      "height": 479,
+      "sha256": "9a0b647ced00c4d9f9c37532fb6a862198af0c2223dec75a23651aa172ddfe3b",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/yang-edward-the-terrorizers.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/terrorizers001.jpg",
+          "width": 852,
+          "height": 479,
+          "sha256": "9a0b647ced00c4d9f9c37532fb6a862198af0c2223dec75a23651aa172ddfe3b"
+        },
+        {
+          "src": "assets/film-covers/yang-edward-the-terrorizers-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/terrorizers022.jpg",
+          "width": 852,
+          "height": 479,
+          "sha256": "fad0b1601bc746fa6ac86c3bcafcd2f230ec0e86a674ab5810c43068d9c61a47"
+        },
+        {
+          "src": "assets/film-covers/yang-edward-the-terrorizers-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/terrorizers044.jpg",
+          "width": 852,
+          "height": 479,
+          "sha256": "935cbeb96ba8bc1304ecf2e576ec3287797aa09ff784b5c080ec479d80ff98a5"
+        }
+      ]
+    },
+    "film-ozu-floating-weeds": {
+      "title": "浮草",
+      "titleEn": "Floating Weeds",
+      "year": 1959,
+      "src": "assets/film-covers/ozu-floating-weeds.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(383).jpg",
+      "sourceUrl": "https://film-grab.com/2015/03/27/floating-weeds/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 960,
+      "height": 720,
+      "sha256": "8c1f72befb14198e139739895d1d60af7a811bffbda5f1774e832d9a7f7da759",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/ozu-floating-weeds.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(383).jpg",
+          "width": 960,
+          "height": 720,
+          "sha256": "8c1f72befb14198e139739895d1d60af7a811bffbda5f1774e832d9a7f7da759"
+        },
+        {
+          "src": "assets/film-covers/ozu-floating-weeds-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(391).jpg",
+          "width": 960,
+          "height": 720,
+          "sha256": "8a5929b7b79a51f3bd809109004adea59af76f8388c0bc838a44902144c65621"
+        },
+        {
+          "src": "assets/film-covers/ozu-floating-weeds-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(382).jpg",
+          "width": 960,
+          "height": 720,
+          "sha256": "79a29e7a0b54c7aba8b6f67572455376c6313e26d2da5ec16dc995a7dd121371"
+        }
+      ]
+    },
+    "film-kiyoshi-kurosawa-pulse": {
+      "title": "脉冲",
+      "titleEn": "Pulse",
+      "year": 2001,
+      "src": "assets/film-covers/kiyoshi-kurosawa-pulse.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Pulse_01.jpg",
+      "sourceUrl": "https://film-grab.com/2026/07/22/pulse/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 1080,
+      "sha256": "3727124cace79220cfdb7de976d53c310f3556cb77e084ee0d0a4afa62e1176d",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kiyoshi-kurosawa-pulse.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Pulse_01.jpg",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "3727124cace79220cfdb7de976d53c310f3556cb77e084ee0d0a4afa62e1176d"
+        },
+        {
+          "src": "assets/film-covers/kiyoshi-kurosawa-pulse-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Pulse_22.jpg",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "6ca4340ac0c81bddcc613daadabeb7f61db4740e54a0d543a87d21c9bf1baa78"
+        },
+        {
+          "src": "assets/film-covers/kiyoshi-kurosawa-pulse-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Pulse_44.jpg",
+          "width": 1920,
+          "height": 1080,
+          "sha256": "44b113b3c501e8681616adf423e04279206022befd5b3698e48821bd9c94d482"
+        }
+      ]
+    },
+    "film-antonioni-the-passenger": {
+      "title": "过客",
+      "titleEn": "The Passenger",
+      "year": 1975,
+      "src": "assets/film-covers/antonioni-the-passenger.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1132).jpg",
+      "sourceUrl": "https://film-grab.com/2014/08/25/the-passenger/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 850,
+      "height": 465,
+      "sha256": "82aa7ad0c34987f95ba3af7fe802c399dfd22fc3c1e5ad03aed3765826541a3f",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/antonioni-the-passenger.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1132).jpg",
+          "width": 850,
+          "height": 465,
+          "sha256": "82aa7ad0c34987f95ba3af7fe802c399dfd22fc3c1e5ad03aed3765826541a3f"
+        },
+        {
+          "src": "assets/film-covers/antonioni-the-passenger-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(1155).jpg",
+          "width": 850,
+          "height": 465,
+          "sha256": "e16c81737692985e8c3dc9fa9910fcc52ffc7eefe01bd7a46b8508cee731497f"
+        },
+        {
+          "src": "assets/film-covers/antonioni-the-passenger-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(1136).jpg",
+          "width": 850,
+          "height": 465,
+          "sha256": "a5ecfa8a47534e7405e2bbb587c283bec6d32b6d0a6886f1af0dd525726a0040"
+        }
+      ]
+    },
+    "film-bresson-a-man-escaped": {
+      "title": "死囚越狱",
+      "titleEn": "A Man Escaped",
+      "year": 1956,
+      "src": "assets/film-covers/bresson-a-man-escaped.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/A_Man_Escaped_01.jpg",
+      "sourceUrl": "https://film-grab.com/2026/06/18/a-man-escaped/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1440,
+      "height": 1080,
+      "sha256": "fc1e008a7f2dfa3cb8cae11fb892bb480364a03fd5d29d08e1ae7341e7e45ef0",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/bresson-a-man-escaped.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/A_Man_Escaped_01.jpg",
+          "width": 1440,
+          "height": 1080,
+          "sha256": "fc1e008a7f2dfa3cb8cae11fb892bb480364a03fd5d29d08e1ae7341e7e45ef0"
+        },
+        {
+          "src": "assets/film-covers/bresson-a-man-escaped-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/A_Man_Escaped_17.jpg",
+          "width": 1440,
+          "height": 1080,
+          "sha256": "fddca4656d62979e7d82d6c27cb6555a52e46ebf7b96604f01d55a2c45961028"
+        },
+        {
+          "src": "assets/film-covers/bresson-a-man-escaped-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/A_Man_Escaped_34.jpg",
+          "width": 1440,
+          "height": 1080,
+          "sha256": "12454e0dab281da2e9e44355f0f0e86ef3c8c1cb3c7915f2a09b8a9755ee6cb7"
+        }
+      ]
+    },
+    "film-bresson-mouchette": {
+      "title": "穆谢特",
+      "titleEn": "Mouchette",
+      "year": 1967,
+      "src": "assets/film-covers/bresson-mouchette.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Mouchette_01.jpg",
+      "sourceUrl": "https://film-grab.com/2026/07/09/mouchette/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1792,
+      "height": 1080,
+      "sha256": "bda6864f741d83a6c30b4f97bbaed4a271dc5aa3d5a83fa79f038fab04b92533",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/bresson-mouchette.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Mouchette_01.jpg",
+          "width": 1792,
+          "height": 1080,
+          "sha256": "bda6864f741d83a6c30b4f97bbaed4a271dc5aa3d5a83fa79f038fab04b92533"
+        },
+        {
+          "src": "assets/film-covers/bresson-mouchette-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Mouchette_14.jpg",
+          "width": 1792,
+          "height": 1080,
+          "sha256": "933b3bae6f55c28a9330385a295d888680c7fbc09a58b4c295aee96206601fb7"
+        },
+        {
+          "src": "assets/film-covers/bresson-mouchette-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Mouchette_28.jpg",
+          "width": 1792,
+          "height": 1080,
+          "sha256": "a13492e83ca6f52e6ae37cbded95965831e5db7c0f3eea308c3a59c44e05ebef"
+        }
+      ]
+    },
+    "film-kobayashi-the-human-condition-i": {
+      "title": "人间的条件 I：纯爱篇",
+      "titleEn": "The Human Condition I: No Greater Love",
+      "year": 1959,
+      "src": "assets/film-covers/kobayashi-the-human-condition-i.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/No_Greater_Love_01.jpg",
+      "sourceUrl": "https://film-grab.com/2025/07/01/the-human-condition-i-no-greater-love/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1904,
+      "height": 800,
+      "sha256": "bdfadae656b0b0a448065a94e1946fc30b9cb7f8a95392356a8851e1f302b992",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kobayashi-the-human-condition-i.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/No_Greater_Love_01.jpg",
+          "width": 1904,
+          "height": 800,
+          "sha256": "bdfadae656b0b0a448065a94e1946fc30b9cb7f8a95392356a8851e1f302b992"
+        },
+        {
+          "src": "assets/film-covers/kobayashi-the-human-condition-i-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/No_Greater_Love_22.jpg",
+          "width": 1904,
+          "height": 800,
+          "sha256": "86c009b478fb8f3535e71aaba3005671a10c641badded72a36da074001eb9bfa"
+        },
+        {
+          "src": "assets/film-covers/kobayashi-the-human-condition-i-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/No_Greater_Love_44.jpg",
+          "width": 1904,
+          "height": 800,
+          "sha256": "c0cdefb80758e8b964e0d3b687585f1860e536a19548fa5563aea8a4998c76dd"
+        }
+      ]
+    },
+    "film-kieslowski-three-colours-blue": {
+      "title": "蓝",
+      "titleEn": "Three Colours: Blue",
+      "year": 1993,
+      "src": "assets/film-covers/kieslowski-three-colours-blue.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1215).jpg",
+      "sourceUrl": "https://film-grab.com/2014/09/15/three-colours-blue/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 1040,
+      "sha256": "025a0fcaea7e72caf83aed4bffee1405e1be48078a5aff646b4f2dd13faaf527",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/kieslowski-three-colours-blue.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(1215).jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "025a0fcaea7e72caf83aed4bffee1405e1be48078a5aff646b4f2dd13faaf527"
+        },
+        {
+          "src": "assets/film-covers/kieslowski-three-colours-blue-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/22%20(1239).jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "f4f6fbf1cbe4022fb3fc54a29e3c68f67c5fbe19aacb47af03cb7f8717c5023d"
+        },
+        {
+          "src": "assets/film-covers/kieslowski-three-colours-blue-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/44%20(1220).jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "18c15ca0a75c4bba7410caa38279629317d1b86367ede7b9ce0357a6214bc0a7"
+        }
+      ]
+    },
+    "film-akerman-jeanne-dielman": {
+      "title": "让娜·迪尔曼",
+      "titleEn": "Jeanne Dielman, 23 quai du Commerce, 1080 Bruxelles",
+      "year": 1975,
+      "src": "assets/film-covers/akerman-jeanne-dielman.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Jeanne_Dielman_001.jpg",
+      "sourceUrl": "https://film-grab.com/2022/02/16/jeanne-dielman-23-quai-du-commerce-1080-bruxelles/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 768,
+      "sha256": "462dd24b53410d45d7bb1dec418d34ad164a58f08f4e04b1c92b7284f7269b39",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/akerman-jeanne-dielman.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Jeanne_Dielman_001.jpg",
+          "width": 1280,
+          "height": 768,
+          "sha256": "462dd24b53410d45d7bb1dec418d34ad164a58f08f4e04b1c92b7284f7269b39"
+        },
+        {
+          "src": "assets/film-covers/akerman-jeanne-dielman-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Jeanne_Dielman_011.jpg",
+          "width": 1280,
+          "height": 768,
+          "sha256": "64ea6a6632752111f317006c268dc6335243eb887aeb1768e6e0379a6e844f8c"
+        },
+        {
+          "src": "assets/film-covers/akerman-jeanne-dielman-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Jeanne_Dielman_022.jpg",
+          "width": 1280,
+          "height": 768,
+          "sha256": "fd165ceba301db26351bda44ce88596c42b2db4a440a249e10be726f298d5a0e"
+        }
+      ]
+    },
+    "film-tsai-ming-liang-goodbye-dragon-inn": {
+      "title": "不散",
+      "titleEn": "Goodbye Dragon Inn",
+      "year": 2003,
+      "src": "assets/film-covers/tsai-ming-liang-goodbye-dragon-inn.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Goodbye_Dragon_Inn_01.jpg",
+      "sourceUrl": "https://film-grab.com/2025/07/17/goodbye-dragon-inn/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1920,
+      "height": 1040,
+      "sha256": "a044a7aaccee7878c06049fece19b42c11ac8662b927ad0f47911e25678aa2b3",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/tsai-ming-liang-goodbye-dragon-inn.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Goodbye_Dragon_Inn_01.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "a044a7aaccee7878c06049fece19b42c11ac8662b927ad0f47911e25678aa2b3"
+        },
+        {
+          "src": "assets/film-covers/tsai-ming-liang-goodbye-dragon-inn-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Goodbye_Dragon_Inn_15.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "733e3f41239a820c82a002c44f12d5484132cafae73f0edf29a85e53ffc31a04"
+        },
+        {
+          "src": "assets/film-covers/tsai-ming-liang-goodbye-dragon-inn-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/Goodbye_Dragon_Inn_29.jpg",
+          "width": 1920,
+          "height": 1040,
+          "sha256": "c9e2fc10bb1f8633485d2e932dae95f65d25aeca99a9fd0d03433a3288409cb0"
+        }
+      ]
+    },
+    "film-refn-the-neon-demon": {
+      "title": "霓虹恶魔",
+      "titleEn": "The Neon Demon",
+      "year": 2016,
+      "src": "assets/film-covers/refn-the-neon-demon.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/neondemon001.jpg",
+      "sourceUrl": "https://film-grab.com/2016/11/25/the-neon-demon/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1280,
+      "height": 546,
+      "sha256": "e0a5df9e0980a5ac026707f1f028717554cf4e8ca27df0ea6e6201eb34db0042",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/refn-the-neon-demon.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/neondemon001.jpg",
+          "width": 1280,
+          "height": 546,
+          "sha256": "e0a5df9e0980a5ac026707f1f028717554cf4e8ca27df0ea6e6201eb34db0042"
+        },
+        {
+          "src": "assets/film-covers/refn-the-neon-demon-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/neondemon022.jpg",
+          "width": 1280,
+          "height": 546,
+          "sha256": "deb501acd7554dbf30b64d71431b9758a284a9834f98deb14422860ca8f5ccbe"
+        },
+        {
+          "src": "assets/film-covers/refn-the-neon-demon-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/imported_from_media_libray/neondemon044.jpg",
+          "width": 1280,
+          "height": 546,
+          "sha256": "6dae833cabf2fa2f4fd240a0dffa9214f96b3e8d59c1c413656d59bc0f840f68"
+        }
+      ]
+    },
+    "film-malick-days-of-heaven": {
+      "title": "天堂之日",
+      "titleEn": "Days of Heaven",
+      "year": 1978,
+      "src": "assets/film-covers/malick-days-of-heaven.jpg",
+      "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(295).jpg",
+      "sourceUrl": "https://film-grab.com/2010/07/21/days-of-heaven/",
+      "source": "Film-Grab",
+      "status": "available",
+      "width": 1024,
+      "height": 576,
+      "sha256": "ded5a53ac504c5c17877944efceb16e86cdade7f0de6a9139c06aec6ab75c05b",
+      "rights": "Film still; copyright belongs to respective rights holders. Reference display only; not covered by the skill MIT license.",
+      "checkedAt": "2026-11-06",
+      "frames": [
+        {
+          "src": "assets/film-covers/malick-days-of-heaven.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/01%20(295).jpg",
+          "width": 1024,
+          "height": 576,
+          "sha256": "ded5a53ac504c5c17877944efceb16e86cdade7f0de6a9139c06aec6ab75c05b"
+        },
+        {
+          "src": "assets/film-covers/malick-days-of-heaven-02.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/21%20(300).jpg",
+          "width": 1024,
+          "height": 576,
+          "sha256": "ca8aff4170262595dc66bdbdd1429c7760e4593a9645ce25563d9fa2f61ce7f9"
+        },
+        {
+          "src": "assets/film-covers/malick-days-of-heaven-03.jpg",
+          "imageUrl": "https://film-grab.com/wp-content/uploads/photo-gallery/42%20(296).jpg",
+          "width": 1024,
+          "height": 576,
+          "sha256": "b3534ab94141971ccaf57523b79245b4a976094817467529ba9806d19064bae5"
+        }
+      ]
+    }
+  },
+  "galleryScope": "Three independent stills from the same film; not a continuous scene or video clip."
+}

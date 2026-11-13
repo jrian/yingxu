@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="color-scheme" content="dark"><meta name="description" content="映序 FRAME 本地视频提示词工作台：分离产品与场景参考，组织双风格、外观约束和独立质检。"><title>映序 FRAME — 视频提示词工作台</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="reference-library.css"><link rel="stylesheet" href="reference-picker.css"><link rel="stylesheet" href="cover-lightbox.css"><link rel="stylesheet" href="composer-style-cards.css"><link rel="stylesheet" href="theme.css"><link rel="stylesheet" href="case-gallery-theme.css"><link rel="stylesheet" href="tech-theme.css"></head>
+<body>
+<a class="skip-link" href="#app">跳到工作台内容</a>
+<div class="app-shell">
+<aside id="site-nav" class="sidebar" aria-label="主导航">
+<div class="sidebar-header"><a class="brand" href="#workspace" aria-label="映序 FRAME 创作工作台"><span class="brand-mark"><i></i><i></i><i></i></span><span class="brand-name">映序 <small>FRAME</small></span></a><button class="icon-button sidebar-toggle" data-action="toggle-sidebar" aria-controls="site-nav" aria-expanded="true" aria-label="收起侧栏" title="收起侧栏">‹</button></div>
+<div class="space-switch"><span>本地项目空间<small>创意有来源，镜头有依据</small></span></div>
+<div class="nav-caption">创作空间</div>
+<nav id="main-nav"></nav>
+<div class="nav-caption project-caption">当前项目 <button class="icon-button" data-action="new" aria-label="新建项目" title="新建项目">＋</button></div>
+<button class="project-nav" data-view="workspace" aria-label="打开当前项目"><span class="project-dot"></span><span id="sidebar-project">海岸，从容而行</span></button>
+<div class="sidebar-bottom"><button class="sidebar-help" data-action="help" aria-label="使用说明"><span aria-hidden="true">?</span><span class="nav-label">使用说明</span></button><div class="prototype-label">本地工作台</div><p>内容保存在此浏览器<br>未接入生成服务</p></div>
+</aside>
+<button class="nav-scrim" data-action="close-navigation" aria-label="关闭导航" hidden tabindex="-1"></button>
+<div class="app-main">
+<header class="topbar"><div class="topbar-location"><button class="mobile-menu icon-button" data-action="menu" aria-controls="site-nav" aria-expanded="false" aria-label="切换导航">☰</button><div class="breadcrumbs"><strong id="breadcrumb">创作工作台</strong><span>/</span><span id="current-project-title">海岸，从容而行</span></div></div><div class="topbar-right"><span id="save-state" class="save-state">浏览器本地保存</span><button class="button subtle topbar-settings" data-action="edit-project">项目设置</button><button class="button subtle" data-action="export">导出制作包 <span aria-hidden="true">↗</span></button></div></header>
+<main id="app" tabindex="-1"></main>
+</div>
+</div>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<dialog id="style-browser" aria-labelledby="style-browser-title" aria-describedby="style-browser-description"><header class="style-browser-heading"><div><h2 id="style-browser-title">寻找你的镜头语言</h2><p id="style-browser-description">导演方法与电影画面各选一个，产品身份始终由图1控制。</p></div><button class="icon-button" data-action="close-style-browser" aria-label="关闭风格选择">×</button></header><div id="style-browser-content"></div><footer class="style-browser-footer"><span id="style-browser-feedback" role="status">浏览不会保存 · 明确选用后回填</span><button class="button small" data-action="close-style-browser">返回简报</button></footer></dialog>
+<dialog id="modal" aria-labelledby="modal-title"><div class="dialog-heading"><h2 id="modal-title"></h2><button class="icon-button" data-action="close-modal" aria-label="关闭对话框">×</button></div><div id="modal-body"></div></dialog>
+<input id="image-input" type="file" accept="image/*" hidden>
+<script type="module" src="app.js"></script>
+</body></html>

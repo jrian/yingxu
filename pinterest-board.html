@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="referrer" content="no-referrer"><title>Pinterest 公开收藏夹预览</title><style>*{box-sizing:border-box}body{margin:0;padding:18px;background:#f8faf8;color:#55725e;font:12px/1.8 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif}#widget{min-height:330px;display:flex;justify-content:center;align-items:flex-start;overflow:hidden;margin-top:13px}p{margin:0 0 9px;color:#8b9e90;font-size:11px}a{color:#3b7c54;overflow-wrap:anywhere}#source{display:inline-block;margin-bottom:10px}#widget>a{padding:25px 10px}#widget [role="button"]{cursor:zoom-in}#widget [role="button"]:focus-visible{outline:3px solid #267762!important;outline-offset:-3px}#status{border-bottom:1px solid #e1e9e3;padding-bottom:10px}small{font-size:10px;color:#95a99a}:root{color-scheme:dark}body{background:#1b2023;color:#c1ccc5}p{color:#9aa9a0;font-size:12px}a{color:#a5e4ca}#status{border-bottom-color:#394247}small{font-size:12px;color:#9aa9a0}#widget>a{color:#a5e4ca}</style></head><body><p id="status" role="status">正在准备官方预览…</p><a id="source" target="_blank" rel="noopener noreferrer" hidden>在 Pinterest 打开完整收藏夹 ↗</a><div id="widget"></div><small id="preview-hint">Pinterest 官方组件 · 不代表完整收藏夹或已下载图片</small><script>
+(()=>{
+ const status=document.querySelector('#status'),source=document.querySelector('#source'),widget=document.querySelector('#widget'),frameSession=new URLSearchParams(location.search).get('session')||'';let url;
+ try{const u=new URL(new URLSearchParams(location.search).get('board')),parts=u.pathname.split('/').filter(Boolean);if(u.protocol!=='https:'||u.hostname!=='www.pinterest.com'||u.port||u.username||u.password||parts.length!==2||parts.some(p=>!/^[-\w%]+$/.test(p))||['pin','ideas','search','settings','business','login','logout'].includes(parts[0]))throw Error();url=u.origin+'/'+parts.join('/')+'/';}catch{status.textContent='收藏夹网址无效。请返回资料库，使用公开收藏夹的 HTTPS 网址。';return;}
+ source.href=url;source.hidden=false;
+ const anchor=document.createElement('a');anchor.href=url;anchor.target='_blank';anchor.rel='noopener noreferrer';anchor.dataset.pinDo='embedBoard';const boardWidth=Math.max(1,Math.min(450,document.documentElement.clientWidth-36));anchor.dataset.pinBoardWidth=String(boardWidth);anchor.dataset.pinScaleHeight='360';anchor.dataset.pinScaleWidth=String(boardWidth<350?60:80);anchor.textContent='预览未显示时，在 Pinterest 打开 ↗';widget.append(anchor);
+ status.textContent='正在请求 Pinterest 官方组件；网络或公开性限制可能影响显示。';
+ let received=false;
+ const timer=setTimeout(()=>{status.textContent='若下方仍未显示预览，请在 Pinterest 打开。官方组件可能受到网络或嵌入限制。';},15000);
+ // A script load alone does not establish that Pinterest returned visible Pin content.
+ const observer=new MutationObserver(()=>{
+  const pins=[...widget.querySelectorAll('[data-pin-href*="/pin/"]')];
+  const hasImage=pins.some(pin=>[pin,...pin.querySelectorAll('*')].some(el=>/url\(\s*[\"']?https?:/i.test(getComputedStyle(el).backgroundImage)));
+  decoratePins();
+  if(!hasImage||received)return;
+  received=true;clearTimeout(timer);
+  status.textContent='已收到公开收藏夹预览；仅展示官方组件返回的部分内容。';
+ });
+ const titles=new WeakMap();
+ function pinData(pin){
+  const pinUrl=pin?.getAttribute('data-pin-href');if(!/^https:\/\/www\.pinterest\.com\/pin\/\d+\/?$/.test(pinUrl||''))return null;
+  let imageUrl='';for(const el of [pin,...pin.querySelectorAll('*')]){const match=getComputedStyle(el).backgroundImage.match(/url\(\s*[\"']?(https:\/\/i\.pinimg\.com\/[^\"')\s]+)[\"']?\s*\)/i);if(match){imageUrl=match[1];break;}}
+  if(!imageUrl)return null;
+  if(!titles.has(pin))titles.set(pin,(pin.getAttribute('title')||pin.getAttribute('aria-label')||pin.querySelector('img')?.alt||pin.textContent||'').trim().slice(0,300));
+  return {type:'frame:pinterest-pin',session:frameSession,boardUrl:url,pinUrl,imageUrl,title:titles.get(pin)};
+ }
+ function decoratePins(){if(!frameSession)return;for(const pin of widget.querySelectorAll('[data-pin-href*="/pin/"]')){const data=pinData(pin);if(!data)continue;pin.setAttribute('tabindex','0');pin.setAttribute('role','button');pin.setAttribute('aria-label',(data.title?data.title+' · ':'')+'查看大图并选择参考用途');}document.querySelector('#preview-hint').textContent='点击图片或聚焦后按 Enter / 空格查看大图并选择用途；仅为官方组件返回的预览图。';}
+ function openPin(event){if(!frameSession)return;const target=event.target instanceof Element?event.target.closest('[data-pin-href*="/pin/"]'):null;if(!target||!widget.contains(target))return;const data=pinData(target);if(!data)return;event.preventDefault();event.stopImmediatePropagation();parent.postMessage(data,'*');}
+ // A parent close restores keyboard focus only; it must never activate or select a Pin.
+ window.addEventListener('message',event=>{
+  const m=event.data;
+  if(event.source!==parent||!frameSession||m?.type!=='frame:restore-pin-focus'||m.session!==frameSession||typeof m.pinUrl!=='string'||!/^https:\/\/www\.pinterest\.com\/pin\/\d+\/?$/.test(m.pinUrl))return;
+  const pin=[...widget.querySelectorAll('[data-pin-href]')].find(el=>el.getAttribute('data-pin-href')===m.pinUrl);
+  if(!pin||!pinData(pin))return;
+  const focus=()=>{if(!pin.isConnected)return;try{window.focus();}catch{}pin.focus({preventScroll:true});};
+  focus();
+  requestAnimationFrame(focus);
+ });
+ // A trusted native click that stopped at the outer iframe is hit-tested here.
+ // The sender provides coordinates only; Pin identity and image always come from rendered widget DOM.
+ window.addEventListener('message',event=>{
+  const m=event.data;
+  if(event.source!==parent||!frameSession||m?.type!=='frame:preview-pointer'||m.session!==frameSession||!Number.isFinite(m.x)||!Number.isFinite(m.y)||m.x<0||m.y<0||m.x>=innerWidth||m.y>=innerHeight)return;
+  const hit=document.elementFromPoint(m.x,m.y),pin=hit?.closest('[data-pin-href*="/pin/"]');
+  if(!pin||!widget.contains(pin))return;
+  const data=pinData(pin);if(!data)return;
+  parent.postMessage(data,'*');
+ });
+ widget.addEventListener('click',openPin,true);
+ widget.addEventListener('keydown',event=>{if(event.key==='Enter'||event.key===' '){if(event.repeat){event.preventDefault();return;}openPin(event);}},true);
+ observer.observe(widget,{childList:true,subtree:true,attributes:true,attributeFilter:['style','data-pin-href','class']});
+ const script=document.createElement('script');script.src='https://assets.pinterest.com/js/pinit.js';script.async=true;script.defer=true;script.onerror=()=>{clearTimeout(timer);observer.disconnect();status.textContent='官方预览脚本未能载入，请在 Pinterest 打开收藏夹。';};script.onload=()=>{if(received)return;status.textContent='官方脚本已载入；预览内容是否可用请以下方实际显示为准。';};document.body.append(script);
+})();
+</script></body></html>

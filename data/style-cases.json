@@ -1,0 +1,258 @@
+{
+  "version": 1,
+  "cases": [
+    {
+      "id": "case-dune",
+      "title": "沙丘",
+      "director": "丹尼斯·维伦纽瓦",
+      "year": 2021,
+      "styleIds": [
+        "director-villeneuve",
+        "film-villeneuve-dune"
+      ],
+      "group": "director",
+      "kicker": "巨构 / 尺度 / 留白",
+      "summary": "以单一巨构、稀少的主体和大面积空域，研究如何让空间产生重量。",
+      "learningPoints": [
+        "光线：整面天空或大亮面形成柔逆光，主体轮廓与近景材质分层。",
+        "配色：一段以一个环境主色统领，少量暖点提示注意力。",
+        "构图：巨大结构与小主体并置，竖幅靠垂直结构和纵深重新建立尺度。",
+        "镜头：固定或沿明确轴线恒速推进，减少无目的环绕。",
+        "节奏：空间先成立，再让主体进入；事件后给出余波，不照搬预告片的快剪。"
+      ],
+      "motion": "monument",
+      "palette": [
+        "#C3A16B",
+        "#353E42",
+        "#879A9A"
+      ],
+      "demoScene": "原创示意：一座无标识的抽象竖塔立于浅雾平面，小光点沿中轴缓慢靠近，近景始终清楚。",
+      "sampleQuestion": "怎样在不增加物件的情况下，让一个普通物体显得有重量？",
+      "readOnly": false,
+      "officialTrailer": {
+        "videoId": "8g18jFHCLXk",
+        "url": "https://www.youtube.com/watch?v=8g18jFHCLXk",
+        "title": "Dune | Official Main Trailer",
+        "channel": "Warner Bros.",
+        "channelUrl": "https://www.youtube.com/@WarnerBros",
+        "sourceUrl": "https://www.legendary.com/film/dune/",
+        "verifiedAt": "2026-11-06",
+        "verification": "Legendary官方影片页的同名主预告入口直链8g18jFHCLXk；YouTube官方oEmbed实际返回该标题、频道Warner Bros.及频道URL。",
+        "embedStatus": "未实测"
+      },
+      "notes": "点击案例卡将加入顶部对应风格槽；预告播放及参数查看不改变选择；动态画面为原创方法示意，不是原片、重拍或生成效果。色块为本地示意配色，未从影片取色。学习要点为创作方法提炼，非对整支预告逐帧验收；嵌入可播放性尚未实测。",
+      "selectionBehavior": "explicit-case-click-fills-corresponding-style-slot"
+    },
+    {
+      "id": "case-2001",
+      "title": "2001 太空漫游",
+      "director": "斯坦利·库布里克",
+      "year": 1968,
+      "styleIds": [
+        "director-kubrick",
+        "film-kubrick-2001"
+      ],
+      "group": "director",
+      "kicker": "中轴 / 对称 / 匀速",
+      "summary": "以中轴对称与持续匀速移动，研究几何秩序如何控制观看。",
+      "learningPoints": [
+        "光线：可见并重复排布的硬光源，保持几何轮廓可读。",
+        "配色：中性白黑灰作为结构，少数饱和色块作为空间信号。",
+        "构图：消失点居中，主体沿中轴，不因运动随意重新取景。",
+        "镜头：固定或同轴匀速推拉，避免自动缓入缓出破坏机械感。",
+        "节奏：一个构图承载完整节拍，以重复与停留建立压力。"
+      ],
+      "motion": "symmetry",
+      "palette": [
+        "#DBDEE0",
+        "#272B32",
+        "#B33C3A"
+      ],
+      "demoScene": "原创示意：空白展厅由重复矩形框组成，一只无品牌球体沿中轴前移，画面无缓入缓出。",
+      "sampleQuestion": "当物体不变，只改变几何和推进速度，观看感受会怎样变化？",
+      "readOnly": false,
+      "officialTrailer": {
+        "videoId": "oR_e9y-bka0",
+        "url": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+        "title": "2001: A SPACE ODYSSEY - Trailer",
+        "channel": "Warner Bros.",
+        "channelUrl": "https://www.youtube.com/@WarnerBros",
+        "sourceUrl": "https://www.youtube.com/watch?v=oR_e9y-bka0",
+        "verifiedAt": "2026-11-06",
+        "verification": "实际检索YouTube该上传，显示Warner Bros.已验证频道、2018-04-19发布；YouTube官方oEmbed返回相同标题与@WarnerBros。案例年份1968为影片年份，2018为本条宣传上传年份。",
+        "embedStatus": "未实测"
+      },
+      "notes": "点击案例卡将加入顶部对应风格槽；预告播放及参数查看不改变选择；动态画面为原创方法示意，不是原片、重拍或生成效果。色块为本地示意配色，未从影片取色。学习要点为创作方法提炼，非对整支预告逐帧验收；嵌入可播放性尚未实测。",
+      "selectionBehavior": "explicit-case-click-fills-corresponding-style-slot"
+    },
+    {
+      "id": "case-in-the-mood-for-love",
+      "title": "花样年华",
+      "director": "王家卫",
+      "year": 2000,
+      "styleIds": [
+        "director-wong-kar-wai",
+        "film-wong-kar-wai-in-the-mood-for-love"
+      ],
+      "group": "director",
+      "kicker": "遮挡 / 色光 / 距离",
+      "summary": "借前景遮挡、局部色光和空缺，研究距离如何成为画面信息。",
+      "learningPoints": [
+        "光线：保留可辨认的实用光源与不同方向的局部染色，不统一铺满。",
+        "配色：深红、青绿和钨丝暖色形成局部对位；示意色不等于修复版原始调色。",
+        "构图：门框或玻璃提供前景遮挡，主体偏心，保留未展示的空间。",
+        "镜头：小幅重新构图表现注意力变化，区分微调与整体抖动。",
+        "节奏：用动作省略、重复和停顿形成碎片感，不复刻片中人物或情节。"
+      ],
+      "motion": "neon",
+      "palette": [
+        "#7F3037",
+        "#355D4E",
+        "#BF965E"
+      ],
+      "demoScene": "原创示意：两块无字半透明玻璃在前后景缓慢错开，一枚暖色光点短暂可见又被遮挡。",
+      "sampleQuestion": "怎样只用遮挡和一小块光，表达“差一点看见”？",
+      "readOnly": false,
+      "officialTrailer": {
+        "videoId": "WJj9-t2A-_o",
+        "url": "https://www.youtube.com/watch?v=WJj9-t2A-_o",
+        "title": "IN THE MOOD FOR LOVE 4K 25th Anniversary | Official Trailer (English)",
+        "channel": "Block 2 Distribution",
+        "sourceUrl": "https://www.block2distribution.com/",
+        "verifiedAt": "2026-11-06",
+        "verification": "Block 2 Distribution官方首页的“IN THE MOOD FOR LOVE 4K | Official Trailer”实际链接到WJj9-t2A-_o；ACMI官方影展页嵌入同一ID并标Block 2 Distribution；戛纳官方影片页确认该公司为影片国际销售。YouTube当前标题另用官方oEmbed核对，完整影片未观看。",
+        "supportingSources": [
+          "https://www.acmi.net.au/whats-on/love-neon-cinema-wong-kar-wai/in-the-mood-for-love-encore-screenings/",
+          "https://www.festival-cannes.com/en/f/in-the-mood-for-love/"
+        ],
+        "embedStatus": "未实测",
+        "channelUrl": "https://www.youtube.com/@block2distribution608"
+      },
+      "notes": "点击案例卡将加入顶部对应风格槽；预告播放及参数查看不改变选择；动态画面为原创方法示意，不是原片、重拍或生成效果。色块为本地示意配色，未从影片取色。学习要点为创作方法提炼，非对整支预告逐帧验收；嵌入可播放性尚未实测。 此处采用官方4K周年宣传版本，不声称还原2000年首映版色彩。",
+      "selectionBehavior": "explicit-case-click-fills-corresponding-style-slot"
+    },
+    {
+      "id": "case-interstellar",
+      "title": "星际穿越",
+      "director": "克里斯托弗·诺兰",
+      "year": 2014,
+      "styleIds": [
+        "director-nolan"
+      ],
+      "group": "film",
+      "kicker": "机制 / 尺度 / 时间",
+      "summary": "从物理机制与可读运动出发，研究怎样把尺度变化和任务时限连接起来。",
+      "learningPoints": [
+        "光线：有物理来源的天光与工作灯建立不同空间，不用发光界面代替机制。",
+        "配色：中性材料和冷暖光点分工，保持硬件表面可读。",
+        "构图：近处结构细节与远处大尺度环境互为参照。",
+        "镜头：一次只跟随一个动作或缓推一个机制，有明确起止。",
+        "节奏：多条行动线先各自成立，再通过剪辑收紧信息间隔；不强制改变项目时长。"
+      ],
+      "motion": "orbit",
+      "palette": [
+        "#B59A73",
+        "#7D909B",
+        "#172029"
+      ],
+      "demoScene": "原创示意：无标识的金属圆环缓慢自转，刻度状抽象光点依次亮起，摄影机保持一条明确路径。",
+      "sampleQuestion": "怎样让一次简单转动同时读出结构、尺度和时间？",
+      "readOnly": false,
+      "officialTrailer": {
+        "videoId": "2LqzF5WauAw",
+        "url": "https://www.youtube.com/watch?v=2LqzF5WauAw",
+        "title": "Interstellar (2014) | Original Theatrical Trailer 1 | Paramount Movies",
+        "channel": "Interstellar Movie",
+        "channelUrl": "https://www.youtube.com/@InterstellarMovie",
+        "sourceUrl": "https://www.legendary.com/film/interstellar/",
+        "verifiedAt": "2026-11-06",
+        "verification": "Legendary官方片页“Interstellar Movie - Official Trailer”指向该ID（页面embed字符串有多余等号/列表参数，已仅规范化提取原11位ID）；YouTube官方oEmbed实际返回现标题、频道Interstellar Movie和@InterstellarMovie。不把旧页面标题冒充当前YouTube标题。",
+        "embedStatus": "未实测"
+      },
+      "notes": "点击案例卡将加入顶部对应风格槽；预告播放及参数查看不改变选择；动态画面为原创方法示意，不是原片、重拍或生成效果。色块为本地示意配色，未从影片取色。学习要点为创作方法提炼，非对整支预告逐帧验收；嵌入可播放性尚未实测。 当前无独立《星际穿越》电影库模板，选入时保存已有案例学习要点并标记案例参考；诺兰方法入口仅供查看，不新增电影库数量。",
+      "selectionBehavior": "explicit-case-click-fills-corresponding-style-slot"
+    },
+    {
+      "id": "case-jurassic-park",
+      "title": "侏罗纪公园",
+      "director": "史蒂文·斯皮尔伯格",
+      "year": 1993,
+      "styleIds": [
+        "director-spielberg"
+      ],
+      "group": "film",
+      "kicker": "揭示 / 纵深 / 反应",
+      "summary": "研究先建立观看位置，再揭示对象的展示顺序，以及如何让危险和出口保持可读。",
+      "learningPoints": [
+        "光线：环境底光与一束有来源的方向光分工，让前中后景分离。",
+        "配色：自然环境色作底，暖光和少量高饱和点引导视线。",
+        "构图：前景提示、中景观察点、背景事件组成清楚的空间地图。",
+        "镜头：跟移或缓推服务揭示，不靠无目的旋转制造“大片感”。",
+        "节奏：观察与所见分开组织，重要揭示后留一拍消化时间；不照搬恐龙、园区或原片镜头。"
+      ],
+      "motion": "chase",
+      "palette": [
+        "#405F49",
+        "#A8874D",
+        "#132C30"
+      ],
+      "demoScene": "原创示意：一片抽象叶形遮挡缓慢掠过，后方无品牌展品在暖侧光中完整显露，最后稳定停留。",
+      "sampleQuestion": "怎样把“看见一个物体”安排成清楚、有层次的一次揭示？",
+      "readOnly": false,
+      "officialTrailer": {
+        "videoId": "mmn7ovP-i4k",
+        "url": "https://www.youtube.com/watch?v=mmn7ovP-i4k",
+        "title": "Jurassic Park - Trailer",
+        "channel": "Universal Pictures At Home",
+        "channelUrl": "https://www.youtube.com/@UniPicsAtHome",
+        "sourceUrl": "https://www.youtube.com/watch?v=mmn7ovP-i4k",
+        "verifiedAt": "2026-11-06",
+        "verification": "实际检索YouTube上传页，显示该标题、Universal Pictures At Home及2012-08-28发布日期；Universal官方影片站页脚直链@UniPicsAtHome，确认官方频道。旧g24fYA3pXkI候选oEmbed返回404，已排除。 YouTube官方oEmbed另已返回同一标题、频道名和@UniPicsAtHome。",
+        "supportingSources": [
+          "https://www.universalpicturesathome.com/movies/jurassic-park"
+        ],
+        "embedStatus": "未实测"
+      },
+      "notes": "点击案例卡将加入顶部对应风格槽；预告播放及参数查看不改变选择；动态画面为原创方法示意，不是原片、重拍或生成效果。色块为本地示意配色，未从影片取色。学习要点为创作方法提炼，非对整支预告逐帧验收；嵌入可播放性尚未实测。 当前仅关联已存在斯皮尔伯格方法，不新增电影参数模板。",
+      "selectionBehavior": "explicit-case-click-fills-corresponding-style-slot"
+    },
+    {
+      "id": "case-grand-budapest-hotel",
+      "title": "布达佩斯大饭店",
+      "director": "韦斯·安德森",
+      "year": 2014,
+      "styleIds": [],
+      "group": "film",
+      "kicker": "粉彩 / 平面 / 横移",
+      "summary": "用粉彩色块、正面几何和分段移动，研究形式秩序与轻巧节奏。",
+      "learningPoints": [
+        "配色：少数粉彩与深色块形成清楚分工，先组织色块面积再补细节。",
+        "构图：正面平面化、中心对齐和重复单元，让关系一眼可读。",
+        "镜头：示意用单轴横移与明确停点，不复制酒店布景、人物、服装或既有镜头。",
+        "节奏：移动、停顿与切换交替，保持可数的动作节拍；此为本地学习提案，非量化全片分析。"
+      ],
+      "motion": "pastel",
+      "palette": [
+        "#D2A2B0",
+        "#9B86A8",
+        "#E4C99C"
+      ],
+      "demoScene": "原创示意：三组无字几何包装盒在粉彩展示架上沿一条水平线依次滑入，停齐后切到纯色留白。",
+      "sampleQuestion": "怎样让三个简单色块的移动，读起来整齐又轻巧？",
+      "readOnly": false,
+      "officialTrailer": {
+        "videoId": "1Fg5iWmQjwk",
+        "url": "https://www.youtube.com/watch?v=1Fg5iWmQjwk",
+        "title": "THE GRAND BUDAPEST HOTEL - Official Wolrdwide Trailer HD",
+        "channel": "SearchlightPictures",
+        "channelUrl": "https://www.youtube.com/@searchlightpictures",
+        "sourceUrl": "https://www.searchlightpictures.com/thegrandbudapesthotel",
+        "verifiedAt": "2026-11-06",
+        "verification": "Searchlight官方片页Official Trailer区域data-youtubeid和VideoObject.embedUrl均明确1Fg5iWmQjwk；YouTube实际索引显示SearchlightPictures已验证频道；官方oEmbed返回同一ID当前标题与频道。标题中Wolrdwide为原上传拼写，保留不擅改。",
+        "embedStatus": "未实测"
+      },
+      "notes": "点击案例卡将加入顶部对应风格槽；预告播放及参数查看不改变选择；动态画面为原创方法示意，不是原片、重拍或生成效果。色块为本地示意配色，未从影片取色。学习要点为创作方法提炼，非对整支预告逐帧验收；嵌入可播放性尚未实测。 当前库无本片或韦斯·安德森参数模板，styleIds为空；选入时保留已有案例要点，光线标待补充，不映射到其他导演。",
+      "selectionBehavior": "explicit-case-click-fills-corresponding-style-slot"
+    }
+  ]
+}

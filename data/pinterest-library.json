@@ -1,0 +1,388 @@
+{
+  "version": 1,
+  "account": {
+    "username": "jrian0345",
+    "profileUrl": "https://www.pinterest.com/jrian0345/"
+  },
+  "observedAt": "2026-11-06",
+  "importedAt": "2026-11-09",
+  "boards": [
+    {
+      "id": "pinterest-3d-motion-design",
+      "name": "3d motion design",
+      "url": "https://www.pinterest.com/jrian0345/3d-motion-design/",
+      "pinCount": 58,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [
+        {
+          "id": "301881981300944591",
+          "title": "Motion inspiration - Turbo Jet",
+          "url": "https://www.pinterest.com/pin/301881981300944591/",
+          "kind": "link",
+          "source": "observed-pin-link"
+        },
+        {
+          "id": "301881981300760045",
+          "title": "Porsche 911 Cinematic CGI Car Video",
+          "url": "https://www.pinterest.com/pin/301881981300760045/",
+          "kind": "link",
+          "source": "observed-pin-link"
+        },
+        {
+          "id": "301881981300760034",
+          "title": "Armored hypercar Missile pod",
+          "url": "https://www.pinterest.com/pin/301881981300760034/",
+          "kind": "link",
+          "source": "observed-pin-link"
+        },
+        {
+          "id": "301881981300572367",
+          "title": "Yoneyama Mai Animation",
+          "url": "https://www.pinterest.com/pin/301881981300572367/",
+          "kind": "link",
+          "source": "observed-pin-link"
+        },
+        {
+          "id": "301881981300572366",
+          "title": "Nanami Vs Mahito",
+          "url": "https://www.pinterest.com/pin/301881981300572366/",
+          "kind": "link",
+          "source": "observed-pin-link"
+        },
+        {
+          "id": "301881981300572354",
+          "title": "Framing Power Without Any Movement",
+          "url": "https://www.pinterest.com/pin/301881981300572354/",
+          "kind": "link",
+          "source": "observed-pin-link"
+        }
+      ],
+      "observedAt": "2026-11-06",
+      "pinsStatus": "partial-visible-links"
+    },
+    {
+      "id": "pinterest-mg",
+      "name": "MG",
+      "url": "https://www.pinterest.com/jrian0345/mg/",
+      "pinCount": 46,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-产品",
+      "name": "产品",
+      "url": "https://www.pinterest.com/jrian0345/%E4%BA%A7%E5%93%81/",
+      "pinCount": 31,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-角色",
+      "name": "角色",
+      "url": "https://www.pinterest.com/jrian0345/%E8%A7%92%E8%89%B2/",
+      "pinCount": 5,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-场景",
+      "name": "场景",
+      "url": "https://www.pinterest.com/jrian0345/%E5%9C%BA%E6%99%AF/",
+      "pinCount": 8,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-角色表情",
+      "name": "角色表情",
+      "url": "https://www.pinterest.com/jrian0345/%E8%A7%92%E8%89%B2%E8%A1%A8%E6%83%85/",
+      "pinCount": 8,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-酒水",
+      "name": "酒水",
+      "url": "https://www.pinterest.com/jrian0345/%E9%85%92%E6%B0%B4/",
+      "pinCount": 6,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-美妆",
+      "name": "美妆",
+      "url": "https://www.pinterest.com/jrian0345/%E7%BE%8E%E5%A6%86/",
+      "pinCount": 30,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-制作方式",
+      "name": "制作方式",
+      "url": "https://www.pinterest.com/jrian0345/%E5%88%B6%E4%BD%9C%E6%96%B9%E5%BC%8F/",
+      "pinCount": 4,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-动态壁纸",
+      "name": "动态壁纸",
+      "url": "https://www.pinterest.com/jrian0345/%E5%8A%A8%E6%80%81%E5%A3%81%E7%BA%B8/",
+      "pinCount": 4,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-排版",
+      "name": "排版",
+      "url": "https://www.pinterest.com/jrian0345/%E6%8E%92%E7%89%88/",
+      "pinCount": 8,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-抽象",
+      "name": "抽象",
+      "url": "https://www.pinterest.com/jrian0345/%E6%8A%BD%E8%B1%A1/",
+      "pinCount": 11,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-texture",
+      "name": "texture",
+      "url": "https://www.pinterest.com/jrian0345/texture/",
+      "pinCount": 4,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-school",
+      "name": "school",
+      "url": "https://www.pinterest.com/jrian0345/school/",
+      "pinCount": 74,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-j-展示机械风",
+      "name": "J 展示（机械风）",
+      "url": "https://www.pinterest.com/jrian0345/j-%E5%B1%95%E7%A4%BA%E6%9C%BA%E6%A2%B0%E9%A3%8E/",
+      "pinCount": 89,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-字体",
+      "name": "字体",
+      "url": "https://www.pinterest.com/jrian0345/%E5%AD%97%E4%BD%93/",
+      "pinCount": 28,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-wed",
+      "name": "wed",
+      "url": "https://www.pinterest.com/jrian0345/wed/",
+      "pinCount": 83,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-icon",
+      "name": "icon",
+      "url": "https://www.pinterest.com/jrian0345/icon/",
+      "pinCount": 44,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-brochure",
+      "name": "Brochure",
+      "url": "https://www.pinterest.com/jrian0345/brochure/",
+      "pinCount": 140,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-ui",
+      "name": "ui",
+      "url": "https://www.pinterest.com/jrian0345/ui/",
+      "pinCount": 51,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-beauty",
+      "name": "Beauty",
+      "url": "https://www.pinterest.com/jrian0345/beauty/",
+      "pinCount": 4,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-cg",
+      "name": "cg",
+      "url": "https://www.pinterest.com/jrian0345/cg/",
+      "pinCount": 14,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-industrial-design",
+      "name": "Industrial Design",
+      "url": "https://www.pinterest.com/jrian0345/industrial-design/",
+      "pinCount": 13,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-painting",
+      "name": "Painting",
+      "url": "https://www.pinterest.com/jrian0345/painting/",
+      "pinCount": 97,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-scenery",
+      "name": "scenery",
+      "url": "https://www.pinterest.com/jrian0345/scenery/",
+      "pinCount": 2,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-visiting-card",
+      "name": "visiting card",
+      "url": "https://www.pinterest.com/jrian0345/visiting-card/",
+      "pinCount": 3,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-picture-album",
+      "name": "picture album",
+      "url": "https://www.pinterest.com/jrian0345/picture-album/",
+      "pinCount": 31,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-car",
+      "name": "car",
+      "url": "https://www.pinterest.com/jrian0345/car/",
+      "pinCount": 84,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-logo",
+      "name": "logo",
+      "url": "https://www.pinterest.com/jrian0345/logo/",
+      "pinCount": 9,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-pc",
+      "name": "pc",
+      "url": "https://www.pinterest.com/jrian0345/pc/",
+      "pinCount": 1,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-model",
+      "name": "model",
+      "url": "https://www.pinterest.com/jrian0345/model/",
+      "pinCount": 151,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-c4d",
+      "name": "c4d",
+      "url": "https://www.pinterest.com/jrian0345/c4d/",
+      "pinCount": 31,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    },
+    {
+      "id": "pinterest-movie",
+      "name": "movie",
+      "url": "https://www.pinterest.com/jrian0345/movie/",
+      "pinCount": 6,
+      "sections": [],
+      "sectionsStatus": "not-inspected",
+      "pins": [],
+      "observedAt": "2026-11-06"
+    }
+  ],
+  "scope": "Public board directory snapshot; no account connection or live sync.",
+  "liveSync": false,
+  "notes": "Historical directory snapshot, not a full Pin download or section sync. Counts may have changed."
+}
