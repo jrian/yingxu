@@ -3,4 +3,5 @@ _site/
 *.log
 .env
 .env.*
+!gateway/.env.example
 node_modules/

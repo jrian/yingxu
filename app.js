@@ -1,3 +1,4 @@
+import {createApiSettings} from './api-settings.js';
 import {createCaseGallery} from './case-gallery.js';
 import {createReferenceLibrary} from './reference-library.js';
 import {createReferencePicker} from './reference-picker.js';
@@ -12,6 +13,12 @@ const seed={id:'coast',title:'海岸，从容而行',category:'汽车展示短�
 let data;try{data=JSON.parse(localStorage.getItem(KEY));if(!data?.projects?.length)throw Error();}catch{data={projects:[structuredClone(seed)],active:'coast'};}
 let route=['workspace','projects','assets','agents'].includes(location.hash.slice(1))?location.hash.slice(1):'workspace';let tab='refs',styleFilter='director',styleQuery='',stylePage=1,inspectedStyleId=null,paramsExpanded=true,uploadRole='product',timer,saveError=false;
 const project=()=>data.projects.find(p=>p.id===data.active)||data.projects[0];
+const apiSettings=createApiSettings({getBrief:()=>{
+ const p=project(),selections=styleSelections(p),labels={lighting:'光线',palette:'配色',composition:'构图',camera:'镜头',rhythm:'节奏'};
+ const styles=['director','film'].map(group=>{const look=selections[group],label=group==='director'?'导演风格':'电影风格';if(!look)return label+'：未选择';return [label+'：'+(look.name||look.title||look.id),...Object.entries(labels).filter(([key])=>look.parameters?.[key]).map(([key,label])=>'  '+label+'：'+look.parameters[key])].join('\n');});
+ return ['创作目标：'+(p.goal||'待补充'),'场景方向：'+(p.sceneText||'待补充'),'外观约束：'+(p.identity?.join('；')||'待补充'),'制作规格：'+(p.duration?p.duration+' 秒':'时长待定')+' · '+(p.ratio||'比例待定'),'参考职责：图1只决定唯一产品身份、轮廓、结构与外观；图2只控制空间、光线、环境材质与配色，不继承另一主体。','素材状态：产品参考'+(p.product?'已选':'缺失')+'；场景参考'+(p.scene?'已选':'缺失')+'。本次仅载入文字，不发送图片；模型不能据此声称已经查看图片。',...styles,'引用检查：'+({conflict:'存在竞争主体，需处理',clear:'已记录人工职责检查，仍需核对', 'needs-review':'待人工检查'}[p.refReview]||'待检查'),'历史产物：'+(p.sampleFailed?'历史样片产品身份未通过，失败记录继续保留。':'未提供已验收产物。'),'审查边界：本次为提示词草稿，方案审查及实际产物独立质检未因生成而通过；产品身份与外观约束优先于风格。'].join('\n');
+}});
+document.querySelector('#open-api-settings').addEventListener('click',()=>apiSettings.open());
 const referenceLibrary=createReferenceLibrary({escape,icon,modal,toast,onChange:()=>{if(route==='assets')render();}});
 const referencePicker=createReferencePicker({escape,modal,toast,getProject:()=>structuredClone(project()),onApply:applyReferenceSelection});
 function commitProjectData(next,errorText='存储空间不足，参考图未替换；请先导出备份再重试'){
