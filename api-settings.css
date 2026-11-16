@@ -16,3 +16,5 @@
 @media(prefers-reduced-motion:reduce){#api-dialog .api-provider-card{transition:none}}
 #api-dialog .api-status{position:sticky;top:0;z-index:1;background:#293246;box-shadow:0 8px 16px -12px rgba(5,10,31,.6)}
 @media(max-width:480px){.topbar .topbar-right #save-state{display:none}}
+#api-dialog .api-provider-guide summary{cursor:pointer;color:var(--text-secondary);font-size:13px}#api-dialog .api-provider-guide[open] summary{margin-bottom:14px}#api-dialog #api-mode{font-size:14px}#api-dialog .api-model{margin-top:4px;padding-top:4px;border-top:0;margin-bottom:18px}#api-dialog .api-provider-groups{gap:10px;margin-bottom:18px}#api-dialog .api-provider-group h3{margin-bottom:6px}#api-dialog .api-provider-card{padding:8px 12px;min-height:40px}#api-dialog .api-provider-guide{margin:16px 0 0;padding:12px}
+@media(max-width:767px){#api-dialog .api-provider-grid{grid-template-columns:repeat(3,minmax(0,1fr))}#api-dialog .api-provider-card{font-size:13px;padding:8px;min-height:44px}#api-dialog #api-mode{font-size:16px}}
