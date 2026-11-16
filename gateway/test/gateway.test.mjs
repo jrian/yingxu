@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { once } from 'node:events';
 import { createGateway } from '../server.mjs';
 
-const baseEnv = { GATEWAY_TOKEN: 'gateway-test-token', OPENAI_API_KEY: 'private-openai-key', GEMINI_API_KEY: 'private-google-key', ANTHROPIC_API_KEY: 'private-anthropic-key', COMPATIBLE_API_KEY: 'private-compatible-key', COMPATIBLE_BASE_URL: 'https://model.example/v1/' };
+const baseEnv = { DEEPSEEK_API_KEY:'test-deepseek-key', QWEN_API_KEY:'test-qwen-key', DOUBAO_API_KEY:'test-doubao-key', ZHIPU_API_KEY:'test-zhipu-key', MOONSHOT_API_KEY:'test-moonshot-key', GATEWAY_TOKEN: 'gateway-test-token', OPENAI_API_KEY: 'private-openai-key', GEMINI_API_KEY: 'private-google-key', ANTHROPIC_API_KEY: 'private-anthropic-key', COMPATIBLE_API_KEY: 'private-compatible-key', COMPATIBLE_BASE_URL: 'https://model.example/v1/' };
 async function fixture(t, fetchImpl, env = baseEnv) {
   const server = createGateway({ env, fetchImpl: fetchImpl ?? (() => { throw new Error('Unexpected upstream call'); }) });
   server.listen(0, '127.0.0.1'); await once(server, 'listening');
@@ -18,7 +18,7 @@ test('health and providers expose no secrets; production still requires auth', a
   const request = await fixture(t);
   assert.deepEqual(await (await request('/health')).json(), { ok: true });
   const providers = await (await request('/api/providers')).json();
-  assert.equal(providers.providers.length, 4); assert.ok(providers.providers.every(x => x.configured));
+  assert.equal(providers.providers.length, 9); assert.ok(providers.providers.every(x => x.configured));
   assert.ok(!JSON.stringify(providers).includes('private-'));
   for (const path of ['/api/providers', '/api/models?provider=openai', '/api/unknown']) {
     assert.equal((await request(path, { headers: { Authorization: '' } })).status, 401);
@@ -97,4 +97,25 @@ test('upstream failures are bounded and never echo raw errors', async t => {
     const response = await request('/api/prompt', prompt('openai'));
     assert.equal(response.status, status); assert.equal((await response.json()).error.code, code);
   }
+});
+
+for (const [provider,base] of Object.entries({deepseek:'https://api.deepseek.com',qwen:'https://dashscope.aliyuncs.com/compatible-mode/v1',doubao:'https://ark.cn-beijing.volces.com/api/v3',zhipu:'https://open.bigmodel.cn/api/paas/v4',moonshot:'https://api.moonshot.cn/v1'})) {
+ test(`${provider}: discovery is honest and chat uses the provider endpoint`, async t=>{
+  const calls=[];
+  const request=await fixture(t,async(url,options)=>{calls.push({url,options});return json(options.method==='GET'?{data:[{id:'available-model'}]}:{choices:[{message:{content:'draft'}}]});});
+  const listed=await(await request('/api/models?provider='+provider)).json();
+  if(provider==='deepseek'){assert.equal(listed.verified,true);assert.equal(calls[0].url,base+'/models');}
+  else {assert.equal(listed.discovery,'manual');assert.equal(listed.verified,false);assert.equal(calls.length,0);assert.deepEqual(listed.models,[]);}
+  const generated=await(await request('/api/prompt',prompt(provider))).json();assert.equal(generated.text,'draft');
+  const call=calls.at(-1);assert.equal(call.url,base+'/chat/completions');assert.equal(call.options.headers.Authorization,'Bearer test-'+provider+'-key');
+  const body=JSON.parse(call.options.body);assert.equal(body.max_tokens,100);assert.equal(body.stream,false);assert.equal(body.messages[0].content,'be clear');
+  if(provider==='qwen')assert.equal(body.enable_thinking,false);
+ });
+}
+test('provider base overrides are server controlled HTTPS only',async t=>{
+ const invalid=await fixture(t,undefined,{...baseEnv,QWEN_BASE_URL:'http://private.invalid/v1'});
+ assert.equal((await invalid('/api/models?provider=qwen')).status,503);
+ let called;
+ const request=await fixture(t,async(url)=>{called=url;return json({choices:[{message:{content:'ok'}}]});},{...baseEnv,QWEN_BASE_URL:'https://workspace.example/compatible-mode/v1/'});
+ assert.equal((await request('/api/prompt',prompt('qwen'))).status,200);assert.equal(called,'https://workspace.example/compatible-mode/v1/chat/completions');
 });

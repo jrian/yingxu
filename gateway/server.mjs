@@ -3,11 +3,19 @@ import { timingSafeEqual, createHash } from 'node:crypto';
 import { pathToFileURL } from 'node:url';
 
 const PROVIDERS = [
+  { id: 'deepseek', name: 'DeepSeek', key: 'DEEPSEEK_API_KEY', base: 'https://api.deepseek.com' },
+  { id: 'qwen', name: '通义千问', key: 'QWEN_API_KEY', base: 'https://dashscope.aliyuncs.com/compatible-mode/v1', discovery: 'manual' },
+  { id: 'doubao', name: '豆包', key: 'DOUBAO_API_KEY', base: 'https://ark.cn-beijing.volces.com/api/v3', discovery: 'manual' },
+  { id: 'zhipu', name: '智谱 GLM', key: 'ZHIPU_API_KEY', base: 'https://open.bigmodel.cn/api/paas/v4', discovery: 'manual' },
+  { id: 'moonshot', name: 'Kimi', key: 'MOONSHOT_API_KEY', base: 'https://api.moonshot.cn/v1', discovery: 'manual' },
   { id: 'openai', name: 'OpenAI', key: 'OPENAI_API_KEY', base: 'https://api.openai.com/v1' },
   { id: 'gemini', name: 'Google Gemini', key: 'GEMINI_API_KEY', base: 'https://generativelanguage.googleapis.com/v1beta' },
   { id: 'anthropic', name: 'Anthropic Claude', key: 'ANTHROPIC_API_KEY', base: 'https://api.anthropic.com/v1' },
   { id: 'compatible', name: 'OpenAI 兼容', key: 'COMPATIBLE_API_KEY' },
 ];
+function secureBase(value) {
+  try { const u = new URL(value); return u.protocol === 'https:' && !u.username && !u.password && !u.search && !u.hash ? u.href.replace(/\/+$/, '') : null; } catch { return null; }
+}
 class GatewayError extends Error {
   constructor(status, code, message) { super(message); Object.assign(this, { status, code }); }
 }
@@ -63,7 +71,7 @@ function generation(provider, data) {
     return [`/models/${encodeURIComponent(id)}:generateContent`, { contents: [{ role: 'user', parts: [{ text: input }] }], ...(system ? { systemInstruction: { parts: [{ text: system }] } } : {}), generationConfig: { maxOutputTokens: max } }];
   }
   if (provider === 'anthropic') return ['/messages', { model, max_tokens: max, ...(system ? { system } : {}), messages: [{ role: 'user', content: input }] }];
-  return ['/chat/completions', { model, max_tokens: max, messages: [...(system ? [{ role: 'system', content: system }] : []), { role: 'user', content: input }] }];
+  return ['/chat/completions', { model, max_tokens: max, stream: false, ...(provider === 'qwen' ? { enable_thinking: false } : {}), messages: [...(system ? [{ role: 'system', content: system }] : []), { role: 'user', content: input }] }];
 }
 function output(provider, data) {
   let text, usage;
@@ -80,7 +88,7 @@ function output(provider, data) {
 export function createGateway({ env = process.env, fetchImpl = globalThis.fetch } = {}) {
   const origins = new Set((env.ALLOWED_ORIGINS ?? 'http://127.0.0.1:8765,https://jrian.github.io').split(',').map(x => x.trim()).filter(Boolean));
   const token = env.GATEWAY_TOKEN?.trim();
-  const config = PROVIDERS.map(p => ({ ...p, keyValue: env[p.key]?.trim(), base: p.id === 'compatible' ? compatibleBase(env.COMPATIBLE_BASE_URL) : p.base }));
+  const config = PROVIDERS.map(p => ({ ...p, keyValue: env[p.key]?.trim(), base: p.id === 'compatible' ? compatibleBase(env.COMPATIBLE_BASE_URL) : env[p.id.toUpperCase() + '_BASE_URL'] ? secureBase(env[p.id.toUpperCase() + '_BASE_URL']) : p.base }));
   async function upstream(p, path, body) {
     try {
       const response = await fetchImpl(p.base + path, { method: body ? 'POST' : 'GET', headers: { ...headers(p.id, p.keyValue), ...(body ? { 'Content-Type': 'application/json' } : {}) }, ...(body ? { body: JSON.stringify(body) } : {}), signal: AbortSignal.timeout(40000), redirect: 'error' });
@@ -129,7 +137,7 @@ export function createGateway({ env = process.env, fetchImpl = globalThis.fetch 
         const match = /^Bearer ([^\s]+)$/i.exec(req.headers.authorization ?? '');
         if (!match || !equal(match[1], token)) fail(401, 'UNAUTHORIZED', '网关访问令牌无效。');
       }
-      if (req.method === 'GET' && url.pathname === '/api/providers') return send(200, { providers: config.map(({ id, name, keyValue, base }) => ({ id, name, configured: Boolean(keyValue && base) })) });
+      if (req.method === 'GET' && url.pathname === '/api/providers') return send(200, { providers: config.map(({ id, name, key, keyValue, base, discovery }) => ({ id, name, keyEnv: key, baseUrl: base, modelDiscovery: discovery ?? 'remote', configured: Boolean(keyValue && base) })) });
       const modelsRoute = req.method === 'GET' && url.pathname === '/api/models';
       const promptRoute = req.method === 'POST' && url.pathname === '/api/prompt';
       if (!modelsRoute && !promptRoute) fail(404, 'NOT_FOUND', '接口不存在。');
@@ -140,6 +148,7 @@ export function createGateway({ env = process.env, fetchImpl = globalThis.fetch 
       if (!p) fail(400, 'INVALID_PROVIDER', '不支持的模型提供商。');
       if (!p.keyValue || !p.base) fail(503, 'PROVIDER_NOT_CONFIGURED', '管理员尚未配置此模型提供商。');
       if (modelsRoute) {
+        if (p.discovery === 'manual') return send(200, { provider, models: [], discovery: 'manual', verified: false, message: '本适配器使用手动模型 ID。服务端已填写密钥，尚未验证密钥与模型权限；仅显式生成成功后确认可用。' });
         let models = [], path = '/models', pages = 0;
         do {
           const result = await upstream(p, path);
@@ -149,7 +158,7 @@ export function createGateway({ env = process.env, fetchImpl = globalThis.fetch 
           path = provider === 'gemini' && result.nextPageToken ? '/models?pageToken=' + encodeURIComponent(result.nextPageToken) : provider === 'anthropic' && result.has_more && result.last_id ? '/models?after_id=' + encodeURIComponent(result.last_id) : null;
           if (++pages >= 20 && path) fail(502, 'UPSTREAM_INVALID_RESPONSE', '模型列表分页过多。');
         } while (path);
-        return send(200, { provider, models });
+        return send(200, { provider, models, discovery: 'remote', verified: true });
       }
       const [path, payload] = generation(provider, data);
       const result = await upstream(p, path, payload);

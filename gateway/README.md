@@ -1,5 +1,23 @@
 # 映序提示词网关
 
+## 大模型服务商（2026-11-16）
+
+支持 9 类服务商。新增五家的生成都使用 Chat Completions，流式关闭，只提取最终正文，不输出推理内容。模型 ID 由用户按已开通服务填写，不硬编码“最新”模型。
+
+| 服务商 | 服务端密钥变量 | 默认 Base URL | 本版模型发现 |
+| --- | --- | --- | --- |
+| DeepSeek | DEEPSEEK_API_KEY | https://api.deepseek.com | 实时 GET /models |
+| 通义千问 | QWEN_API_KEY | https://dashscope.aliyuncs.com/compatible-mode/v1 | 手填 |
+| 豆包 | DOUBAO_API_KEY | https://ark.cn-beijing.volces.com/api/v3 | 手填模型 ID 或 Endpoint ID |
+| 智谱 GLM | ZHIPU_API_KEY | https://open.bigmodel.cn/api/paas/v4 | 手填 |
+| Kimi | MOONSHOT_API_KEY | https://api.moonshot.cn/v1 | 手填 |
+
+OpenAI、Gemini、Claude、自定义兼容服务继续可用。提供商元数据只表示服务端是否填写了配置，不验证 key 有效性。手填适配器的 `/api/models` 返回 `discovery:"manual", verified:false, models:[]`，不做付费探测，也不表示厂家没有模型列表能力；仅显式生成成功后确认本次模型可用。实时模型列表返回 `discovery:"remote", verified:true`，仅确认列表访问成功，不保证所有模型可生成文字。
+
+管理员可通过 `<PROVIDER_ID大写>_BASE_URL` 覆盖官方服务 base，例如 `QWEN_BASE_URL`；仅支持无凭据、无查询片段的 HTTPS 地址，不自动追加版本路径。兼容服务仍用 `COMPATIBLE_BASE_URL` 的 /v1 规范。此配置只在服务端设置，浏览器不能覆盖上游。千问 key 与地域必须匹配；官方推荐迁移到业务空间专属域名，旧北京域名仍可用。豆包使用普通按量数据面接口，不自动适配 Coding Plan 套餐。
+
+官方协议核对来源：[DeepSeek Chat](https://api-docs.deepseek.com/api/create-chat-completion/)、[模型列表](https://api-docs.deepseek.com/api/list-models/)、[千问 OpenAI 兼容](https://help.aliyun.com/zh/model-studio/compatibility-of-openai-with-dashscope)、[豆包地址与鉴权](https://docs.volcengine.com/docs/ark/base-url-and-authentication?lang=zh)、[智谱快速开始](https://docs.bigmodel.cn/cn/api/introduction)、[Kimi 快速开始](https://platform.moonshot.cn/docs/guide/start-using-kimi-api)。本轮采用文档与 mock 核验，没有真实账号测试或模型费用。
+
 Node.js 24、零第三方依赖。浏览器只持有网关令牌；OpenAI、Gemini、Anthropic 和兼容服务的 API key 始终留在服务器环境变量中。读取提供商和模型列表不会生成内容。只有显式 `POST /api/prompt` 才调用生成接口，可能由模型服务计费。
 
 ## 本机启动
@@ -51,7 +69,7 @@ npm test
 }
 ```
 
-成功返回 `{ "provider": "openai", "model": "...", "text": "...", "usage": {} }`，usage 可省略。provider 可为 `openai`、`gemini`、`anthropic`、`compatible`。正文上限 64KB、输出 token 上限 4096（默认 2048）；生成请求超时 40 秒。额外字段会被拒绝，客户端不能指定上游 URL。兼容服务使用 Chat Completions，其余分别使用 Responses、generateContent、Messages。
+成功返回 `{ "provider": "openai", "model": "...", "text": "...", "usage": {} }`，usage 可省略。provider 可为 `deepseek`、`qwen`、`doubao`、`zhipu`、`moonshot`、`openai`、`gemini`、`anthropic`、`compatible`。正文上限 64KB、输出 token 上限 4096（默认 2048）；生成请求超时 40 秒。额外字段会被拒绝，客户端不能指定上游 URL。DeepSeek、千问、豆包、智谱、Kimi 与兼容服务使用 Chat Completions；OpenAI、Gemini、Claude 分别使用 Responses、generateContent、Messages。
 
 错误统一为 `{ "error": { "code": "...", "message": "..." } }`。网关认证失败为 401；未配置为 503；服务商认证失败映射为 502；限流为 429；超时为 504；其他上游故障为 502。错误不转发上游原始响应。网关不记录提示词、密钥、Authorization 或上游错误。
 
