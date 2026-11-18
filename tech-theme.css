@@ -357,3 +357,11 @@ body.style-browser-open { overflow:hidden; }
 #style-browser .browser-current strong { color:#d8f2f1; }
 #style-browser-feedback.is-error { color:#ffd0bf; }
 #style-browser .style-browser-pages { margin-bottom:14px; }
+
+.storyboard-paragraph h3 { margin:0 0 8px; }
+.storyboard-paragraph p { margin:0; line-height:1.75; }
+.artifact-review { margin:16px 0 24px; }
+.artifact-review input[type="file"] { display:block; margin:8px 0 12px; max-width:100%; color:inherit; }
+.artifact-review video { display:block; width:100%; max-height:60dvh; background:#000; border-radius:8px; }
+.artifact-review form { display:grid; gap:14px; margin-top:16px; }
+.artifact-review form .button { justify-self:start; }
