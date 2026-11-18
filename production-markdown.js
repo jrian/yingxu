@@ -1,3 +1,4 @@
+import {REFERENCE_VIDEO_ROLE} from './reference-video-store.js';
 // Explicit content fields only: model connection settings and credentials are never read.
 const plain=v=>String(v??'').replace(/\r\n?/g,'\n');
 const inline=v=>plain(v).replace(/\n/g,' ').replace(/[\\`*_{}\[\]<>#|]/g,'\\$&');
@@ -21,6 +22,13 @@ export function buildProductionMarkdown(p,{shots=[],exportedAt=new Date().toISOS
   else if(src&&/^https?:\/\//i.test(src)){try{const u=new URL(src);if(u.username||u.password)throw Error();lines.push(`参考图片：<${u.href.replace(/>/g,'%3E').replace(/</g,'%3C')}>`,'','此参考保留在线链接，查看时需要网络及源站可用。','');}catch{lines.push('图片链接无效，未嵌入。','');}}
   else lines.push(src?'图片未嵌入，请另存原始素材。':'尚未提供图片。','');
   if(p.referenceSources?.[role])lines.push('素材来源记录：','',record(p.referenceSources[role]),'');
+ }
+ if(p.referenceVideo){
+  const video=p.referenceVideo;
+  lines.push('## 参考视频','',`- 文件：${inline(video.name)}`,
+   `- 格式：${inline(video.type||'未记录')}`,`- 大小：${inline(video.size)} 字节`,
+   `- 导入时间：${inline(video.createdAt)}`,'',REFERENCE_VIDEO_ROLE,'',
+   '制作包保留参考视频清单。播放请在原浏览器的参考素材库中打开，或随包提供原文件。','');
  }
  lines.push('## 外观约束','',...(p.identity?.length?p.identity.map(v=>'- '+inline(v)):['待定义']),'','## 场景视觉方向','',plain(p.sceneText||'待补充'),'','## 双风格选择','','产品身份与外观约束优先；两类风格分别保留，冲突需方案复核。','');
  const labels={lighting:'光线',palette:'配色',composition:'构图',camera:'镜头',rhythm:'节奏'};
