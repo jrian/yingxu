@@ -406,3 +406,9 @@ body.style-browser-open { overflow:hidden; }
 .ref-video-current-info h4,.ref-video-card-info h3{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 
 .creative-preview-actions { flex-wrap: wrap; }
+
+.stage-generation-tools { margin: 0 0 18px; }
+.stage-generation-tools .page-intro { margin: 8px 0; }
+.stage-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; }
+.stage-next { margin-top: 18px; }
+.workspace-content:has(#prompt-title, #story-title) > .guard-summary { position: static; }

@@ -101,7 +101,34 @@ export function createApiSettings({getBrief}) {
  else{$('model-help').textContent=models.length?`已读取 ${models.length} 个模型，可选择或手动填写模型 ID。`:'未返回可列举模型，请手动填写模型 ID。';setStatus('connected','已连接 · '+provider.name+'（模型列表已验证）');announce('连接检查完成。填写模型 ID 后，可进入提示词助手。');}
  }
  async function connect(){let base;try{base=validatedUrl();}catch(e){announce(e.message,true);return;}const op=begin('connection');readiness=false;setStatus('checking','检测中 · 正在读取模型');announce('');try{if(op.mode==='direct'){const result=await requestDirect({action:'models',provider:op.provider,baseUrl:base,apiKey:op.apiKey,signal:op.controller.signal});if(op.id===serial)applyModels(result,providers.find(p=>p.id===op.provider),op);return;}const data=await request(base,'/api/providers',op);if(op.id!==serial)return;const provider=data.providers?.find(p=>p.id===op.provider);if(!provider?.configured)throw Error('该供应商尚未配置。请在网关环境变量中设置供应商 API Key 后重试。');let result;try{result=await request(base,'/api/models?provider='+encodeURIComponent(op.provider),op);}catch(e){if([404,405,501].includes(e.status))result={provider:op.provider,models:[],discovery:'manual',verified:false};else throw e;}if(op.id!==serial)return;applyModels(result,provider,op);}catch(e){failure(e,op);}finally{finish(op);}}
- async function generate(){let base;try{base=validatedUrl();if(!simple&&config.mode==='gateway'&&!readiness)throw Error('请先在连接设置中检查配置并读取模型。');if(!target().model)throw Error('请填写模型 ID 后再生成。');if(!Number.isInteger(target().maxOutputTokens)||target().maxOutputTokens<1||target().maxOutputTokens>4096)throw Error('最大输出 tokens 必须是 1–4096 的整数。');if(!$('input').value.trim())throw Error('请填写创作需求，或载入当前简报。');}catch(e){announce(e.message,true);return;}const op=begin('generation');announce('正在生成提示词草稿，可取消请求。取消后供应商仍可能对已处理的内容计费。');try{const payload={provider:op.provider,model:op.model,input:$('input').value.trim(),maxOutputTokens:op.maxOutputTokens,system:'你是视频提示词撰写助手。依据用户提供的文字生成清晰可编辑的提示词草稿，不声称看过未提供的图片，不编造产品事实，不声称通过独立质检。'};const result=op.mode==='direct'?await requestDirect({...payload,action:'prompt',baseUrl:base,apiKey:op.apiKey,signal:op.controller.signal}):await request(base,'/api/prompt',op,payload);if(op.id!==serial)return;if(result.provider!==op.provider||result.model!==op.model||typeof result.text!=='string'||!result.text.trim())throw Error('模型返回与请求不符或未返回有效文字，请核对模型 ID 后重试。');$('output').value=result.text;$('copy').disabled=false;setStatus('connected','已连接 · '+providers.find(p=>p.id===op.provider).name+' / '+op.model+'（调用已验证）');$('result-note').textContent='草稿来源：'+providers.find(p=>p.id===op.provider).name+' / '+op.model+'。未覆盖项目提示词；独立质检待执行。';announce('草稿已生成。请核对产品事实与镜头要求后使用；独立质检待执行。');}catch(e){failure(e,op);}finally{finish(op);}}
+ function setupError(message){const error=Error(message);error.code='MODEL_SETUP_REQUIRED';return error;}
+ function generationSetup(){
+ let base;try{base=validatedUrl();const current=target();if(current.mode==='gateway'&&!readiness)throw Error('请先在大模型接入设置中检查网关配置并读取模型。');if(!current.model)throw Error('请填写模型 ID 后再生成。');if(!/^[a-zA-Z0-9][a-zA-Z0-9._:/@+-]{0,199}$/.test(current.model)||current.model.includes('..'))throw Error('请填写有效模型 ID。');if(current.mode==='direct'&&/\s/.test(apiKey))throw Error('API Key 不能包含空白。');if(!Number.isInteger(current.maxOutputTokens)||current.maxOutputTokens<1||current.maxOutputTokens>4096)throw Error('最大输出 tokens 必须是 1–4096 的整数。');}catch(error){throw setupError(error.message);}return base;
+ }
+ function getGenerationTarget(){sync();const current=target();let ready=true;try{generationSetup();}catch{ready=false;}return {provider:current.provider,model:current.model,label:simple?preset.label:(providers.find(p=>p.id===current.provider)?.name||current.provider)+' / '+(current.model||'模型待填写'),ready};}
+ function aborted(){return new DOMException('请求已取消。','AbortError');}
+ function publicError(error,op){if(op.timedOut)return Error('请求超时，请检查接口网络后重试。');if(error?.name==='AbortError'||op.controller.signal.aborted||op.id!==serial)return aborted();let message=error instanceof TypeError?(op.mode==='direct'?'无法直接访问接口，请检查网络、地址和服务商的浏览器跨域（CORS）支持。':'无法连接网关，请检查地址、服务状态及 CORS 允许来源。'):(typeof error?.message==='string'?error.message:'模型调用失败，请稍后重试。');for(const secret of [op.apiKey,op.token])if(secret)message=message.split(secret).join('[已隐藏]');const safe=Error(message);if(Number.isInteger(error?.status))safe.status=error.status;return safe;}
+ async function generateText({input,system,signal}={}){
+ if(active){const error=Error('已有模型请求进行中，请等待完成或取消后重试。');error.code='MODEL_BUSY';throw error;}
+ if(signal?.aborted)throw aborted();
+ const base=generationSetup();
+ if(typeof input!=='string'||!input.trim())throw Error('请填写需要生成的文字需求。');
+ if(new TextEncoder().encode(input).length>60000)throw Error('需求文字过长，请精简至 60KB 以内。');
+ if(system!==undefined&&typeof system!=='string')throw Error('系统指令须为文字。');
+ const op=begin('generation');op.fromWorkbench=!!signal;const abort=()=>op.controller.abort();signal?.addEventListener('abort',abort,{once:true});
+ announce('正在调用文字模型，可取消请求。供应商可能对已处理的内容计费。');
+ try{
+ if(signal?.aborted)op.controller.abort();if(op.controller.signal.aborted)throw aborted();
+ const payload={provider:op.provider,model:op.model,input:input.trim(),maxOutputTokens:op.maxOutputTokens,...(system?{system}:{} )};
+ const result=op.mode==='direct'?await requestDirect({...payload,action:'prompt',baseUrl:base,apiKey:op.apiKey,signal:op.controller.signal}):await request(base,'/api/prompt',op,payload);
+ if(op.id!==serial||op.controller.signal.aborted)throw aborted();
+ if(result.provider!==op.provider||result.model!==op.model||typeof result.text!=='string'||!result.text.trim())throw Error('模型返回与请求不符或未返回有效文字，请核对模型后重试。');
+ setStatus('connected','已连接 · '+providers.find(p=>p.id===op.provider).name+' / '+op.model+'（调用已验证）');
+ announce('文字已生成，请核对事实和镜头要求；独立质检待执行。');
+ return {text:result.text,provider:op.provider,model:op.model};
+ }catch(error){const safe=publicError(error,op);failure(safe,op);throw safe;}finally{signal?.removeEventListener('abort',abort);finish(op);}
+ }
+ async function generate(){try{const result=await generateText({input:$('input').value,system:'你是视频提示词撰写助手。依据用户提供的文字生成清晰可编辑的提示词草稿，不声称看过未提供的图片，不编造产品事实，不声称通过独立质检。'});$('output').value=result.text;$('copy').disabled=false;$('result-note').textContent='草稿来源：'+providers.find(p=>p.id===result.provider).name+' / '+result.model+'。未覆盖项目提示词；独立质检待执行。';}catch(error){announce(error.message,true);}}
  function cancel(){if(!active)return;const kind=active.kind;serial++;clearTimeout(active.timeout);active.controller.abort();active=null;busy(false);if(kind==='connection'){readiness=false;setStatus('unconfigured','未配置 · 连接检查已取消');}announce('请求已取消，可重新发起。供应商仍可能对已处理的内容计费。');}
  function switchTab(name){sync();$('active-model').textContent=target().model?'当前模型：'+(simple?preset.label:target().model):'尚未指定模型，请到连接设置填写。';for(const key of ['settings','assistant']){const selected=key===name;$(key+'-tab').setAttribute('aria-selected',String(selected));$(key+'-tab').tabIndex=selected?0:-1;$(key+'-panel').hidden=!selected;}}
  function renderProvider(){const provider=providers.find(p=>p.id===config.provider);keyField.hidden=!simple&&config.mode==='gateway';$('direct-fields').hidden=config.mode!=='direct';$('gateway-fields').hidden=config.mode!=='gateway';$('connect').textContent=config.mode==='direct'?'读取模型（可选）':'检查连接并读取模型';$('provider-name').textContent=provider.name;$('official-base').textContent=provider.base||'填写你的 OpenAI 兼容服务 Base URL';$('key-env').textContent=provider.env;$('provider-note').textContent=provider.note||'实际模型与权限以服务商及网关部署配置为准。';dialog.querySelectorAll('[data-provider]').forEach(el=>el.setAttribute('aria-pressed',String(el.dataset.provider===config.provider)));}
@@ -121,7 +148,7 @@ export function createApiSettings({getBrief}) {
  $('copy').addEventListener('click',async()=>{try{await navigator.clipboard.writeText($('output').value);announce('草稿已复制，可到提示词工作区编辑。');}catch{$('output').focus();$('output').select();announce('请使用系统复制快捷键复制已选中的草稿。');}});
  for(const name of ['settings','assistant'])$(name+'-tab').addEventListener('click',()=>switchTab(name));
  dialog.querySelector('[role="tablist"]').addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();const name=e.key==='Home'?'settings':e.key==='End'?'assistant':document.activeElement===$('settings-tab')?'assistant':'settings';switchTab(name);$(name+'-tab').focus();}});
- function close(){cancel();dialog.close();returnFocus?.focus();}
+ function close(){if(!active?.fromWorkbench)cancel();dialog.close();returnFocus?.focus();}
  $('close').addEventListener('click',close);$('done').addEventListener('click',close);dialog.addEventListener('cancel',e=>{e.preventDefault();close();});
- return {open(){returnFocus=document.activeElement;if(!dialog.open)dialog.showModal();(simple?$('preset'):$('mode')).focus();}};
+ return {getGenerationTarget,generateText,open(options={}){returnFocus=document.activeElement;if(options.settings)switchTab('settings');if(!dialog.open)dialog.showModal();if($('settings-tab').getAttribute('aria-selected')==='true')(simple?$('preset'):$('mode')).focus();else $('input').focus();}};
 }

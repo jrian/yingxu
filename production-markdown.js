@@ -12,7 +12,7 @@ export function describeSubject(project){
  const constraints = project.identity?.length ? `外观保留${project.identity.join('、')}。` : '';
  return subject + constraints + '图2只用于环境。';
 }
-export function buildProductionMarkdown(p,{shots=[],exportedAt=new Date().toISOString()}={}){
+export function buildProductionMarkdown(p,{shots=[],storyboardOutdated=false,exportedAt=new Date().toISOString()}={}){
  const lines=[`# ${inline(p.title||'未命名项目')} · 制作包`,'',`导出时间：${inline(exportedAt)}`,'','> 当前项目的文字与参考快照。导出不代表方案获批、视频已生成或独立质检通过。','','## 创意简报','',plain(p.goal||'待补充'),'','## 制作规格','',`- 类别：${inline(p.category||'待定')}`,`- 时长：${inline(p.duration||'待定')} 秒`,`- 画幅：${inline(p.ratio||'待定')}`,`- 目标制作平台 / 模型：${inline(p.model||'待定')}`,'','## 双图参考与职责',''];
  const images=[];
  for(const role of ['product','scene']){
@@ -33,14 +33,17 @@ export function buildProductionMarkdown(p,{shots=[],exportedAt=new Date().toISOS
  lines.push('## 外观约束','',...(p.identity?.length?p.identity.map(v=>'- '+inline(v)):['待定义']),'','## 场景视觉方向','',plain(p.sceneText||'待补充'),'','## 双风格选择','','产品身份与外观约束优先；两类风格分别保留，冲突需方案复核。','');
  const labels={lighting:'光线',palette:'配色',composition:'构图',camera:'镜头',rhythm:'节奏'};
  for(const group of ['director','film']){const look=p.styleSelections?.[group];lines.push('### '+(group==='director'?'导演风格':'电影风格'),'');if(!look){lines.push('未选择。','');continue;}lines.push(inline(look.name||look.title||look.id),'');if(look.description)lines.push(plain(look.description),'');for(const [k,label]of Object.entries(labels))lines.push(`- ${label}：${inline(look.parameters?.[k]||'来源未提供，待补充')}`);lines.push('');if(look.source)lines.push('来源与版本：','',record(look.source),'');}
- lines.push('## 分镜设计','','### 主体','',inline(describeSubject(p)),'');
+ lines.push('## 提示词','',p.prompt?block(p.prompt):'当前项目提示词为空。','');
+ lines.push('## 分镜设计','','### 主体','',inline(p.storyboard?.subject||describeSubject(p)),'');
  if(shots.length){
-  lines.push('R02 · 已确认的文字方案。参考或简报变更后，当前方案待复核。','');
+  lines.push(p.storyboard
+   ? (storyboardOutdated?'当前分镜对应上一版提示词或简报，待重新生成。':'根据项目提示词生成的文字分镜，待独立质检。')
+   : 'R02 · 历史文字方案。参考或简报变更后，当前方案待复核。','');
   for(const [number,time,title,action,framing] of shots)lines.push(
    `### 第 ${inline(number)} 镜 · ${inline(title)}`,'',
    `**${inline(time)}** · ${inline(framing)}。 ${inline(action)}`,'');
  }
  else lines.push('当前项目尚无已整理的正式分镜。','');
- lines.push('## 提示词','',p.prompt?block(p.prompt):'当前项目提示词为空。API 助手中尚未转入项目的草稿不包含在此制作包中。','','## 检查与独立质检','',`- 平台引用：${inline(p.checks?.connection||'未验证')}`,`- 参考职责：${inline(({conflict:'存在竞争主体，需处理',clear:'已记录人工检查', 'needs-review':'待人工核对'})[p.refReview]||'待检查')}`,`- 方案审查：${inline(p.checks?.plan||'待独立审查')}`,`- 实际产物：${inline(p.checks?.artifact||'未生成 · 未验收')}`,'','外观检查记录：','',record(p.identityReview),'','方案审查记录：','',record(p.planReview),'','独立质检请求：','',record(p.reviewRequest),'','参考变更历史：','',record(p.referenceReviewHistory||[]),'','本地视频人工验收记录：','',record(p.artifactReview),'','本地视频历史验收记录：','',record(p.artifactReviewHistory||[]),'','## 素材打包说明','','本文件为 Markdown 交付快照，不是项目导入文件。未包含 API Key、访问令牌或模型接入设置。嵌入图片以 Markdown 引用定义保存在末尾；在线图片不会自动下载。','');
+ lines.push('## 检查与独立质检','',`- 平台引用：${inline(p.checks?.connection||'未验证')}`,`- 参考职责：${inline(({conflict:'存在竞争主体，需处理',clear:'已记录人工检查', 'needs-review':'待人工核对'})[p.refReview]||'待检查')}`,`- 方案审查：${inline(p.checks?.plan||'待独立审查')}`,`- 实际产物：${inline(p.checks?.artifact||'未生成 · 未验收')}`,'','外观检查记录：','',record(p.identityReview),'','方案审查记录：','',record(p.planReview),'','独立质检请求：','',record(p.reviewRequest),'','参考变更历史：','',record(p.referenceReviewHistory||[]),'','本地视频人工验收记录：','',record(p.artifactReview),'','本地视频历史验收记录：','',record(p.artifactReviewHistory||[]),'','## 素材打包说明','','本文件为 Markdown 交付快照，不是项目导入文件。未包含 API Key、访问令牌或模型接入设置。嵌入图片以 Markdown 引用定义保存在末尾；在线图片不会自动下载。','');
  if(images.length)lines.push('<!-- 嵌入参考图数据 -->','',...images,'');return lines.join('\n');
 }
